@@ -1,0 +1,6 @@
+id,nombre,inteligencia,fuerza,velocidad,durabilidad,poder,combate,nombre_completo,editor,alineacion,genero,raza,altura,peso,fecha_extraccion
+69,Batman,81,40,29,55,63,90,Terry McGinnis,DC Comics,good,Male,Human,178 cm,77 kg,2026-02-25T15:52:01.997694
+195,Cyborg Superman,75,93,92,100,100,80,Henry Henshaw,DC Comics,bad,Male,Cyborg,0 cm,0 kg,2026-02-25T15:52:03.154570
+620,Spider-Man,90,55,67,75,74,85,Peter Parker,Marvel Comics,good,Male,Human,178 cm,74 kg,2026-02-25T15:52:03.973343
+346,Iron Man,100,85,58,85,100,64,Tony Stark,Marvel Comics,good,Male,Human,198 cm,191 kg,2026-02-25T15:52:05.030259
+332,Hulk,88,100,63,100,98,85,Bruce Banner,Marvel Comics,good,Male,Human / Radiation,244 cm,630 kg,2026-02-25T15:52:05.867158

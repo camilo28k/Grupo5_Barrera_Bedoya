@@ -1,0 +1,40 @@
+2026-02-25 14:58:42,871 - INFO - Iniciando extracción para 5 héroes...
+2026-02-25 14:58:42,876 - ERROR - ❌ Error extrayendo datos para Batman: Invalid URL 'None/83ad13434923d841643eee57647b34c7/search/Batman': No scheme supplied. Perhaps you meant https://None/83ad13434923d841643eee57647b34c7/search/Batman?
+2026-02-25 14:58:42,877 - ERROR - ❌ Error extrayendo datos para Superman: Invalid URL 'None/83ad13434923d841643eee57647b34c7/search/Superman': No scheme supplied. Perhaps you meant https://None/83ad13434923d841643eee57647b34c7/search/Superman?
+2026-02-25 14:58:42,878 - ERROR - ❌ Error extrayendo datos para Spider-Man: Invalid URL 'None/83ad13434923d841643eee57647b34c7/search/Spider-Man': No scheme supplied. Perhaps you meant https://None/83ad13434923d841643eee57647b34c7/search/Spider-Man?
+2026-02-25 14:58:42,878 - ERROR - ❌ Error extrayendo datos para Iron Man: Invalid URL 'None/83ad13434923d841643eee57647b34c7/search/Iron Man': No scheme supplied. Perhaps you meant https://None/83ad13434923d841643eee57647b34c7/search/Iron Man?
+2026-02-25 14:58:42,879 - ERROR - ❌ Error extrayendo datos para Hulk: Invalid URL 'None/83ad13434923d841643eee57647b34c7/search/Hulk': No scheme supplied. Perhaps you meant https://None/83ad13434923d841643eee57647b34c7/search/Hulk?
+2026-02-25 14:58:42,883 - INFO - 📁 Datos guardados en data/superheroes_raw.json
+2026-02-25 14:58:42,891 - INFO - 📁 Datos guardados en data/superheroes.csv
+2026-02-25 15:01:50,113 - INFO - Iniciando extracción para 5 héroes...
+2026-02-25 15:01:51,751 - ERROR - ❌ Error en API para Batman: access denied
+2026-02-25 15:01:53,036 - ERROR - ❌ Error en API para Superman: access denied
+2026-02-25 15:01:54,059 - ERROR - ❌ Error en API para Spider-Man: access denied
+2026-02-25 15:01:55,181 - ERROR - ❌ Error en API para Iron Man: access denied
+2026-02-25 15:01:58,132 - ERROR - ❌ Error en API para Hulk: access denied
+2026-02-25 15:01:58,135 - INFO - 📁 Datos guardados en data/superheroes_raw.json
+2026-02-25 15:01:58,139 - INFO - 📁 Datos guardados en data/superheroes.csv
+2026-02-25 15:06:03,188 - INFO - Iniciando extracción para 5 héroes...
+2026-02-25 15:06:04,450 - INFO - ✅ Datos extraídos para Batman
+2026-02-25 15:06:05,651 - INFO - ✅ Datos extraídos para Superman
+2026-02-25 15:06:06,922 - INFO - ✅ Datos extraídos para Spider-Man
+2026-02-25 15:06:08,208 - INFO - ✅ Datos extraídos para Iron Man
+2026-02-25 15:06:09,367 - INFO - ✅ Datos extraídos para Hulk
+2026-02-25 15:06:09,373 - INFO - 📁 Datos guardados en data/superheroes_raw.json
+2026-02-25 15:06:09,394 - INFO - 📁 Datos guardados en data/superheroes.csv
+2026-02-25 15:20:10,642 - INFO - Iniciando extracción para 5 héroes...
+2026-02-25 15:20:12,420 - INFO - ✅ Datos extraídos para Batman
+2026-02-25 15:20:13,710 - INFO - ✅ Datos extraídos para Superman
+2026-02-25 15:20:14,472 - INFO - ✅ Datos extraídos para Spider-Man
+2026-02-25 15:20:15,757 - INFO - ✅ Datos extraídos para Iron Man
+2026-02-25 15:20:16,718 - INFO - ✅ Datos extraídos para Hulk
+2026-02-25 15:20:16,746 - INFO - 📁 Datos guardados en data/superheroes_raw.json
+2026-02-25 15:20:16,758 - INFO - 📁 Datos guardados en data/superheroes.csv
+2026-02-25 15:52:00,474 - INFO - Iniciando extracción para 5 héroes...
+2026-02-25 15:52:01,994 - INFO - ✅ Datos extraídos para Batman
+2026-02-25 15:52:03,152 - INFO - ✅ Datos extraídos para Superman
+2026-02-25 15:52:03,970 - INFO - ✅ Datos extraídos para Spider-Man
+2026-02-25 15:52:05,027 - INFO - ✅ Datos extraídos para Iron Man
+2026-02-25 15:52:05,865 - INFO - ✅ Datos extraídos para Hulk
+2026-02-25 15:52:05,868 - INFO - 📁 Datos guardados en data/superheroes_raw.json
+2026-02-25 15:52:05,891 - INFO - 📁 Datos guardados en data/superheroes.csv
