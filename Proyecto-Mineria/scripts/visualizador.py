@@ -1,86 +1,122 @@
 #!/usr/bin/env python3
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import logging
-import os
+from pathlib import Path
 
-# Configurar logging
+# ==============================
+# Rutas del proyecto
+# ==============================
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+GRAFICAS_DIR = BASE_DIR / "graficas"
+
+GRAFICAS_DIR.mkdir(exist_ok=True)
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def main():
 
-    # Verificar que exista archivo transformado
-    if not os.path.exists('data/superheroes_transformado.csv'):
-        logger.error("❌ No existe data/superheroes_transformado.csv. Ejecuta primero transformador.py")
-        return
+# ==============================
+# Gráfica Top 10
+# ==============================
 
-    # Cargar datos transformados
-    df = pd.read_csv('data/superheroes_transformado.csv')
+def graficar_top10(df, columna, titulo):
 
-    # Columnas numéricas
-    numeric_cols = [
-        'inteligencia', 'fuerza', 'velocidad',
-        'durabilidad', 'poder', 'combate'
-    ]
+    top10 = df.sort_values(by=columna, ascending=False).head(10)
 
-    # Convertir columnas numéricas
-    for col in numeric_cols:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
+    plt.figure(figsize=(10,6))
+    plt.barh(top10['nombre'], top10[columna])
+    plt.gca().invert_yaxis()
 
-    # Crear figura con múltiples gráficas
-    fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-    fig.suptitle('Análisis de Superhéroes', fontsize=16, fontweight='bold')
-
-    # ===== Gráfica 1: Inteligencia =====
-    ax1 = axes[0, 0]
-    ax1.bar(df['nombre'], df['inteligencia'])
-    ax1.set_title('Nivel de Inteligencia')
-    ax1.set_ylabel('Inteligencia')
-    ax1.tick_params(axis='x', rotation=45)
-    ax1.grid(axis='y', alpha=0.3)
-
-    # ===== Gráfica 2: Fuerza =====
-    ax2 = axes[0, 1]
-    ax2.bar(df['nombre'], df['fuerza'])
-    ax2.set_title('Nivel de Fuerza')
-    ax2.set_ylabel('Fuerza')
-    ax2.tick_params(axis='x', rotation=45)
-    ax2.grid(axis='y', alpha=0.3)
-
-    # ===== Gráfica 3: Velocidad =====
-    ax3 = axes[1, 0]
-    ax3.scatter(df['nombre'], df['velocidad'], s=200)
-    ax3.set_title('Velocidad')
-    ax3.set_ylabel('Velocidad')
-    ax3.tick_params(axis='x', rotation=45)
-    ax3.grid(alpha=0.3)
-
-    # ===== Gráfica 4: Poder vs Combate =====
-    ax4 = axes[1, 1]
-    x = np.arange(len(df))
-    width = 0.35
-
-    ax4.bar(x - width/2, df['poder'], width, label='Poder')
-    ax4.bar(x + width/2, df['combate'], width, label='Combate')
-
-    ax4.set_title('Poder vs Combate')
-    ax4.set_ylabel('Nivel')
-    ax4.set_xticks(x)
-    ax4.set_xticklabels(df['nombre'], rotation=45)
-    ax4.legend()
-    ax4.grid(axis='y', alpha=0.3)
+    plt.title(f"Top 10 por {titulo}", fontsize=14, fontweight='bold')
+    plt.xlabel(titulo)
+    plt.ylabel("Héroe")
 
     plt.tight_layout()
 
-    # Crear carpeta data si no existe
-    os.makedirs("data", exist_ok=True)
+    ruta = GRAFICAS_DIR / f"top10_{columna}.png"
+    plt.savefig(ruta)
+    plt.close()
 
-    plt.savefig('data/superhero_analysis.png', dpi=300, bbox_inches='tight')
-    logger.info("✅ Gráficas guardadas en data/superhero_analysis.png")
+    logger.info(f"Gráfica guardada: {ruta.name}")
 
-    plt.show()
+
+# ==============================
+# Gráfica de torta
+# ==============================
+
+def graficar_torta_alineacion(df):
+
+    if 'alineacion' not in df.columns:
+        logger.warning("No existe columna alineacion")
+        return
+
+    alineacion_counts = df['alineacion'].value_counts()
+
+    plt.figure(figsize=(6,6))
+
+    plt.pie(
+        alineacion_counts,
+        labels=alineacion_counts.index,
+        autopct='%1.1f%%',
+        startangle=140
+    )
+
+    plt.title("Distribución por Alineación")
+    plt.tight_layout()
+
+    ruta = GRAFICAS_DIR / "alineacion_torta.png"
+    plt.savefig(ruta)
+    plt.close()
+
+    logger.info(f"Gráfica guardada: {ruta.name}")
+
+
+# ==============================
+# MAIN
+# ==============================
+
+def main():
+
+    archivo = DATA_DIR / "superheroes.csv"
+
+    if not archivo.exists():
+        logger.error("Primero ejecuta transformador.py")
+        return
+
+    df = pd.read_csv(archivo)
+
+    columnas_numericas = [
+        'inteligencia',
+        'fuerza',
+        'velocidad',
+        'durabilidad',
+        'poder',
+        'combate'
+    ]
+
+    # limpieza de datos
+    for col in columnas_numericas:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+    df = df.fillna(0)
+
+    # ==============================
+    # Gráficas de poderes
+    # ==============================
+
+    for col in columnas_numericas:
+        graficar_top10(df, col, col.capitalize())
+
+    # ==============================
+    # Gráfica de alineación
+    # ==============================
+
+    graficar_torta_alineacion(df)
+
+    logger.info("Visualización finalizada correctamente")
 
 
 if __name__ == "__main__":
