@@ -220,4 +220,4 @@ with tab4:
         df.sort_values("ranking"),
         use_container_width=True,
         height=500
-    )
+    )   
