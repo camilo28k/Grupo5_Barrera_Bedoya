@@ -15,34 +15,24 @@ except Exception:
     pass
 
 
-# ==============================
-# CONFIGURACION
-# ==============================
 st.set_page_config(
     page_title="Dashboard Interactivo - Superheroes",
     page_icon="🦸",
     layout="wide",
 )
 
-APP_VERSION = "FINAL-SUPABASE-NO-CACHE-102"
+APP_VERSION = "FINAL-DEBUG-TOPATTR-103"
 
 st.title("🦸 Dashboard Interactivo - Superheroes")
 st.caption(f"Version: {APP_VERSION}")
 st.markdown("---")
 
-
-# ==============================
-# DEBUG
-# ==============================
 st.error("VERSION UNICA ACTIVA")
 st.write("Archivo ejecutado:", __file__)
 st.write("Hora ejecucion:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 st.write("Plotly:", plotly.__version__)
 
 
-# ==============================
-# UTILIDADES
-# ==============================
 def get_secret_or_env(key: str, default=None):
     try:
         if key in st.secrets:
@@ -87,24 +77,13 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     }
     df = df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns})
 
-    required_cols = [
-        "nombre", "inteligencia", "fuerza", "velocidad",
-        "durabilidad", "poder", "combate", "editor", "alineacion"
-    ]
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise ValueError(f"Faltan columnas requeridas: {missing}")
-
     numeric_cols = ["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
     for col in ["nombre", "editor", "alineacion"]:
-        df[col] = df[col].astype(str).str.strip()
-
-    df["editor"] = df["editor"].replace({"": "Desconocido", "nan": "Desconocido"})
-    df["alineacion"] = df["alineacion"].replace({"": "Desconocido", "nan": "Desconocido"})
-    df["nombre"] = df["nombre"].replace({"": "Sin nombre", "nan": "Sin nombre"})
+        if col in df.columns:
+            df[col] = df[col].astype(str).str.strip()
 
     df = df.dropna(subset=numeric_cols, how="all")
     df = df.sort_values("nombre").reset_index(drop=True)
@@ -140,14 +119,11 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
         df_plot,
         x="nombre",
         y=attr,
-        color=attr,
-        color_continuous_scale="Viridis",
         title=f"Top {top_n} por {attr}",
-        hover_data={"nombre": False, attr: False},
+        text=attr,
     )
 
     fig.update_traces(
-        text=df_plot[attr],
         textposition="outside",
         customdata=df_plot[["nombre", attr]].to_numpy(),
         hovertemplate=(
@@ -164,7 +140,6 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
         xaxis_tickangle=-30,
         title_x=0,
         showlegend=False,
-        coloraxis_colorbar_title=attr,
         margin=dict(t=60, b=80, l=40, r=20),
     )
 
@@ -174,18 +149,10 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
     return fig
 
 
-# ==============================
-# SIDEBAR
-# ==============================
 st.sidebar.title("🔧 Filtros")
-
 if st.sidebar.button("Recargar datos"):
     st.rerun()
 
-
-# ==============================
-# CARGA DE DATOS
-# ==============================
 try:
     df = cargar_datos()
 except Exception as e:
@@ -194,18 +161,10 @@ except Exception as e:
 
 st.success(f"Registros cargados: {len(df)}")
 
-with st.expander("Diagnostico Datos"):
+with st.expander("Diagnostico general", expanded=False):
     st.write(df.head(10))
-    st.write(df.describe())
-    st.write("Max inteligencia:", df["inteligencia"].max())
-    st.write("Min inteligencia:", df["inteligencia"].min())
-    st.write("Max fuerza:", df["fuerza"].max())
-    st.write("Min fuerza:", df["fuerza"].min())
+    st.write(df[["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]].describe())
 
-
-# ==============================
-# FILTROS
-# ==============================
 alineacion = st.sidebar.selectbox(
     "Alineacion",
     ["Todos"] + sorted(df["alineacion"].dropna().unique().tolist())
@@ -226,28 +185,14 @@ if alineacion != "Todos":
 if editor != "Todos":
     df_filtrado = df_filtrado[df_filtrado["editor"] == editor]
 
-if df_filtrado.empty:
-    st.warning("No hay datos para los filtros seleccionados.")
-    st.stop()
-
-
-# ==============================
-# KPIS
-# ==============================
 st.subheader("📊 KPIs")
 c1, c2, c3, c4 = st.columns(4)
-
 c1.metric("Total Heroes", int(len(df_filtrado)))
 c2.metric("Promedio Inteligencia", round(df_filtrado["inteligencia"].mean(), 2))
 c3.metric("Promedio Fuerza", round(df_filtrado["fuerza"].mean(), 2))
 c4.metric("Editoriales", int(df_filtrado["editor"].nunique()))
 
 st.markdown("---")
-
-
-# ==============================
-# GRAFICOS TOP
-# ==============================
 st.subheader("📊 Top Heroes por Atributo")
 
 cols = ["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
@@ -268,8 +213,10 @@ for i, attr in enumerate(cols):
         .copy()
     )
 
-    with st.expander(f"Debug {attr}"):
+    with st.expander(f"DEBUG REAL {attr}", expanded=(attr in ["inteligencia", "fuerza"])):
         st.write(top_attr[["nombre", attr, "editor", "alineacion"]])
+        st.write("Valores unicos:", sorted(top_attr[attr].dropna().unique().tolist()))
+        st.write("Max:", top_attr[attr].max(), "Min:", top_attr[attr].min())
 
     fig = make_bar_chart(top_attr[["nombre", attr]], attr, top_n)
 
@@ -279,16 +226,11 @@ for i, attr in enumerate(cols):
         col2.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
-
-
-# ==============================
-# SCATTER
-# ==============================
 st.subheader("📈 Inteligencia vs Fuerza")
 
 scatter_df = df_filtrado[["nombre", "editor", "alineacion", "inteligencia", "fuerza"]].dropna().copy()
 
-with st.expander("Debug scatter"):
+with st.expander("Debug scatter", expanded=False):
     st.write(scatter_df.head(20))
     st.write("Filas scatter:", len(scatter_df))
 
@@ -314,72 +256,3 @@ fig_scatter.update_layout(
 )
 
 st.plotly_chart(fig_scatter, use_container_width=True)
-
-
-# ==============================
-# DISTRIBUCION POR ALINEACION
-# ==============================
-st.markdown("---")
-st.subheader("⚖️ Distribucion por Alineacion")
-
-alineacion_count = df_filtrado["alineacion"].value_counts().reset_index()
-alineacion_count.columns = ["alineacion", "cantidad"]
-
-fig_alineacion = px.bar(
-    alineacion_count,
-    x="alineacion",
-    y="cantidad",
-    color="cantidad",
-    title="Heroes por Alineacion",
-)
-
-fig_alineacion.update_layout(
-    xaxis_title="Alineacion",
-    yaxis_title="Cantidad",
-    title_x=0,
-)
-
-st.plotly_chart(fig_alineacion, use_container_width=True)
-
-
-# ==============================
-# TABLA
-# ==============================
-st.markdown("---")
-st.subheader("📋 Datos detallados")
-
-col_a, col_b = st.columns(2)
-
-with col_a:
-    mostrar_todos = st.checkbox("Mostrar todos los registros", value=False)
-
-with col_b:
-    default_columns = ["nombre", "inteligencia", "fuerza", "poder", "editor", "alineacion"]
-    columnas_mostrar = st.multiselect(
-        "Columnas a mostrar",
-        df_filtrado.columns.tolist(),
-        default=default_columns,
-    )
-
-if columnas_mostrar:
-    df_tabla = df_filtrado[columnas_mostrar]
-    if mostrar_todos:
-        st.dataframe(df_tabla, use_container_width=True, height=600)
-    else:
-        st.dataframe(df_tabla.head(top_n), use_container_width=True)
-else:
-    st.info("Selecciona al menos una columna.")
-
-
-# ==============================
-# DESCARGA
-# ==============================
-st.markdown("---")
-csv_bytes = df_filtrado.to_csv(index=False).encode("utf-8")
-
-st.download_button(
-    label="⬇️ Descargar CSV filtrado",
-    data=csv_bytes,
-    file_name=f"superheroes_filtrado_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
-    mime="text/csv",
-)
