@@ -16,7 +16,7 @@ except Exception:
 
 
 # ==============================
-# Configuración de la página
+# CONFIGURACIÓN
 # ==============================
 st.set_page_config(
     page_title="Dashboard Interactivo - Superhéroes",
@@ -24,7 +24,7 @@ st.set_page_config(
     layout="wide",
 )
 
-APP_VERSION = "v2026-03-31-supabase-only"
+APP_VERSION = "FINAL-SUPABASE-DEBUG-100"
 
 st.title("🦸 Dashboard Interactivo - Superhéroes")
 st.caption(f"Versión: {APP_VERSION}")
@@ -32,9 +32,18 @@ st.markdown("---")
 
 
 # ==============================
-# Utilidades
+# 🔥 DEBUG CRÍTICO (MUY IMPORTANTE)
 # ==============================
-def get_secret_or_env(key: str, default: str | None = None) -> str | None:
+st.error("🚨 VERSION UNICA ACTIVA 🚨")
+st.write("Archivo ejecutado:", __file__)
+st.write("Hora ejecución:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+st.write("Plotly:", plotly.__version__)
+
+
+# ==============================
+# UTILIDADES
+# ==============================
+def get_secret_or_env(key: str, default=None):
     try:
         if key in st.secrets:
             return str(st.secrets[key])
@@ -43,8 +52,25 @@ def get_secret_or_env(key: str, default: str | None = None) -> str | None:
     return os.getenv(key, default)
 
 
+def get_db_engine():
+    db_host = get_secret_or_env("DB_HOST")
+    db_port = get_secret_or_env("DB_PORT", "5432")
+    db_user = get_secret_or_env("DB_USER")
+    db_password = get_secret_or_env("DB_PASSWORD")
+    db_name = get_secret_or_env("DB_NAME")
+
+    if not all([db_host, db_port, db_user, db_password, db_name]):
+        raise ValueError("❌ Faltan credenciales de Supabase")
+
+    st.success(f"✅ Conectando a DB: {db_host}:{db_port}")
+
+    return create_engine(
+        f"postgresql+psycopg2://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}",
+        pool_pre_ping=True,
+    )
+
+
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
     df.columns = df.columns.str.strip().str.lower()
 
     rename_map = {
@@ -58,76 +84,22 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
         "publisher": "editor",
         "name": "nombre",
     }
-    df = df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns})
 
-    required_columns = [
-        "nombre",
-        "inteligencia",
-        "fuerza",
-        "velocidad",
-        "durabilidad",
-        "poder",
-        "combate",
-        "editor",
-        "alineacion",
-    ]
+    df = df.rename(columns=rename_map)
 
-    missing = [col for col in required_columns if col not in df.columns]
-    if missing:
-        raise ValueError(f"Faltan columnas requeridas: {missing}")
-
-    numeric_cols = [
-        "inteligencia",
-        "fuerza",
-        "velocidad",
-        "durabilidad",
-        "poder",
-        "combate",
-    ]
+    numeric_cols = ["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
 
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
-    for col in ["nombre", "editor", "alineacion"]:
-        df[col] = df[col].astype(str).str.strip()
-
-    df["editor"] = df["editor"].replace({"": "Desconocido", "nan": "Desconocido"})
-    df["alineacion"] = df["alineacion"].replace({"": "Desconocido", "nan": "Desconocido"})
-    df["nombre"] = df["nombre"].replace({"": "Sin nombre", "nan": "Sin nombre"})
-
     df = df.dropna(subset=numeric_cols, how="all")
     df = df.sort_values("nombre").reset_index(drop=True)
+
     return df
 
 
-def get_db_engine():
-    db_host = get_secret_or_env("DB_HOST")
-    db_port = get_secret_or_env("DB_PORT", "5432")
-    db_user = get_secret_or_env("DB_USER")
-    db_password = get_secret_or_env("DB_PASSWORD")
-    db_name = get_secret_or_env("DB_NAME")
-
-    missing = [
-        key for key, value in {
-            "DB_HOST": db_host,
-            "DB_PORT": db_port,
-            "DB_USER": db_user,
-            "DB_PASSWORD": db_password,
-            "DB_NAME": db_name,
-        }.items() if not value
-    ]
-
-    if missing:
-        raise ValueError(f"Faltan variables de entorno/secrets: {missing}")
-
-    return create_engine(
-        f"postgresql+psycopg2://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}",
-        pool_pre_ping=True,
-    )
-
-
 @st.cache_data(ttl=600)
-def cargar_datos() -> pd.DataFrame:
+def cargar_datos():
     engine = get_db_engine()
 
     query = text("""
@@ -151,69 +123,38 @@ def cargar_datos() -> pd.DataFrame:
     return clean_dataframe(df)
 
 
-def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
-    fig = px.bar(
-        df_plot,
-        x="nombre",
-        y=attr,
-        color=attr,
-        title=f"💪 Top {top_n} Héroes por {attr.capitalize()}",
-        color_continuous_scale="Viridis",
-        hover_data=["editor", "alineacion"],
-    )
-
-    fig.update_traces(
-        text=df_plot[attr],
-        textposition="outside",
-        hovertemplate=(
-            "nombre=%{x}<br>"
-            f"{attr}=%{{y}}<br>"
-            "editor=%{customdata[0]}<br>"
-            "alineacion=%{customdata[1]}<extra></extra>"
-        ),
-    )
-
-    fig.update_layout(
-        xaxis_title="Nombre",
-        yaxis_title=attr.capitalize(),
-        xaxis_tickangle=-30,
-        title_x=0,
-        coloraxis_colorbar_title=attr,
-    )
-    return fig
-
-
 # ==============================
-# Cargar datos
+# CARGA DE DATOS
 # ==============================
 try:
     df = cargar_datos()
 except Exception as e:
-    st.error(f"No se pudieron cargar los datos desde Supabase: {e}")
+    st.error(f"❌ Error cargando datos: {e}")
     st.stop()
 
-st.caption(
-    f"Fuente de datos: Supabase/PostgreSQL | "
-    f"Registros cargados: {len(df)} | "
-    f"Plotly: {plotly.__version__}"
-)
+st.success(f"📊 Registros cargados: {len(df)}")
 
-with st.expander("Diagnóstico"):
-    st.write(df[["nombre", "inteligencia", "fuerza"]].head(10))
+with st.expander("🔍 Diagnóstico Datos"):
+    st.write(df.head(10))
+    st.write(df.describe())
 
 
 # ==============================
-# Sidebar - Filtros
+# FILTROS
 # ==============================
 st.sidebar.title("🔧 Filtros")
 
-alineacion_options = ["Todos"] + sorted(df["alineacion"].dropna().astype(str).unique().tolist())
-alineacion = st.sidebar.selectbox("Selecciona Alineación:", alineacion_options)
+alineacion = st.sidebar.selectbox(
+    "Alineación",
+    ["Todos"] + sorted(df["alineacion"].dropna().unique())
+)
 
-editor_options = ["Todos"] + sorted(df["editor"].dropna().astype(str).unique().tolist())
-editor = st.sidebar.selectbox("Selecciona Editorial:", editor_options)
+editor = st.sidebar.selectbox(
+    "Editorial",
+    ["Todos"] + sorted(df["editor"].dropna().unique())
+)
 
-top_n = st.sidebar.slider("Número de Héroes Top", min_value=5, max_value=20, value=10)
+top_n = st.sidebar.slider("Top N", 5, 20, 10)
 
 df_filtrado = df.copy()
 
@@ -223,142 +164,68 @@ if alineacion != "Todos":
 if editor != "Todos":
     df_filtrado = df_filtrado[df_filtrado["editor"] == editor]
 
-if df_filtrado.empty:
-    st.warning("No hay datos para los filtros seleccionados.")
-    st.stop()
-
 
 # ==============================
-# KPIs principales
+# KPIs
 # ==============================
-st.subheader("📊 Indicadores Principales")
-col1, col2, col3, col4 = st.columns(4)
+st.subheader("📊 KPIs")
 
-with col1:
-    st.metric("Total Héroes", int(len(df_filtrado)))
-with col2:
-    st.metric("Promedio Inteligencia", round(df_filtrado["inteligencia"].mean(), 2))
-with col3:
-    st.metric("Promedio Fuerza", round(df_filtrado["fuerza"].mean(), 2))
-with col4:
-    st.metric("Editoriales", int(df_filtrado["editor"].nunique()))
+c1, c2, c3, c4 = st.columns(4)
+
+c1.metric("Total", len(df_filtrado))
+c2.metric("Inteligencia Prom", round(df_filtrado["inteligencia"].mean(), 2))
+c3.metric("Fuerza Prom", round(df_filtrado["fuerza"].mean(), 2))
+c4.metric("Editoriales", df_filtrado["editor"].nunique())
 
 st.markdown("---")
 
 
 # ==============================
-# Visualizaciones Top N
+# GRÁFICOS TOP
 # ==============================
-st.subheader(f"📊 Top {top_n} Héroes por Atributos")
+st.subheader("📊 Top Héroes")
 
-numeric_cols = ["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
+cols = ["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
+
 col1, col2 = st.columns(2)
 
-for i, attr in enumerate(numeric_cols):
+for i, attr in enumerate(cols):
+
     top_attr = (
-        df_filtrado[["nombre", "editor", "alineacion", attr]]
-        .dropna(subset=[attr])
-        .sort_values(by=[attr, "nombre"], ascending=[False, True], kind="mergesort")
+        df_filtrado[["nombre", attr]]
+        .dropna()
+        .sort_values(by=[attr, "nombre"], ascending=[False, True])
         .head(top_n)
     )
 
-    with st.expander(f"Debug Top {attr}", expanded=False):
-        st.write(top_attr[["nombre", attr]])
+    with st.expander(f"Debug {attr}"):
+        st.write(top_attr)
 
-    fig = make_bar_chart(top_attr, attr, top_n)
+    fig = px.bar(
+        top_attr,
+        x="nombre",
+        y=attr,
+        color=attr,
+        color_continuous_scale="Viridis",
+        title=f"Top {top_n} por {attr}"
+    )
 
-    with col1 if i % 2 == 0 else col2:
-        st.plotly_chart(fig, use_container_width=True)
-
-st.markdown("---")
+    if i % 2 == 0:
+        col1.plotly_chart(fig, use_container_width=True)
+    else:
+        col2.plotly_chart(fig, use_container_width=True)
 
 
 # ==============================
-# Comparativa Inteligencia vs Fuerza
+# SCATTER
 # ==============================
 st.subheader("📈 Inteligencia vs Fuerza")
 
-fig_scatter = px.scatter(
+fig = px.scatter(
     df_filtrado,
     x="inteligencia",
     y="fuerza",
-    hover_data=["nombre", "editor", "alineacion"],
-    color="editor",
-    title="📊 Inteligencia vs Fuerza por Editorial",
+    color="editor"
 )
 
-fig_scatter.update_layout(
-    xaxis_title="Inteligencia",
-    yaxis_title="Fuerza",
-    title_x=0,
-)
-
-st.plotly_chart(fig_scatter, use_container_width=True)
-
-
-# ==============================
-# Distribución por Alineación
-# ==============================
-st.subheader("⚖️ Distribución por Alineación")
-
-alineacion_count = df_filtrado["alineacion"].value_counts().reset_index()
-alineacion_count.columns = ["alineacion", "count"]
-
-fig_bar = px.bar(
-    alineacion_count,
-    x="alineacion",
-    y="count",
-    color="count",
-    title="Héroes por Alineación",
-)
-
-fig_bar.update_layout(
-    xaxis_title="Alineación",
-    yaxis_title="Cantidad",
-    title_x=0,
-)
-
-st.plotly_chart(fig_bar, use_container_width=True)
-
-st.markdown("---")
-
-
-# ==============================
-# Tabla de datos interactiva
-# ==============================
-st.subheader("📋 Datos Detallados")
-
-col1, col2 = st.columns(2)
-with col1:
-    mostrar_todos = st.checkbox("Mostrar todos los registros", value=False)
-
-with col2:
-    default_columns = ["nombre", "inteligencia", "fuerza", "poder", "editor", "alineacion"]
-    columnas_mostrar = st.multiselect(
-        "Columnas a mostrar:",
-        df_filtrado.columns.tolist(),
-        default=default_columns,
-    )
-
-if not columnas_mostrar:
-    st.info("Selecciona al menos una columna para mostrar.")
-else:
-    df_tabla = df_filtrado[columnas_mostrar]
-    if mostrar_todos:
-        st.dataframe(df_tabla, use_container_width=True, height=600)
-    else:
-        st.dataframe(df_tabla.head(top_n), use_container_width=True)
-
-
-# ==============================
-# Descargar CSV filtrado
-# ==============================
-st.markdown("---")
-csv = df_filtrado.to_csv(index=False).encode("utf-8")
-
-st.download_button(
-    label="⬇️ Descargar CSV Filtrado",
-    data=csv,
-    file_name=f"superheroes_filtrado_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
-    mime="text/csv",
-)
+st.plotly_chart(fig, use_container_width=True)
