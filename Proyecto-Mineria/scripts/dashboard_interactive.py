@@ -24,7 +24,7 @@ st.set_page_config(
     layout="wide",
 )
 
-APP_VERSION = "FINAL-SUPABASE-FIX-HOVER-101"
+APP_VERSION = "FINAL-SUPABASE-NO-CACHE-102"
 
 st.title("🦸 Dashboard Interactivo - Superheroes")
 st.caption(f"Version: {APP_VERSION}")
@@ -111,7 +111,6 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-@st.cache_data(ttl=600)
 def cargar_datos():
     engine = get_db_engine()
 
@@ -144,7 +143,7 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
         color=attr,
         color_continuous_scale="Viridis",
         title=f"Top {top_n} por {attr}",
-        hover_data={"nombre": False, attr: False}
+        hover_data={"nombre": False, attr: False},
     )
 
     fig.update_traces(
@@ -176,6 +175,15 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
 
 
 # ==============================
+# SIDEBAR
+# ==============================
+st.sidebar.title("🔧 Filtros")
+
+if st.sidebar.button("Recargar datos"):
+    st.rerun()
+
+
+# ==============================
 # CARGA DE DATOS
 # ==============================
 try:
@@ -189,13 +197,15 @@ st.success(f"Registros cargados: {len(df)}")
 with st.expander("Diagnostico Datos"):
     st.write(df.head(10))
     st.write(df.describe())
+    st.write("Max inteligencia:", df["inteligencia"].max())
+    st.write("Min inteligencia:", df["inteligencia"].min())
+    st.write("Max fuerza:", df["fuerza"].max())
+    st.write("Min fuerza:", df["fuerza"].min())
 
 
 # ==============================
 # FILTROS
 # ==============================
-st.sidebar.title("🔧 Filtros")
-
 alineacion = st.sidebar.selectbox(
     "Alineacion",
     ["Todos"] + sorted(df["alineacion"].dropna().unique().tolist())
@@ -245,7 +255,9 @@ col1, col2 = st.columns(2)
 
 for i, attr in enumerate(cols):
     top_attr = (
-        df_filtrado[["nombre", "editor", "alineacion", "inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]]
+        df_filtrado[
+            ["nombre", "editor", "alineacion", "inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
+        ]
         .dropna(subset=[attr])
         .sort_values(
             by=[attr, "combate", "poder", "velocidad", "nombre"],
@@ -274,22 +286,25 @@ st.markdown("---")
 # ==============================
 st.subheader("📈 Inteligencia vs Fuerza")
 
+scatter_df = df_filtrado[["nombre", "editor", "alineacion", "inteligencia", "fuerza"]].dropna().copy()
+
+with st.expander("Debug scatter"):
+    st.write(scatter_df.head(20))
+    st.write("Filas scatter:", len(scatter_df))
+
 fig_scatter = px.scatter(
-    df_filtrado,
+    scatter_df,
     x="inteligencia",
     y="fuerza",
     color="editor",
-    hover_data=["nombre", "alineacion"],
+    hover_name="nombre",
+    hover_data={
+        "alineacion": True,
+        "inteligencia": True,
+        "fuerza": True,
+        "editor": True,
+    },
     title="Inteligencia vs Fuerza por Editorial",
-)
-
-fig_scatter.update_traces(
-    hovertemplate=(
-        "nombre=%{customdata[0]}<br>"
-        "alineacion=%{customdata[1]}<br>"
-        "inteligencia=%{x}<br>"
-        "fuerza=%{y}<extra></extra>"
-    )
 )
 
 fig_scatter.update_layout(
@@ -299,3 +314,72 @@ fig_scatter.update_layout(
 )
 
 st.plotly_chart(fig_scatter, use_container_width=True)
+
+
+# ==============================
+# DISTRIBUCION POR ALINEACION
+# ==============================
+st.markdown("---")
+st.subheader("⚖️ Distribucion por Alineacion")
+
+alineacion_count = df_filtrado["alineacion"].value_counts().reset_index()
+alineacion_count.columns = ["alineacion", "cantidad"]
+
+fig_alineacion = px.bar(
+    alineacion_count,
+    x="alineacion",
+    y="cantidad",
+    color="cantidad",
+    title="Heroes por Alineacion",
+)
+
+fig_alineacion.update_layout(
+    xaxis_title="Alineacion",
+    yaxis_title="Cantidad",
+    title_x=0,
+)
+
+st.plotly_chart(fig_alineacion, use_container_width=True)
+
+
+# ==============================
+# TABLA
+# ==============================
+st.markdown("---")
+st.subheader("📋 Datos detallados")
+
+col_a, col_b = st.columns(2)
+
+with col_a:
+    mostrar_todos = st.checkbox("Mostrar todos los registros", value=False)
+
+with col_b:
+    default_columns = ["nombre", "inteligencia", "fuerza", "poder", "editor", "alineacion"]
+    columnas_mostrar = st.multiselect(
+        "Columnas a mostrar",
+        df_filtrado.columns.tolist(),
+        default=default_columns,
+    )
+
+if columnas_mostrar:
+    df_tabla = df_filtrado[columnas_mostrar]
+    if mostrar_todos:
+        st.dataframe(df_tabla, use_container_width=True, height=600)
+    else:
+        st.dataframe(df_tabla.head(top_n), use_container_width=True)
+else:
+    st.info("Selecciona al menos una columna.")
+
+
+# ==============================
+# DESCARGA
+# ==============================
+st.markdown("---")
+csv_bytes = df_filtrado.to_csv(index=False).encode("utf-8")
+
+st.download_button(
+    label="⬇️ Descargar CSV filtrado",
+    data=csv_bytes,
+    file_name=f"superheroes_filtrado_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+    mime="text/csv",
+)
