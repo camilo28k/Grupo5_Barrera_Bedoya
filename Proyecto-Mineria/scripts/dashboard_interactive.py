@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os
 from datetime import datetime
-from pathlib import Path
 
 import pandas as pd
 import plotly
@@ -25,18 +24,11 @@ st.set_page_config(
     layout="wide",
 )
 
-APP_VERSION = "v2026-03-31-debug-1"
+APP_VERSION = "v2026-03-31-supabase-only"
 
 st.title("🦸 Dashboard Interactivo - Superhéroes")
 st.caption(f"Versión: {APP_VERSION}")
 st.markdown("---")
-
-
-# ==============================
-# Rutas
-# ==============================
-BASE_DIR = Path(__file__).resolve().parent.parent
-CSV_PATH = BASE_DIR / "data" / "superheroes.csv"
 
 
 # ==============================
@@ -49,16 +41,6 @@ def get_secret_or_env(key: str, default: str | None = None) -> str | None:
     except Exception:
         pass
     return os.getenv(key, default)
-
-
-def get_data_mode() -> str:
-    """
-    Modos:
-    - auto: intenta DB y luego CSV
-    - db: solo DB
-    - csv: solo CSV
-    """
-    return (get_secret_or_env("DATA_SOURCE_MODE", "auto") or "auto").strip().lower()
 
 
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
@@ -125,8 +107,18 @@ def get_db_engine():
     db_password = get_secret_or_env("DB_PASSWORD")
     db_name = get_secret_or_env("DB_NAME")
 
-    if not all([db_host, db_port, db_user, db_password, db_name]):
-        return None
+    missing = [
+        key for key, value in {
+            "DB_HOST": db_host,
+            "DB_PORT": db_port,
+            "DB_USER": db_user,
+            "DB_PASSWORD": db_password,
+            "DB_NAME": db_name,
+        }.items() if not value
+    ]
+
+    if missing:
+        raise ValueError(f"Faltan variables de entorno/secrets: {missing}")
 
     return create_engine(
         f"postgresql+psycopg2://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}",
@@ -135,10 +127,8 @@ def get_db_engine():
 
 
 @st.cache_data(ttl=600)
-def cargar_datos_desde_db() -> pd.DataFrame:
+def cargar_datos() -> pd.DataFrame:
     engine = get_db_engine()
-    if engine is None:
-        raise ValueError("No hay credenciales de base de datos configuradas.")
 
     query = text("""
         SELECT
@@ -152,46 +142,13 @@ def cargar_datos_desde_db() -> pd.DataFrame:
             editor,
             alineacion
         FROM superheroes
+        ORDER BY nombre
     """)
 
     with engine.connect() as conn:
         df = pd.read_sql(query, conn)
 
     return clean_dataframe(df)
-
-
-@st.cache_data(ttl=600)
-def cargar_datos_desde_csv() -> pd.DataFrame:
-    if not CSV_PATH.exists():
-        raise FileNotFoundError(f"No existe el archivo CSV en: {CSV_PATH}")
-    df = pd.read_csv(CSV_PATH)
-    return clean_dataframe(df)
-
-
-def cargar_datos() -> tuple[pd.DataFrame, str]:
-    mode = get_data_mode()
-
-    if mode == "db":
-        df = cargar_datos_desde_db()
-        return df, "Base de datos (forzado)"
-
-    if mode == "csv":
-        df = cargar_datos_desde_csv()
-        return df, "CSV local (forzado)"
-
-    try:
-        df = cargar_datos_desde_db()
-        return df, "Base de datos"
-    except Exception as db_error:
-        try:
-            df = cargar_datos_desde_csv()
-            st.warning(f"No se pudo cargar desde base de datos. Usando CSV local. Detalle: {db_error}")
-            return df, "CSV local"
-        except Exception as csv_error:
-            raise RuntimeError(
-                f"No se pudo cargar ni desde base de datos ni desde CSV.\n"
-                f"DB: {db_error}\nCSV: {csv_error}"
-            )
 
 
 def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
@@ -230,16 +187,15 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
 # Cargar datos
 # ==============================
 try:
-    df, fuente_datos = cargar_datos()
+    df = cargar_datos()
 except Exception as e:
-    st.error(f"No se pudieron cargar los datos: {e}")
+    st.error(f"No se pudieron cargar los datos desde Supabase: {e}")
     st.stop()
 
 st.caption(
-    f"Fuente de datos: {fuente_datos} | "
+    f"Fuente de datos: Supabase/PostgreSQL | "
     f"Registros cargados: {len(df)} | "
-    f"Plotly: {plotly.__version__} | "
-    f"Modo: {get_data_mode()}"
+    f"Plotly: {plotly.__version__}"
 )
 
 with st.expander("Diagnóstico"):
@@ -302,7 +258,7 @@ for i, attr in enumerate(numeric_cols):
     top_attr = (
         df_filtrado[["nombre", "editor", "alineacion", attr]]
         .dropna(subset=[attr])
-        .sort_values(by=attr, ascending=False)
+        .sort_values(by=[attr, "nombre"], ascending=[False, True], kind="mergesort")
         .head(top_n)
     )
 
