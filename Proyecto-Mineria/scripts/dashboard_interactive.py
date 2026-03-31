@@ -4,10 +4,10 @@ from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
+import plotly
 import plotly.express as px
 import streamlit as st
 from sqlalchemy import create_engine, text
-from sqlalchemy.exc import SQLAlchemyError
 
 try:
     from dotenv import load_dotenv
@@ -25,7 +25,10 @@ st.set_page_config(
     layout="wide",
 )
 
+APP_VERSION = "v2026-03-31-debug-1"
+
 st.title("🦸 Dashboard Interactivo - Superhéroes")
+st.caption(f"Versión: {APP_VERSION}")
 st.markdown("---")
 
 
@@ -40,7 +43,6 @@ CSV_PATH = BASE_DIR / "data" / "superheroes.csv"
 # Utilidades
 # ==============================
 def get_secret_or_env(key: str, default: str | None = None) -> str | None:
-    """Busca primero en st.secrets y luego en variables de entorno."""
     try:
         if key in st.secrets:
             return str(st.secrets[key])
@@ -49,12 +51,20 @@ def get_secret_or_env(key: str, default: str | None = None) -> str | None:
     return os.getenv(key, default)
 
 
+def get_data_mode() -> str:
+    """
+    Modos:
+    - auto: intenta DB y luego CSV
+    - db: solo DB
+    - csv: solo CSV
+    """
+    return (get_secret_or_env("DATA_SOURCE_MODE", "auto") or "auto").strip().lower()
+
+
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    """Normaliza columnas y tipos."""
     df = df.copy()
     df.columns = df.columns.str.strip().str.lower()
 
-    # Renombres por si vienen nombres levemente distintos
     rename_map = {
         "intelligence": "inteligencia",
         "strength": "fuerza",
@@ -105,12 +115,10 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df.dropna(subset=numeric_cols, how="all")
     df = df.sort_values("nombre").reset_index(drop=True)
-
     return df
 
 
 def get_db_engine():
-    """Crea engine para PostgreSQL usando secrets/env."""
     db_host = get_secret_or_env("DB_HOST")
     db_port = get_secret_or_env("DB_PORT", "5432")
     db_user = get_secret_or_env("DB_USER")
@@ -128,7 +136,6 @@ def get_db_engine():
 
 @st.cache_data(ttl=600)
 def cargar_datos_desde_db() -> pd.DataFrame:
-    """Carga datos desde PostgreSQL."""
     engine = get_db_engine()
     if engine is None:
         raise ValueError("No hay credenciales de base de datos configuradas.")
@@ -153,9 +160,8 @@ def cargar_datos_desde_db() -> pd.DataFrame:
     return clean_dataframe(df)
 
 
-@st.cache_data
+@st.cache_data(ttl=600)
 def cargar_datos_desde_csv() -> pd.DataFrame:
-    """Carga datos desde CSV local."""
     if not CSV_PATH.exists():
         raise FileNotFoundError(f"No existe el archivo CSV en: {CSV_PATH}")
     df = pd.read_csv(CSV_PATH)
@@ -163,7 +169,16 @@ def cargar_datos_desde_csv() -> pd.DataFrame:
 
 
 def cargar_datos() -> tuple[pd.DataFrame, str]:
-    """Intenta DB primero, luego CSV."""
+    mode = get_data_mode()
+
+    if mode == "db":
+        df = cargar_datos_desde_db()
+        return df, "Base de datos (forzado)"
+
+    if mode == "csv":
+        df = cargar_datos_desde_csv()
+        return df, "CSV local (forzado)"
+
     try:
         df = cargar_datos_desde_db()
         return df, "Base de datos"
@@ -180,7 +195,6 @@ def cargar_datos() -> tuple[pd.DataFrame, str]:
 
 
 def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
-    """Genera gráfico de barras para un atributo."""
     fig = px.bar(
         df_plot,
         x="nombre",
@@ -190,11 +204,24 @@ def make_bar_chart(df_plot: pd.DataFrame, attr: str, top_n: int):
         color_continuous_scale="Viridis",
         hover_data=["editor", "alineacion"],
     )
+
+    fig.update_traces(
+        text=df_plot[attr],
+        textposition="outside",
+        hovertemplate=(
+            "nombre=%{x}<br>"
+            f"{attr}=%{{y}}<br>"
+            "editor=%{customdata[0]}<br>"
+            "alineacion=%{customdata[1]}<extra></extra>"
+        ),
+    )
+
     fig.update_layout(
         xaxis_title="Nombre",
         yaxis_title=attr.capitalize(),
         xaxis_tickangle=-30,
         title_x=0,
+        coloraxis_colorbar_title=attr,
     )
     return fig
 
@@ -208,7 +235,15 @@ except Exception as e:
     st.error(f"No se pudieron cargar los datos: {e}")
     st.stop()
 
-st.caption(f"Fuente de datos: {fuente_datos} | Registros cargados: {len(df)}")
+st.caption(
+    f"Fuente de datos: {fuente_datos} | "
+    f"Registros cargados: {len(df)} | "
+    f"Plotly: {plotly.__version__} | "
+    f"Modo: {get_data_mode()}"
+)
+
+with st.expander("Diagnóstico"):
+    st.write(df[["nombre", "inteligencia", "fuerza"]].head(10))
 
 
 # ==============================
@@ -270,6 +305,9 @@ for i, attr in enumerate(numeric_cols):
         .sort_values(by=attr, ascending=False)
         .head(top_n)
     )
+
+    with st.expander(f"Debug Top {attr}", expanded=False):
+        st.write(top_attr[["nombre", attr]])
 
     fig = make_bar_chart(top_attr, attr, top_n)
 
