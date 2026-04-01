@@ -24,3 +24,7 @@ logs/
 .streamlit/
 .env
 .env.local
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
