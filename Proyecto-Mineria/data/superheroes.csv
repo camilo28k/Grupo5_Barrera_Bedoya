@@ -1,731 +1,732 @@
 id,nombre,inteligencia,fuerza,velocidad,durabilidad,poder,combate,nombre_completo,editor,alineacion,genero,raza,altura,peso,fecha_extraccion,promedio_poder,ranking
-1,A-Bomb,38,100,17,80,24,64,Richard Milhouse Jones,Marvel Comics,good,Male,Human,"6'8, 203 cm","980 lb, 441 kg",2026-03-27 17:56:27,53.83,328.0
-2,Abe Sapien,88,28,35,65,100,85,Abraham Sapien,Dark Horse Comics,good,Male,Icthyo Sapien,"6'3, 191 cm","145 lb, 65 kg",2026-03-27 17:56:27,66.83,173.0
-3,Abin Sur,50,90,53,64,99,65,,DC Comics,good,Male,Ungaran,"6'1, 185 cm","200 lb, 90 kg",2026-03-27 17:56:27,70.17,141.0
-4,Abomination,63,80,53,90,62,95,Emil Blonsky,Marvel Comics,bad,Male,Human / Radiation,"6'8, 203 cm","980 lb, 441 kg",2026-03-27 17:56:27,73.83,114.0
-5,Abraxas,88,63,83,100,100,55,Abraxas,Marvel Comics,bad,Male,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,81.5,69.0
-6,Absorbing Man,38,80,25,100,98,64,Carl Creel,Marvel Comics,bad,Male,Human,"6'4, 193 cm","270 lb, 122 kg",2026-03-27 17:56:27,67.5,164.0
-7,Adam Monroe,63,10,12,100,100,64,,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,58.17,270.0
-8,Adam Strange,69,10,33,40,37,50,Adam Strange,DC Comics,good,Male,Human,"6'1, 185 cm","195 lb, 88 kg",2026-03-27 17:56:27,39.83,493.0
-9,Agent 13,0,46,0,0,0,0,Sharon Carter,Sharon Carter,good,Female,null,"5'8, 173 cm","135 lb, 61 kg",2026-03-27 17:56:27,46.0,415.0
-10,Agent Bob,10,8,13,5,5,20,Bob,Marvel Comics,good,Male,Human,"5'10, 178 cm","181 lb, 81 kg",2026-03-27 17:56:27,10.17,628.0
-11,Agent Zero,75,28,38,80,72,95,Christoph Nord,Marvel Comics,good,Male,null,"6'3, 191 cm","230 lb, 104 kg",2026-03-27 17:56:27,64.67,199.0
-12,Air-Walker,50,85,100,85,100,40,Gabriel Lan,Marvel Comics,bad,Male,null,"6'2, 188 cm","240 lb, 108 kg",2026-03-27 17:56:27,76.67,92.0
-13,Ajax,56,48,35,80,34,55,Francis,Marvel Comics,bad,Male,Cyborg,"6'4, 193 cm","200 lb, 90 kg",2026-03-27 17:56:27,51.33,355.0
-14,Alan Scott,63,80,23,90,100,32,Alan Ladd Wellington Scott,DC Comics,good,Male,null,"5'11, 180 cm","201 lb, 90 kg",2026-03-27 17:56:27,64.67,199.0
-15,Alex Mercer,50,80,42,90,100,50,Alexander J. Mercer,Wildstorm,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,68.67,151.0
-16,Alex Woolsly,0,37,0,0,0,0,Alex Woolsly,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,37.0,528.0
-17,Alfred Pennyworth,63,10,17,10,7,55,Alfred Thaddeus Crane Pennyworth,DC Comics,good,Male,Human,"5'10, 178 cm","160 lb, 72 kg",2026-03-27 17:56:27,27.0,598.0
-18,Alien,50,28,42,90,57,60,Xenomorph,Dark Horse Comics,bad,Male,Xenomorph XX121,"8'0, 244 cm","375 lb, 169 kg",2026-03-27 17:56:27,54.5,319.0
-19,Allan Quatermain,0,0,0,0,0,0,,Wildstorm,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-20,Amazo,63,100,83,100,100,100,,DC Comics,bad,Male,Android,"8'5, 257 cm","385 lb, 173 kg",2026-03-27 17:56:27,91.0,30.0
-21,Ammo,0,0,0,0,0,0,,Marvel Comics,bad,Male,Human,"6'2, 188 cm","225 lb, 101 kg",2026-03-27 17:56:27,0.0,0.0
-22,Ando Masahashi,0,0,0,0,0,0,Ando Masahashi,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-23,Angel,75,30,58,90,100,75,Liam,Dark Horse Comics,good,Male,Vampire,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,71.33,136.0
-24,Angel,63,13,46,64,28,42,Warren Kenneth Worthington III,Archangel,good,Male,null,"6'0, 183 cm","150 lb, 68 kg",2026-03-27 17:56:27,42.67,466.0
-25,Angel Dust,38,55,23,42,17,30,Christina,Marvel Comics,good,Female,Mutant,"5'5, 165 cm","126 lb, 57 kg",2026-03-27 17:56:27,34.17,559.0
-26,Angel Salvadore,38,10,28,28,56,60,Angel Salvadore Bohusk,Tempest,good,Female,null,"5'4, 163 cm","121 lb, 54 kg",2026-03-27 17:56:27,36.67,532.0
-27,Angela,0,97,0,0,0,0,,Image Comics,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,97.0,8.0
-28,Animal Man,56,48,47,85,73,80,Bernhard Baker,DC Comics,good,Male,Human,"6'0, 183 cm","185 lb, 83 kg",2026-03-27 17:56:27,64.83,196.0
-29,Annihilus,75,80,47,56,59,64,Annihilus,Marvel Comics,bad,Male,null,"5'11, 180 cm","200 lb, 90 kg",2026-03-27 17:56:27,63.5,209.0
-30,Ant-Man,100,18,23,28,32,32,Hank Pym,Giant-Man,good,Male,Human,"6'11, 211 cm","270 lb, 122 kg",2026-03-27 17:56:27,38.83,507.0
-31,Ant-Man II,75,18,17,40,53,30,Scott Lang,Marvel Comics,good,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-03-27 17:56:27,38.83,507.0
-32,Anti-Monitor,88,100,50,100,100,90,,DC Comics,bad,Male,God / Eternal,"200, 61.0 meters","- lb, 0 kg",2026-03-27 17:56:27,88.0,49.0
-33,Anti-Spawn,0,58,0,0,0,0,Jason Wynn,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,58.0,271.0
-34,Anti-Venom,75,60,65,90,96,84,Eddie Brock,Toxin,-,Male,Symbiote,"7'6, 229 cm","795 lb, 358 kg",2026-03-27 17:56:27,78.33,84.0
-35,Apocalypse,100,100,33,100,100,60,En Sabah Nur,Marvel Comics,bad,Male,Mutant,"7'0, 213 cm","300 lb, 135 kg",2026-03-27 17:56:27,82.17,61.0
-36,Aquababy,10,16,12,14,37,14,"Arthur Curry, Jr.",DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,17.17,620.0
-37,Aqualad,63,44,42,75,89,60,Garth,DC Comics,good,Male,Atlantean,"5'10, 178 cm","235 lb, 106 kg",2026-03-27 17:56:27,62.17,226.0
-38,Aquaman,81,85,79,80,100,80,Orin,DC Comics,good,Male,Atlantean,"6'1, 185 cm","325 lb, 146 kg",2026-03-27 17:56:27,84.17,57.0
-39,Arachne,50,48,50,70,71,70,Julia Carpenter,Marvel Comics,good,Female,Human,"5'9, 175 cm","140 lb, 63 kg",2026-03-27 17:56:27,59.83,244.0
-40,Archangel,63,13,58,64,35,42,Warren Kenneth Worthington III,Angel,good,Male,Mutant,"6'0, 183 cm","150 lb, 68 kg",2026-03-27 17:56:27,45.83,418.0
-41,Arclight,38,63,23,42,52,70,Philippa Sontag,Marvel Comics,bad,Female,null,"5'8, 173 cm","126 lb, 57 kg",2026-03-27 17:56:27,48.0,394.0
-42,Ardina,63,100,100,80,100,25,Ardina,Marvel Comics,good,Female,Alien,"6'4, 193 cm","218 lb, 98 kg",2026-03-27 17:56:27,78.0,88.0
-43,Ares,75,82,35,80,84,101,,Marvel Comics,good,Male,null,"6'1, 185 cm","600 lb, 270 kg",2026-03-27 17:56:27,76.17,95.0
-44,Ariel,50,10,12,14,94,28,Ariel,Marvel Comics,good,Female,null,"5'5, 165 cm","130 lb, 59 kg",2026-03-27 17:56:27,34.67,552.0
-45,Armor,50,63,12,80,55,54,Hisako Ichiki,Marvel Comics,good,Female,null,"5'4, 163 cm","112 lb, 50 kg",2026-03-27 17:56:27,52.33,346.0
-46,Arsenal,0,54,0,0,0,0,"Roy William Harper, Jr.",Speedy,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,54.0,323.0
-47,Astro Boy,0,90,0,0,0,0,Atom,null,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,90.0,34.0
-48,Atlas,63,80,25,100,98,50,Erik Josten,Goliath,good,Male,Mutant,"6'0, 183 cm","225 lb, 101 kg",2026-03-27 17:56:27,69.33,147.0
-49,Atlas,63,100,42,100,27,80,,DC Comics,bad,Male,God / Eternal,"6'6, 198 cm","280 lb, 126 kg",2026-03-27 17:56:27,68.67,151.0
-50,Atom,0,0,0,0,0,0,Albert Pratt,DC Comics,good,Male,null,"5'10, 178 cm","150 lb, 68 kg",2026-03-27 17:56:27,0.0,0.0
-51,Atom,0,0,0,0,0,0,,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-52,Atom Girl,38,10,23,28,38,42,Salu Digby,DC Comics,good,Female,null,"5'6, 168 cm","120 lb, 54 kg",2026-03-27 17:56:27,29.83,586.0
-53,Atom II,88,10,33,45,40,60,Ray Palmer,DC Comics,good,Male,Human,"6'0, 183 cm","180 lb, 81 kg",2026-03-27 17:56:27,46.0,415.0
-54,Atom III,0,0,0,0,0,0,Adam Cray,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-55,Atom IV,0,0,0,0,0,0,Ryan Choi,DC Comics,good,Male,null,"-, 0 cm","160 lb, 72 kg",2026-03-27 17:56:27,0.0,0.0
-56,Aurora,63,10,96,60,74,56,Jeanne-Marie Beaubier,Marvel Comics,good,Female,Mutant,"5'11, 180 cm","140 lb, 63 kg",2026-03-27 17:56:27,59.83,244.0
-57,Azazel,50,11,47,95,100,80,,Marvel Comics,bad,Male,Neyaphem,"6'0, 183 cm","149 lb, 67 kg",2026-03-27 17:56:27,63.83,207.0
-58,Azrael,63,18,17,20,35,80,Michael Washington Lane,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,38.83,507.0
-59,Aztar,0,98,0,0,0,0,Aztar,Spectre,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,98.0,5.0
-60,Bane,88,38,23,56,51,95,,DC Comics,bad,Male,Human,"6'8, 203 cm","400 lb, 180 kg",2026-03-27 17:56:27,58.5,262.0
-61,Banshee,50,10,58,40,63,70,Sean Cassidy,Marvel Comics,good,Male,Human,"6'0, 183 cm","170 lb, 77 kg",2026-03-27 17:56:27,48.5,388.0
-62,Bantam,25,53,23,54,21,56,Roberto Velasquez,Marvel Comics,good,Male,null,"5'5, 165 cm","119 lb, 54 kg",2026-03-27 17:56:27,38.67,510.0
-63,Batgirl,88,11,33,40,34,90,Barbara Gordon,Oracle,good,Female,Human,"5'7, 170 cm","126 lb, 57 kg",2026-03-27 17:56:27,49.33,376.0
-64,Batgirl,0,27,0,0,0,0,Mary Elizabeth Kane,Hawkfire,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,27.0,598.0
-65,Batgirl III,0,43,0,0,0,0,Helena Rosa Bertinelli,Huntress,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,43.0,460.0
-66,Batgirl IV,69,12,27,56,46,100,Cassandra Cain,DC Comics,good,Female,Human,"5'5, 165 cm","115 lb, 52 kg",2026-03-27 17:56:27,51.67,350.0
-67,Batgirl V,0,0,0,0,0,0,Charlotte Gage-Radcliffe,Misfit,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-68,Batgirl VI,75,10,23,28,22,80,Stephanie Brown,Spoiler,good,Female,null,"5'6, 168 cm","135 lb, 61 kg",2026-03-27 17:56:27,39.67,496.0
-69,Batman,81,40,29,55,63,90,Terry McGinnis,DC Comics,good,Male,Human,"5'10, 178 cm","170 lb, 77 kg",2026-03-27 17:56:27,59.67,249.0
-70,Batman,100,26,27,50,47,100,Bruce Wayne,DC Comics,good,Male,Human,"6'2, 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,58.33,266.0
-71,Batman II,88,11,33,28,36,100,Dick Grayson,Nightwing,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,49.33,376.0
-72,Battlestar,50,53,35,74,48,74,Lemar Hoskins,Marvel Comics,good,Male,null,"6'6, 198 cm","295 lb, 133 kg",2026-03-27 17:56:27,55.67,299.0
-73,Batwoman V,81,8,29,25,27,80,Katherine Rebecca Kane,DC Comics,good,Female,Human,"5'10, 178 cm","- lb, 0 kg",2026-03-27 17:56:27,41.67,479.0
-74,Beak,0,0,0,0,0,0,Barnell Bohusk,Marvel Comics,good,Male,null,"5'9, 175 cm","140 lb, 63 kg",2026-03-27 17:56:27,0.0,0.0
-75,Beast,94,48,38,60,43,85,Henry Philip McCoy,Marvel Comics,good,Male,Mutant,"5'11, 180 cm","402 lb, 181 kg",2026-03-27 17:56:27,61.33,235.0
-76,Beast Boy,50,28,50,70,79,40,Garfield Mark Logan,DC Comics,good,Male,Human,"5'8, 173 cm","150 lb, 68 kg",2026-03-27 17:56:27,52.83,339.0
-77,Beetle,0,54,0,0,0,0,,Marvel Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,54.0,323.0
-78,Ben 10,10,7,8,10,90,40,Benjamin Kirby Tennyson,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,27.5,596.0
-79,Beta Ray Bill,63,80,35,95,100,84,Beta Ray Bill (translation of his Korbinite name),Marvel Comics,good,Male,null,"6'7, 201 cm","480 lb, 216 kg",2026-03-27 17:56:27,76.17,95.0
-80,Beyonder,100,100,100,100,100,84,,Marvel Comics,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,97.33,7.0
-81,Big Barda,88,100,79,100,100,100,Barda Free,DC Comics,bad,Female,New God,"6'2, 188 cm","300 lb, 135 kg",2026-03-27 17:56:27,94.5,20.0
-82,Big Daddy,38,10,12,32,22,64,Damon Macready,Icon Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,29.67,587.0
-83,Big Man,75,12,23,28,19,70,Frederick Foswell,Marvel Comics,bad,Male,null,"5'5, 165 cm","157 lb, 71 kg",2026-03-27 17:56:27,37.83,517.0
-84,Bill Harken,63,36,33,60,27,40,,SyFy,good,Male,Alpha,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,43.17,458.0
-85,Billy Kincaid,0,0,0,0,0,0,Billy Kincaid,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-86,Binary,0,0,0,0,0,0,Carol Danvers,Captain Marvel,good,Female,null,"5'11, 180 cm","120 lb, 54 kg",2026-03-27 17:56:27,0.0,0.0
-87,Bionic Woman,56,37,33,40,20,40,Jamie Sommers,,good,Female,Cyborg,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,37.67,521.0
-88,Bird-Brain,25,10,35,28,21,42,,Marvel Comics,good,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,26.83,600.0
-89,Bird-Man,0,0,0,0,0,0,Henry Hawk,Marvel Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-90,Bird-Man II,0,0,0,0,0,0,Achille DiBacco,Marvel Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-91,Birdman,0,35,0,0,0,0,Ray Randal,Hanna-Barbera,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,35.0,547.0
-92,Bishop,63,14,23,75,100,65,Lucas Bishop,Marvel Comics,good,Male,Mutant,"6'6, 198 cm","275 lb, 124 kg",2026-03-27 17:56:27,56.67,287.0
-93,Bizarro,38,95,100,100,100,85,Bizarro,DC Comics,neutral,Male,Bizarro,"6'3, 191 cm","345 lb, 155 kg",2026-03-27 17:56:27,86.33,53.0
-94,Black Abbott,0,0,0,0,0,0,,Marvel Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-95,Black Adam,88,100,92,100,100,56,Teth-Adam,DC Comics,bad,Male,null,"6'3, 191 cm","250 lb, 113 kg",2026-03-27 17:56:27,89.33,38.0
-96,Black Bolt,75,67,100,84,100,56,Blackagar Boltagon,Marvel Comics,good,Male,Inhuman,"6'2, 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,80.33,75.0
-97,Black Canary,63,8,33,20,52,80,Laurel Lance,DC Comics,good,Female,Metahuman,"5'7, 170 cm","130 lb, 59 kg",2026-03-27 17:56:27,42.67,466.0
-98,Black Canary,63,8,33,15,45,80,Dinah Drake Lance,DC Comics,good,Female,Human,"5'5, 165 cm","128 lb, 58 kg",2026-03-27 17:56:27,40.67,487.0
-99,Black Cat,75,16,33,10,23,70,Felicia Hardy,Marvel Comics,good,Female,Human,"5'10, 178 cm","120 lb, 54 kg",2026-03-27 17:56:27,37.83,517.0
-100,Black Flash,44,10,100,80,100,30,,DC Comics,neutral,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,60.67,239.0
-101,Black Goliath,0,0,0,0,0,0,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-102,Black Knight III,63,10,8,70,43,70,Dane Whitman,Marvel Comics,good,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-03-27 17:56:27,44.0,445.0
-103,Black Lightning,50,11,53,28,70,75,Jefferson Pierce,DC Comics,good,Male,null,"6'1, 185 cm","200 lb, 90 kg",2026-03-27 17:56:27,47.83,397.0
-104,Black Mamba,75,10,35,42,88,65,Tanya Sealy,Marvel Comics,bad,Female,null,"5'7, 170 cm","115 lb, 52 kg",2026-03-27 17:56:27,52.5,344.0
-105,Black Manta,75,28,50,60,76,85,David,DC Comics,bad,Male,Human,"6'2, 188 cm","205 lb, 92 kg",2026-03-27 17:56:27,62.33,221.0
-106,Black Panther,88,16,30,60,41,100,T'Challa,Marvel Comics,good,Male,Human,"6'0, 183 cm","200 lb, 90 kg",2026-03-27 17:56:27,55.83,297.0
-107,Black Widow,75,13,33,30,36,100,Natasha Romanoff,Marvel Comics,good,Female,Human,"5'7, 170 cm","131 lb, 59 kg",2026-03-27 17:56:27,47.83,397.0
-108,Black Widow II,0,48,0,0,0,0,Yelena Belova,Marvel Comics,good,Female,null,"5'7', 170 cm","135 lb, 61 kg",2026-03-27 17:56:27,48.0,394.0
-109,Blackout,63,32,45,80,45,65,,Marvel Comics,bad,Male,Demon,"6'3, 191 cm","230 lb, 104 kg",2026-03-27 17:56:27,55.0,310.0
-110,Blackwing,38,10,35,32,20,56,Joseph Manfredi,Marvel Comics,bad,Male,null,"6'1, 185 cm","190 lb, 86 kg",2026-03-27 17:56:27,31.83,577.0
-111,Blackwulf,50,28,8,30,69,25,Lucian,Marvel Comics,-,Male,Alien,"6'2, 188 cm","195 lb, 88 kg",2026-03-27 17:56:27,35.0,547.0
-112,Blade,63,28,38,50,40,90,Eric Brooks,Marvel Comics,good,Male,Vampire,"6'2, 188 cm","215 lb, 97 kg",2026-03-27 17:56:27,51.5,352.0
-113,Blaquesmith,0,0,0,0,0,0,-,Vertigo II,good,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-114,Bling!,69,14,12,90,52,28,Roxanne Washington,Marvel Comics,good,Female,null,"5'6, 168 cm","152 lb, 68 kg",2026-03-27 17:56:27,44.17,444.0
-115,Blink,50,8,20,28,77,64,Clarice Ferguson,Marvel Comics,good,Female,Mutant,"5'5, 165 cm","125 lb, 56 kg",2026-03-27 17:56:27,41.17,481.0
-116,Blizzard,0,0,0,0,0,0,Gregor Shapanka,Marvel Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-117,Blizzard,0,72,0,0,0,0,,Marvel Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,72.0,129.0
-118,Blizzard II,38,10,27,42,47,56,Donald Gill,Marvel Comics,bad,Male,null,"5'9, 175 cm","170 lb, 77 kg",2026-03-27 17:56:27,36.67,532.0
-119,Blob,10,83,23,95,28,72,Frederick J. Dukes,Marvel Comics,bad,Male,null,"5'10, 178 cm","510 lb, 230 kg",2026-03-27 17:56:27,51.83,348.0
-120,Bloodaxe,63,80,33,80,100,84,Jackie Lukus,Marvel Comics,bad,Female,Human,"7'2, 218 cm","1100 lb, 495 kg",2026-03-27 17:56:27,73.33,118.0
-121,Bloodhawk,50,10,50,80,80,64,Lemuel Krug,Marvel Comics,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,55.67,299.0
-122,Bloodwraith,0,72,0,0,0,0,Sean Dolan,Marvel Comics,bad,Male,null,"100'0, 30.5 meters","- lb, 0 kg",2026-03-27 17:56:27,72.0,129.0
-123,Blue Beetle,0,0,0,0,0,0,Daniel Garrett,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-124,Blue Beetle,0,0,0,0,0,0,,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-125,Blue Beetle II,0,45,0,0,0,0,Theodore Kord,DC Comics,good,Male,null,"6'0, 183 cm","190 lb, 86 kg",2026-03-27 17:56:27,45.0,430.0
-126,Blue Beetle III,50,34,58,80,100,30,Jaime Reyes,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,58.67,259.0
-127,Boba Fett,63,10,38,36,68,70,,George Lucas,bad,Male,Human / Clone,"6'0, 183 cm","- lb, 0 kg",2026-03-27 17:56:27,47.5,400.0
-128,Bolt,0,0,0,0,0,0,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-129,Bomb Queen,0,73,0,0,0,0,,Image Comics,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,73.0,122.0
-130,Boom-Boom,38,10,12,42,57,64,Tabitha Smith,Meltdown,good,Female,Mutant,"5'5, 165 cm","122 lb, 55 kg",2026-03-27 17:56:27,37.17,526.0
-131,Boomer,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-132,Booster Gold,69,85,42,70,100,40,Michael Jon Carter,DC Comics,good,Male,Human,"6'5, 196 cm","215 lb, 97 kg",2026-03-27 17:56:27,67.67,162.0
-133,Box,0,0,0,0,0,0,Roger Bochs,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-134,Box III,0,0,0,0,0,0,Dr. Walter Langowski,Marvel Comics,good,-,null,"6'4, 193 cm","245 lb, 110 kg",2026-03-27 17:56:27,0.0,0.0
-135,Box IV,50,75,23,28,11,56,Madison Jeffries,Gemini V,good,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,40.5,488.0
-136,Brainiac,100,95,63,90,60,75,Vril Dox,DC Comics,bad,Male,Android,"6'6, 198 cm","300 lb, 135 kg",2026-03-27 17:56:27,80.5,73.0
-137,Brainiac 5,100,10,23,28,60,32,Querl Dox,DC Comics,good,Male,null,"5'7, 170 cm","135 lb, 61 kg",2026-03-27 17:56:27,42.17,473.0
-138,Brother Voodoo,0,65,0,0,0,0,Jericho Drumm,Marvel Comics,good,Male,Human,"6'0, 183 cm","220 lb, 99 kg",2026-03-27 17:56:27,65.0,191.0
-139,Brundlefly,69,32,25,40,27,15,Seth Brundle,,-,Male,Mutant,"6'4, 193 cm","- lb, 0 kg",2026-03-27 17:56:27,34.67,552.0
-140,Buffy,63,28,42,70,48,60,Buffy Anne Summers,Dark Horse Comics,good,Female,Human,"5'2, 157 cm","115 lb, 52 kg",2026-03-27 17:56:27,51.83,348.0
-141,Bullseye,50,11,25,70,20,70,Lester,Marvel Comics,bad,Male,Human,"6'0, 183 cm","200 lb, 90 kg",2026-03-27 17:56:27,41.0,484.0
-142,Bumblebee,63,28,25,10,47,35,Karen Beecher,DC Comics,good,Female,Human,"5'7, 170 cm","130 lb, 59 kg",2026-03-27 17:56:27,34.67,552.0
-143,Bumbleboy,0,0,0,0,0,0,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-144,Bushido,38,10,8,10,19,70,Ryuko Orsono,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,25.83,606.0
-145,Cable,88,48,23,56,100,80,Nathan Summers,Marvel Comics,good,Male,Mutant,"6'8, 203 cm","350 lb, 158 kg",2026-03-27 17:56:27,65.83,186.0
-146,Callisto,63,53,23,42,52,85,Callisto,Marvel Comics,bad,Female,null,"5'9, 175 cm","165 lb, 74 kg",2026-03-27 17:56:27,53.0,336.0
-147,Cameron Hicks,50,10,23,28,51,70,,SyFy,good,Male,Alpha,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,38.67,510.0
-148,Cannonball,50,28,67,99,94,56,Samuel Zachery Guthrie,Marvel Comics,good,Male,null,"6'0, 183 cm","181 lb, 81 kg",2026-03-27 17:56:27,65.67,187.0
-149,Captain America,69,19,38,55,60,100,Steve Rogers,Marvel Comics,good,Male,Human,"6'2, 188 cm","240 lb, 108 kg",2026-03-27 17:56:27,56.83,284.0
-150,Captain Atom,81,93,83,90,100,80,Nathaniel Adam,DC Comics,good,Male,Human / Radiation,"6'4, 193 cm","200 lb, 90 kg",2026-03-27 17:56:27,87.83,51.0
-151,Captain Britain,75,77,50,60,31,80,Brian Braddock,Marvel Comics,good,Male,Human,"6'6, 198 cm","257 lb, 116 kg",2026-03-27 17:56:27,62.17,226.0
-152,Captain Cold,50,10,17,20,28,20,Leonard Snart,DC Comics,neutral,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,24.17,613.0
-153,Captain Epic,0,0,0,0,0,0,,Team Epic TV,good,Male,null,"6'2, 188 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-154,Captain Hindsight,25,10,83,30,10,20,Jack Brolin,South Park,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,29.67,587.0
-155,Captain Mar-vell,0,80,0,0,0,0,Mar-Vell,Marvel Comics,good,Male,null,"6'2', 188 cm","240 lb, 108 kg",2026-03-27 17:56:27,80.0,77.0
-156,Captain Marvel,88,100,88,95,100,75,Billy Batson,DC Comics,good,Male,Human,"6'4, 193 cm","225 lb, 101 kg",2026-03-27 17:56:27,91.0,30.0
-157,Captain Marvel,84,88,71,95,100,90,Carol Danvers,Binary,good,Female,Human-Kree,"5'11, 180 cm","165 lb, 74 kg",2026-03-27 17:56:27,88.0,49.0
-158,Captain Marvel II,75,81,27,90,34,56,Frederick Christopher Freeman,DC Comics,good,Male,Human,"5'9, 175 cm","165 lb, 74 kg",2026-03-27 17:56:27,60.5,242.0
-159,Captain Midnight,0,0,0,0,0,0,,Dark Horse Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-160,Captain Planet,50,88,75,80,100,60,,Marvel Comics,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,75.5,100.0
-161,Captain Universe,0,92,0,0,0,0,,Marvel Comics,good,-,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,92.0,26.0
-162,Carnage,63,63,70,84,88,90,Cletus Kasady,Marvel Comics,bad,Male,Symbiote,"6'1, 185 cm","190 lb, 86 kg",2026-03-27 17:56:27,76.33,93.0
-163,Cat,0,90,0,0,0,0,Shirlee Bryant,Marvel Comics,good,Female,null,"5'8, 173 cm","135 lb, 61 kg",2026-03-27 17:56:27,90.0,34.0
-164,Cat II,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-165,Catwoman,69,11,33,28,27,85,Selina Kyle,DC Comics,good,Female,Human,"5'9, 175 cm","135 lb, 61 kg",2026-03-27 17:56:27,42.17,473.0
-166,Cecilia Reyes,0,0,0,0,0,0,Dr. Cecilia Reyes,Marvel Comics,good,-,null,"5'7, 170 cm","138 lb, 62 kg",2026-03-27 17:56:27,0.0,0.0
-167,Century,88,80,53,64,100,100,,Marvel Comics,good,Male,Alien,"6'7, 201 cm","215 lb, 97 kg",2026-03-27 17:56:27,80.83,71.0
-168,Cerebra,0,57,0,0,0,0,Shakti Haddad,Marvel Comics,good,Female,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,57.0,281.0
-169,Chamber,50,10,20,80,57,64,Jonothon Evan Starsmore,Marvel Comics,good,Male,Mutant,"5'9, 175 cm","140 lb, 63 kg",2026-03-27 17:56:27,46.83,409.0
-170,Chameleon,88,10,12,28,28,28,Dmitri Anatoly Smerdyakov Kravinoff,DC Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,32.33,574.0
-171,Changeling,63,10,23,42,64,64,Kevin Sidney,Marvel Comics,bad,Male,null,"5'11, 180 cm","180 lb, 81 kg",2026-03-27 17:56:27,44.33,440.0
-172,Cheetah,38,8,42,20,32,70,Priscilla Rich,DC Comics,bad,Female,Human,"5'4, 163 cm","110 lb, 50 kg",2026-03-27 17:56:27,35.0,547.0
-173,Cheetah II,38,20,42,20,39,60,Deborah Domaine,DC Comics,bad,Female,Human,"5'7, 170 cm","122 lb, 55 kg",2026-03-27 17:56:27,36.5,537.0
-174,Cheetah III,88,100,88,80,78,95,Barbara Minerva,DC Comics,bad,Female,Human,"5'9, 175 cm","120 lb, 54 kg",2026-03-27 17:56:27,88.17,48.0
-175,Chromos,0,0,0,0,0,0,Bernard Embers,Team Epic TV,bad,Male,null,"6'1, 185 cm","190 lb, 86 kg",2026-03-27 17:56:27,0.0,0.0
-176,Chuck Norris,50,80,47,56,42,99,Carlos Ray Norris,null,good,Male,null,"5'10, 178 cm","- lb, 0 kg",2026-03-27 17:56:27,62.33,221.0
-177,Citizen Steel,50,95,33,100,23,60,Nathan Heywood,DC Comics,good,Male,Human,"6'0, 183 cm","378 lb, 170 kg",2026-03-27 17:56:27,60.17,243.0
-178,Claire Bennet,38,9,12,100,90,28,Claire Bennet,NBC - Heroes,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,46.17,413.0
-179,Clea,0,39,0,0,0,0,Clea,Marvel Comics,good,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,39.0,504.0
-180,Cloak,63,10,47,64,100,56,Tyrone Johnson,Marvel Comics,good,Male,null,"7'5, 226 cm","155 lb, 70 kg",2026-03-27 17:56:27,56.67,287.0
-181,Clock King,75,10,17,10,7,40,William Tockman,DC Comics,bad,Male,Human,"5'10, 178 cm","173 lb, 78 kg",2026-03-27 17:56:27,26.5,604.0
-182,Cogliostro,0,0,0,0,0,0,Cain,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-183,Colin Wagner,0,0,0,0,0,0,,HarperCollins,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-184,Colossal Boy,0,0,0,0,0,0,,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-185,Colossus,63,83,33,100,45,80,Piotr Nikolaievitch Rasputin,Marvel Comics,good,Male,Mutant,"7'5, 226 cm","500 lb, 225 kg",2026-03-27 17:56:27,67.33,166.0
-186,Copycat,56,10,21,25,54,60,Vanessa Carlysle,Marvel Comics,neutral,Female,Mutant,"6'0, 183 cm","148 lb, 67 kg",2026-03-27 17:56:27,37.67,521.0
-187,Corsair,0,16,0,0,0,0,Christopher Summers,Marvel Comics,good,Male,null,"6'3, 191 cm","175 lb, 79 kg",2026-03-27 17:56:27,16.0,622.0
-188,Cottonmouth,50,10,8,10,27,25,Burchell Clemens,Marvel Comics,bad,Male,Human,"6'0, 183 cm","220 lb, 99 kg",2026-03-27 17:56:27,21.67,617.0
-189,Crimson Crusader,0,58,0,0,0,0,Rory Destine,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,58.0,271.0
-190,Crimson Dynamo,0,65,0,0,0,0,Anton Vanko,Marvel Comics,good,Male,null,"5'11, 180 cm","230 lb, 104 kg",2026-03-27 17:56:27,65.0,191.0
-191,Crystal,63,16,12,14,61,56,Crystallia Amaquelin,Marvel Comics,good,Female,Inhuman,"5'6, 168 cm","110 lb, 50 kg",2026-03-27 17:56:27,37.0,528.0
-192,Curse,0,0,0,0,0,0,Phillip Krahn,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-193,Cy-Gor,0,96,0,0,0,0,,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,96.0,12.0
-194,Cyborg,75,53,42,85,71,64,Victor Stone,DC Comics,good,Male,Cyborg,"6'6, 198 cm","385 lb, 173 kg",2026-03-27 17:56:27,65.0,191.0
-195,Cyborg Superman,75,93,92,100,100,80,Henry Henshaw,DC Comics,bad,Male,Cyborg,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,90.0,34.0
-196,Cyclops,75,10,23,42,76,80,Scott Summers,Marvel Comics,good,Male,Mutant,"6'3, 191 cm","195 lb, 88 kg",2026-03-27 17:56:27,51.0,360.0
-197,Cypher,0,44,0,0,0,0,Douglas Aaron Ramsey,Marvel Comics,good,-,null,"5'9', 175 cm","150 lb, 68 kg",2026-03-27 17:56:27,44.0,445.0
-198,Dagger,63,10,35,42,52,70,Tandy Bowen,Marvel Comics,good,Female,null,"Shaker Heights, Ohio","116 lb, 52 kg",2026-03-27 17:56:27,45.33,424.0
-199,Danny Cooper,0,0,0,0,0,0,,HarperCollins,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-200,Daphne Powell,38,10,8,10,56,10,Daphne Powell,ABC Studios,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,22.0,615.0
-201,Daredevil,75,13,25,35,61,100,Matt Murdock,Marvel Comics,good,Male,Human,"6'0, 183 cm","200 lb, 90 kg",2026-03-27 17:56:27,51.5,352.0
-202,Darkhawk,50,32,33,70,74,64,Christopher Powell,Marvel Comics,good,Male,Human,"6'1, 185 cm","180 lb, 81 kg",2026-03-27 17:56:27,53.83,328.0
-203,Darkman,75,14,23,85,12,28,Peyton Westlake,Universal Studios,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,39.5,498.0
-204,Darkseid,88,100,83,100,100,95,Uxas,DC Comics,bad,Male,New God,"8'9, 267 cm","1815 lb, 817 kg",2026-03-27 17:56:27,94.33,22.0
-205,Darkside,0,0,0,0,0,0,,null,bad,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-206,Darkstar,38,8,35,42,79,64,Laynia Petrovna,Marvel Comics,good,Female,Mutant,"5'6, 168 cm","125 lb, 56 kg",2026-03-27 17:56:27,44.33,440.0
-207,Darth Maul,56,48,50,30,100,100,,George Lucas,bad,Male,Dathomirian Zabrak,"5'7, 170 cm","- lb, 0 kg",2026-03-27 17:56:27,64.0,206.0
-208,Darth Vader,69,48,33,35,100,100,Anakin Skywalker,George Lucas,bad,Male,Cyborg,"6'6, 198 cm","300 lb, 135 kg",2026-03-27 17:56:27,64.17,205.0
-209,Dash,25,12,92,60,20,30,Dashiell Robert Parr,Dark Horse Comics,good,Male,Human,"4'0, 122 cm","60 lb, 27 kg",2026-03-27 17:56:27,39.83,493.0
-210,Data,100,32,21,40,56,50,Data,Star Trek,good,Male,Android,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,49.83,371.0
-211,Dazzler,63,10,33,60,100,55,Alison Blaire,Marvel Comics,good,Female,Mutant,"5'8, 173 cm","115 lb, 52 kg",2026-03-27 17:56:27,53.5,333.0
-212,Deadman,50,10,33,100,100,42,Boston Brand,DC Comics,good,Male,Human,"6'0, 183 cm","201 lb, 90 kg",2026-03-27 17:56:27,55.83,297.0
-213,Deadpool,69,32,50,100,100,100,Wade Wilson,Evil Deadpool,neutral,Male,Mutant,"6'2, 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,75.17,101.0
-214,Deadshot,50,10,23,28,55,80,Floyd Lawton,DC Comics,bad,Male,Human,"6'1, 185 cm","202 lb, 91 kg",2026-03-27 17:56:27,41.0,484.0
-215,Deathlok,69,32,30,70,40,60,Luther Manning,Marvel Comics,good,Male,Cyborg,"6'4, 193 cm","395 lb, 178 kg",2026-03-27 17:56:27,50.17,368.0
-216,Deathstroke,75,30,35,100,47,90,Slade Joseph Wilson,DC Comics,neutral,Male,Human,"6'4, 193 cm","225 lb, 101 kg",2026-03-27 17:56:27,62.83,216.0
-217,Demogoblin,50,48,42,35,67,60,,Marvel Comics,bad,Male,Demon,"6'1, 185 cm","210 lb, 95 kg",2026-03-27 17:56:27,50.33,366.0
-218,Destroyer,50,95,58,98,85,70,,Marvel Comics,bad,Male,null,"6'2, 188 cm","850 lb, 383 kg",2026-03-27 17:56:27,76.0,97.0
-219,Diamondback,44,16,23,28,45,60,Willis Stryker,Marvel Comics,bad,Male,Human,"6'4, 193 cm","200 lb, 90 kg",2026-03-27 17:56:27,36.0,540.0
-220,DL Hawkins,50,12,12,56,48,56,Daniel Lawrence Hawkins,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,39.0,504.0
-221,Doc Samson,75,80,33,80,36,70,Leonard Samson,Marvel Comics,good,Male,Human / Radiation,"6'6, 198 cm","380 lb, 171 kg",2026-03-27 17:56:27,62.33,221.0
-222,Doctor Doom,100,32,20,100,100,84,Victor von Doom,Marvel Comics,bad,Male,Human,"6'7, 201 cm","415 lb, 187 kg",2026-03-27 17:56:27,72.67,123.0
-223,Doctor Doom II,0,0,0,0,0,0,Kristoff Vernard,Marvel Comics,bad,Male,null,"6'7, 201 cm","293 lb, 132 kg",2026-03-27 17:56:27,0.0,0.0
-224,Doctor Fate,81,16,25,80,100,50,Kent Nelson,DC Comics,good,Male,Human,"6'2, 188 cm","197 lb, 89 kg",2026-03-27 17:56:27,58.67,259.0
-225,Doctor Octopus,94,48,33,40,53,65,Otto Octavius,Marvel Comics,bad,Male,Human,"5'9, 175 cm","245 lb, 110 kg",2026-03-27 17:56:27,55.5,304.0
-226,Doctor Strange,100,10,12,84,100,60,Stephen Strange,Marvel Comics,good,Male,Human,"6'2, 188 cm","180 lb, 81 kg",2026-03-27 17:56:27,61.0,236.0
-227,Domino,63,10,27,28,49,74,Neena Thurman,Marvel Comics,good,Female,Human,"5'8, 173 cm","120 lb, 54 kg",2026-03-27 17:56:27,41.83,477.0
-228,Donatello,88,14,46,60,58,75,,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,56.83,284.0
-229,Donna Troy,0,89,0,0,0,0,Donna Hinckley Stacey Troy,DC Comics,good,Female,Amazon,"5'9, 175 cm","140 lb, 63 kg",2026-03-27 17:56:27,89.0,41.0
-230,Doomsday,75,100,67,100,100,90,Doomsday,DC Comics,bad,Male,Alien,"8'0, 244 cm","915 lb, 412 kg",2026-03-27 17:56:27,88.67,45.0
-231,Doppelganger,8,63,60,95,69,84,,Marvel Comics,bad,Male,null,"6'5, 196 cm","230 lb, 104 kg",2026-03-27 17:56:27,63.17,213.0
-232,Dormammu,88,95,83,100,100,80,Dormammu,Marvel Comics,bad,Male,null,"6'1, 185 cm","- lb, 0 kg",2026-03-27 17:56:27,91.0,30.0
-233,Dr Manhattan,88,100,42,100,100,42,Jonathan Osterman,DC Comics,good,Male,Human / Cosmic,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,78.67,83.0
-234,Drax the Destroyer,56,80,25,85,46,65,Arthur Sampson Douglas,Marvel Comics,good,Male,Human / Altered,"6'4, 193 cm","680 lb, 306 kg",2026-03-27 17:56:27,59.5,250.0
-235,Ego,88,80,83,99,71,28,Ego,Marvel Comics,bad,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,74.83,107.0
-236,Elastigirl,63,32,33,95,52,70,Helen Parr,Dark Horse Comics,good,Female,Human,"5'6, 168 cm","125 lb, 56 kg",2026-03-27 17:56:27,57.5,278.0
-237,Electro,69,10,50,56,67,64,Maxwell Dillon,Marvel Comics,bad,Male,Human,"5'11, 180 cm","165 lb, 74 kg",2026-03-27 17:56:27,52.67,342.0
-238,Elektra,63,11,30,28,59,100,Elektra Natchios,Marvel Comics,good,Female,Human,"5'9, 175 cm","130 lb, 59 kg",2026-03-27 17:56:27,48.5,388.0
-239,Elle Bishop,50,8,12,42,63,42,,NBC - Heroes,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,36.17,538.0
-240,Elongated Man,75,10,33,90,44,40,Ralph Dibny,DC Comics,good,Male,null,"6'1, 185 cm","178 lb, 80 kg",2026-03-27 17:56:27,48.67,387.0
-241,Emma Frost,75,63,35,90,100,42,Emma Frost,Marvel Comics,good,Female,null,"5'10', 178 cm","144 lb, 65 kg",2026-03-27 17:56:27,67.5,164.0
-242,Enchantress,63,14,25,60,100,40,June Moone,DC Comics,good,Female,Human,"5'6, 168 cm","126 lb, 57 kg",2026-03-27 17:56:27,50.33,366.0
-243,Energy,0,0,0,0,0,0,,HarperCollins,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-244,ERG-1,0,0,0,0,0,0,,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-245,Ethan Hunt,75,11,29,30,26,95,Ethan Hunt,null,good,Male,Human,"5'6, 168 cm","- lb, 0 kg",2026-03-27 17:56:27,44.33,440.0
-246,Etrigan,50,85,17,100,100,50,Jason Blood,DC Comics,neutral,Male,Demon,"6'4, 193 cm","452 lb, 203 kg",2026-03-27 17:56:27,67.0,171.0
-247,Evil Deadpool,69,32,50,100,100,100,Wade Wilson,Deadpool,bad,Male,Mutant,"6'2, 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,75.17,101.0
-248,Evilhawk,50,32,33,70,85,64,Dargin Bokk,Marvel Comics,bad,Male,Alien,"6'3, 191 cm","235 lb, 106 kg",2026-03-27 17:56:27,55.67,299.0
-249,Exodus,63,81,28,28,100,70,Bennet du Paris,Marvel Comics,bad,Male,Mutant,"6'0, 183 cm","195 lb, 88 kg",2026-03-27 17:56:27,61.67,232.0
-250,Fabian Cortez,0,0,0,0,0,0,Fabian Cortez,Marvel Comics,bad,-,null,"6'5, 196 cm","214 lb, 96 kg",2026-03-27 17:56:27,0.0,0.0
-251,Falcon,38,13,50,28,22,64,Sam Wilson,Marvel Comics,good,Male,Human,"6'2, 188 cm","240 lb, 108 kg",2026-03-27 17:56:27,35.83,541.0
-252,Fallen One II,88,85,83,100,100,56,,Marvel Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,85.33,55.0
-253,Faora,88,95,75,100,98,90,Faora Hu-Ul,DC Comics,bad,Female,Kryptonian,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,91.0,30.0
-254,Feral,38,28,45,28,27,70,Maria Callasantos,Marvel Comics,good,-,null,"5'9, 175 cm","110 lb, 50 kg",2026-03-27 17:56:27,39.33,501.0
-255,Fighting Spirit,0,0,0,0,0,0,Carol Carter,DC Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-256,Fin Fang Foom,50,81,23,100,75,70,,Marvel Comics,good,Male,Kakarantharaian,"32'0, 975 cm","40000 lb, 18 tons",2026-03-27 17:56:27,66.5,177.0
-257,Firebird,38,8,40,14,100,42,Bonita Juarez,Marvel Comics,good,Female,null,"5'5', 165 cm","125 lb, 56 kg",2026-03-27 17:56:27,40.33,489.0
-258,Firelord,38,63,75,90,52,28,Pyreus Kril,Marvel Comics,good,-,null,"6'4', 193 cm","220 lb, 99 kg",2026-03-27 17:56:27,57.67,275.0
-259,Firestar,50,8,54,55,71,32,Angelica Jones,Marvel Comics,good,Female,Mutant,"5'8, 173 cm","125 lb, 56 kg",2026-03-27 17:56:27,45.0,430.0
-260,Firestorm,50,53,58,56,100,42,Jason Rusch,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,59.83,244.0
-261,Firestorm,38,80,58,80,100,40,Ronald Raymond,DC Comics,good,Male,Human,"6'2, 188 cm","202 lb, 91 kg",2026-03-27 17:56:27,66.0,183.0
-262,Fixer,0,0,0,0,0,0,Paul Norbert Ebersol,Marvel Comics,bad,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-263,Flash,63,10,100,50,68,32,Jay Garrick,DC Comics,good,Male,Human,"5'11, 180 cm","179 lb, 81 kg",2026-03-27 17:56:27,53.83,328.0
-264,Flash Gordon,0,69,0,0,0,0,Steven Gordon,null,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,69.0,149.0
-265,Flash II,88,48,100,60,100,60,Barry Allen,Black Racer,good,Male,Black Racer,"6'0, 183 cm","195 lb, 88 kg",2026-03-27 17:56:27,76.0,97.0
-266,Flash III,63,10,100,60,100,32,Wally West,Speed Demon,good,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-03-27 17:56:27,60.83,238.0
-267,Flash IV,63,10,100,32,100,48,Bartholomew Allen II,Impulse,good,Male,Human,"5'2, 157 cm","115 lb, 52 kg",2026-03-27 17:56:27,58.83,257.0
-268,Forge,63,10,12,28,25,48,,Marvel Comics,good,-,null,"6', 183 cm","180 lb, 81 kg",2026-03-27 17:56:27,31.0,581.0
-269,Franklin Richards,63,80,50,60,100,50,Franklin  Richards,Marvel Comics,good,Male,Mutant,"4'8, 142 cm","100 lb, 45 kg",2026-03-27 17:56:27,67.17,168.0
-270,Franklin Storm,38,10,1,1,0,10,Dr. Franklin Storm,Marvel Comics,good,-,null,"6'2', 188 cm","205 lb, 92 kg",2026-03-27 17:56:27,10.0,629.0
-271,Frenzy,63,53,35,100,38,52,Joanna Cargill,Marvel Comics,bad,Female,null,"6'11, 211 cm","230 lb, 104 kg",2026-03-27 17:56:27,56.83,284.0
-272,Frigga,0,0,0,0,0,0,Frigga,Marvel Comics,good,Female,null,"5'11', 180 cm","370 lb, 167 kg",2026-03-27 17:56:27,0.0,0.0
-273,Galactus,100,100,83,100,100,50,Galan,Marvel Comics,neutral,Male,Cosmic Entity,"28'9, 876 cm","36400 lb, 16 tons",2026-03-27 17:56:27,88.83,43.0
-274,Gambit,63,10,23,28,55,84,Remy Etienne LeBeau,Marvel Comics,good,Male,Mutant,"6'1, 185 cm","179 lb, 81 kg",2026-03-27 17:56:27,43.83,449.0
-275,Gamora,75,85,42,85,53,100,Gamora Zen Whoberi Ben Titan,Marvel Comics,good,Female,Zen-Whoberian,"6'0, 183 cm","170 lb, 77 kg",2026-03-27 17:56:27,73.33,118.0
-276,Garbage Man,0,82,0,0,0,0,Richard Ethan Morse,DC Comics,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,82.0,62.0
-277,Gary Bell,63,5,8,10,54,10,Gary Bell,SyFy,good,Male,Alpha,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,25.0,608.0
-278,General Zod,94,100,96,100,100,95,Dru-Zod,DC Comics,bad,Male,Kryptonian,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,97.5,6.0
-279,Genesis,0,68,0,0,0,0,Tyler Dayspring,Marvel Comics,good,Male,null,"6'1, 185 cm","191 lb, 86 kg",2026-03-27 17:56:27,68.0,160.0
-280,Ghost Rider,50,55,25,100,100,60,Johnny Blaze,Marvel Comics,good,Male,Demon,"6'2, 188 cm","220 lb, 99 kg",2026-03-27 17:56:27,65.0,191.0
-281,Ghost Rider II,0,70,0,0,0,0,Daniel Ketch,Marvel Comics,good,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,70.0,143.0
-282,Giant-Man,0,78,0,0,0,0,Hank Pym,Ant-Man,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,78.0,88.0
-283,Giant-Man II,0,0,0,0,0,0,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-284,Giganta,81,89,23,85,32,42,Doris Zuel,DC Comics,bad,Female,null,"205, 62.5 meters","1400 lb, 630 kg",2026-03-27 17:56:27,58.67,259.0
-285,Gladiator,50,100,100,100,77,70,Kallark,Marvel Comics,neutral,Male,Strontian,"6'6, 198 cm","595 lb, 268 kg",2026-03-27 17:56:27,82.83,60.0
-286,Goblin Queen,75,10,23,28,65,56,Madelyne Jennifer Pryor,Marvel Comics,bad,Female,null,"5'6, 168 cm","110 lb, 50 kg",2026-03-27 17:56:27,42.83,462.0
-287,Godzilla,44,100,54,100,100,20,Gojira,,bad,-,Kaiju,"354'4, 108.0 meters","200000000 lb, 90,000 tons",2026-03-27 17:56:27,69.67,144.0
-288,Gog,50,34,47,72,39,56,,DC Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,49.67,374.0
-289,Goku,56,100,75,90,100,100,Kakarot,Shueisha,good,Male,Saiyan,"5'9, 175 cm","137 lb, 62 kg",2026-03-27 17:56:27,86.83,52.0
-290,Goliath,0,0,0,0,0,0,Erik Josten,Atlas,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-291,Goliath,0,0,0,0,0,0,Clint Barton,Hawkeye,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-292,Goliath,0,0,0,0,0,0,Hank Pym,Ant-Man,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-293,Goliath IV,0,0,0,0,0,0,William Barrett Foster,Marvel Comics,good,Male,null,"6', 183 cm","200 lb, 90 kg",2026-03-27 17:56:27,0.0,0.0
-294,Gorilla Grodd,81,53,33,70,100,65,Grodd,DC Comics,bad,Male,Gorilla,"6'6, 198 cm","600 lb, 270 kg",2026-03-27 17:56:27,67.0,171.0
-295,Granny Goodness,0,96,0,0,0,0,,DC Comics,bad,Female,null,"5'10, 178 cm","256 lb, 115 kg",2026-03-27 17:56:27,96.0,12.0
-296,Gravity,50,32,33,40,69,30,Greg Willis,Marvel Comics,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,42.33,469.0
-297,Greedo,38,10,13,15,31,40,Greedo,George Lucas,bad,Male,Rodian,"5'7, 170 cm","- lb, 0 kg",2026-03-27 17:56:27,24.5,611.0
-298,Green Arrow,81,12,35,28,39,90,Oliver Queen,DC Comics,good,Male,Human,"6'2, 188 cm","195 lb, 88 kg",2026-03-27 17:56:27,47.5,400.0
-299,Green Goblin,100,48,38,60,48,50,Norman Osborn,Marvel Comics,bad,Male,Human,"5'11, 180 cm","185 lb, 83 kg",2026-03-27 17:56:27,57.33,280.0
-300,Green Goblin II,75,55,37,50,44,26,Harold Osborn,Marvel Comics,bad,Male,null,"5'10, 178 cm","170 lb, 77 kg",2026-03-27 17:56:27,47.83,397.0
-301,Green Goblin III,0,0,0,0,0,0,Barton Hamilton,Marvel Comics,good,Male,null,"6', 183 cm","195 lb, 88 kg",2026-03-27 17:56:27,0.0,0.0
-302,Green Goblin IV,0,0,0,0,0,0,Phillip Benjamin Urich,Marvel Comics,good,Male,null,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,0.0,0.0
-303,Groot,75,85,33,70,100,64,Groot,Marvel Comics,good,Male,Flora Colossus,"23'0, 701 cm","8200 lb, 4 tons",2026-03-27 17:56:27,71.17,138.0
-304,Guardian,0,45,0,0,0,0,James Hudson,Marvel Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,45.0,430.0
-305,Guy Gardner,38,90,53,64,100,64,Guy Gardner,DC Comics,good,Male,Human-Vuldarian,"6'2, 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,68.17,158.0
-306,Hal Jordan,69,90,75,80,100,70,Hal Jordan,DC Comics,good,Male,Human,"6'2, 188 cm","200 lb, 90 kg",2026-03-27 17:56:27,80.67,72.0
-307,Han Solo,50,10,17,20,43,60,Han Solo,George Lucas,good,Male,Human,"6'0, 183 cm","176 lb, 79 kg",2026-03-27 17:56:27,33.33,563.0
-308,Hancock,63,90,67,100,100,50,John Hancock,Sony Pictures,good,Male,Human,"6'2, 188 cm","- lb, 0 kg",2026-03-27 17:56:27,78.33,84.0
-309,Harley Quinn,88,12,33,65,55,80,Harley Quinn,DC Comics,bad,Female,Human,"5'7, 170 cm","140 lb, 63 kg",2026-03-27 17:56:27,55.5,304.0
-310,Harry Potter,75,7,21,10,100,50,Harry James Potter,J. K. Rowling,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,43.83,449.0
-311,Havok,63,10,25,60,71,45,Alexander Summers,Marvel Comics,good,Male,Mutant,"6', 183 cm","175 lb, 79 kg",2026-03-27 17:56:27,45.67,421.0
-312,Hawk,38,38,35,95,43,42,Henry Hall,DC Comics,good,Male,null,"6'1, 185 cm","197 lb, 89 kg",2026-03-27 17:56:27,48.5,388.0
-313,Hawkeye,56,12,21,10,29,80,Clint Barton,Goliath,good,Male,Human,"6'3, 191 cm","230 lb, 104 kg",2026-03-27 17:56:27,34.67,552.0
-314,Hawkeye II,50,6,8,10,24,50,Katherine Elizabeth Bishop,Marvel Comics,good,Female,Human,"5'5, 165 cm","126 lb, 57 kg",2026-03-27 17:56:27,24.67,609.0
-315,Hawkgirl,50,28,53,99,96,72,Kendra Saunders,DC Comics,good,Female,null,"5'9, 175 cm","135 lb, 61 kg",2026-03-27 17:56:27,66.33,179.0
-316,Hawkman,0,66,0,0,0,0,Carter Hall,DC Comics,good,Male,null,"6'1, 185 cm","195 lb, 88 kg",2026-03-27 17:56:27,66.0,183.0
-317,Hawkwoman,0,96,0,0,0,0,Shayera Hol,DC Comics,good,Female,null,"5'9, 175 cm","120 lb, 54 kg",2026-03-27 17:56:27,96.0,12.0
-318,Hawkwoman II,0,0,0,0,0,0,Sharon Parker,DC Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-319,Hawkwoman III,0,92,0,0,0,0,Shayera Thal,DC Comics,good,Female,null,"5'7, 170 cm","145 lb, 65 kg",2026-03-27 17:56:27,92.0,26.0
-320,Heat Wave,38,10,17,45,27,30,Mick Rory,DC Comics,bad,Male,Human,"5'11, 180 cm","179 lb, 81 kg",2026-03-27 17:56:27,27.83,594.0
-321,Hela,63,100,46,100,100,45,,Marvel Comics,bad,Female,Asgardian,"7'0, 213 cm","500 lb, 225 kg",2026-03-27 17:56:27,75.67,99.0
-322,Hellboy,63,53,21,95,73,75,Anung Un Rama,Dark Horse Comics,good,Male,Demon,"8'6, 259 cm","350 lb, 158 kg",2026-03-27 17:56:27,63.33,211.0
-323,Hellcat,63,11,33,45,46,70,Patricia Walker,Marvel Comics,good,Female,Human,"5'8, 173 cm","135 lb, 61 kg",2026-03-27 17:56:27,44.67,434.0
-324,Hellstorm,0,56,0,0,0,0,Daimon Hellstrom,Marvel Comics,good,Male,null,"6'1', 185 cm","180 lb, 81 kg",2026-03-27 17:56:27,56.0,293.0
-325,Hercules,63,100,46,85,89,100,Heracles,Marvel Comics,good,Male,Demi-God,"6'5, 196 cm","325 lb, 146 kg",2026-03-27 17:56:27,80.5,73.0
-326,Hiro Nakamura,0,15,0,0,0,0,Hiro Nakamura,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,15.0,624.0
-327,Hit-Girl,56,7,29,20,27,65,Mindy McCready,Icon Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,34.0,561.0
-328,Hobgoblin,0,53,0,0,0,0,Roderick Kingsley,Marvel Comics,bad,Male,null,"5'11, 180 cm","185 lb, 83 kg",2026-03-27 17:56:27,53.0,336.0
-329,Hollow,0,0,0,0,0,0,Monet St. Croix,Marvel Comics,good,Female,null,"5'7, 170 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-330,Hope Summers,63,10,12,32,93,75,Hope Summers,Marvel Comics,good,Female,null,"5'6, 168 cm","106 lb, 48 kg",2026-03-27 17:56:27,47.5,400.0
-331,Howard the Duck,0,44,0,0,0,0,Howard (Last name unrevealed),Marvel Comics,good,Male,null,"2'7', 79 cm","40 lb, 18 kg",2026-03-27 17:56:27,44.0,445.0
-332,Hulk,88,100,63,100,98,85,Bruce Banner,Marvel Comics,good,Male,Human / Radiation,"8'0, 244 cm","1400 lb, 630 kg",2026-03-27 17:56:27,89.0,41.0
-333,Human Torch,63,11,63,70,87,42,Johnny Storm,Marvel Comics,good,Male,Human / Radiation,"5'10, 178 cm","170 lb, 77 kg",2026-03-27 17:56:27,56.0,293.0
-334,Huntress,69,10,23,28,34,95,Helena Rosa Bertinelli,Batgirl III,good,Female,null,"5'11, 180 cm","130 lb, 59 kg",2026-03-27 17:56:27,43.17,458.0
-335,Husk,63,63,35,78,48,64,Paige Elisabeth Guthrie,Marvel Comics,good,Female,Mutant,"5'7, 170 cm","128 lb, 58 kg",2026-03-27 17:56:27,58.5,262.0
-336,Hybrid,63,63,58,75,100,80,Scott Washington,Marvel Comics,good,Male,Symbiote,"5'9, 175 cm","172 lb, 77 kg",2026-03-27 17:56:27,73.17,120.0
-337,Hydro-Man,38,13,25,80,66,50,Morris Bench,Marvel Comics,bad,Male,null,"6'2, 188 cm","265 lb, 119 kg",2026-03-27 17:56:27,45.33,424.0
-338,Hyperion,88,100,100,95,87,80,Mark Milton,Marvel Comics,good,Male,Eternal,"6'0, 183 cm","460 lb, 207 kg",2026-03-27 17:56:27,91.67,29.0
-339,Iceman,63,32,53,100,100,64,Bobby Drake,Marvel Comics,good,Male,Mutant,"5'8, 173 cm","145 lb, 65 kg",2026-03-27 17:56:27,68.67,151.0
-340,Impulse,50,10,100,60,74,60,Bartholomew Allen II,Flash IV,good,Male,Human,"5'7, 170 cm","145 lb, 65 kg",2026-03-27 17:56:27,59.0,254.0
-341,Indiana Jones,69,10,17,30,19,30,Indiana Jones,George Lucas,good,Male,Human,"6'0, 183 cm","176 lb, 79 kg",2026-03-27 17:56:27,29.17,590.0
-342,Indigo,75,63,50,50,100,50,Iroque,DC Comics,neutral,Female,Alien,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,64.67,199.0
-343,Ink,38,28,17,40,73,50,Eric Gitter,Marvel Comics,good,Male,Mutant,"5'11, 180 cm","180 lb, 81 kg",2026-03-27 17:56:27,41.0,484.0
-344,Invisible Woman,88,10,27,85,93,56,Susan Storm Richards,Marvel Comics,good,Female,Human / Radiation,"5'6, 168 cm","120 lb, 54 kg",2026-03-27 17:56:27,59.83,244.0
-345,Iron Fist,75,55,33,50,95,100,Danny Rand,Marvel Comics,good,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-03-27 17:56:27,68.0,160.0
-346,Iron Man,100,85,58,85,100,64,Tony Stark,Marvel Comics,good,Male,Human,"6'6, 198 cm","425 lb, 191 kg",2026-03-27 17:56:27,82.0,62.0
-347,Iron Monger,88,63,25,90,57,56,Obadiah Stane,Marvel Comics,bad,Male,null,"-, 0 cm","4230 lb, 2 tons",2026-03-27 17:56:27,63.17,213.0
-348,Isis,75,48,75,46,50,56,Adrianna Tomaz,DC Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,58.33,266.0
-349,Jack Bauer,0,43,0,0,0,0,Kiefer Sutherland,null,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,43.0,460.0
-350,Jack of Hearts,63,55,100,30,77,30,Jonathan Hart,Marvel Comics,good,Male,Human,"5'1, 155 cm","175 lb, 79 kg",2026-03-27 17:56:27,59.17,253.0
-351,Jack-Jack,6,34,67,80,100,6,Jack-Jack Parr,Dark Horse Comics,good,Male,Human,"2'4, 71 cm","30 lb, 14 kg",2026-03-27 17:56:27,48.83,384.0
-352,James Bond,88,13,17,35,25,90,James Bond,Titan Books,good,Male,Human,"6'0, 183 cm","- lb, 0 kg",2026-03-27 17:56:27,44.67,434.0
-353,James T. Kirk,69,11,17,30,30,75,James T. Kirk,Star Trek,good,Male,Human,"5'10, 178 cm","170 lb, 77 kg",2026-03-27 17:56:27,38.67,510.0
-354,Jar Jar Binks,10,6,33,10,21,15,Jar Jar Binks,George Lucas,good,Male,Gungan,"6'4, 193 cm","- lb, 0 kg",2026-03-27 17:56:27,15.83,623.0
-355,Jason Bourne,88,12,29,30,26,100,Jason Bourne,null,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,47.5,400.0
-356,Jean Grey,94,80,21,20,92,70,Jean Grey,Phoenix,good,Female,Mutant,"5'6, 168 cm","115 lb, 52 kg",2026-03-27 17:56:27,62.83,216.0
-357,Jean-Luc Picard,75,10,17,30,26,65,Jean-Luc Picard,Star Trek,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,37.17,526.0
-358,Jennifer Kale,75,10,35,42,74,72,Jennifer Kale,Marvel Comics,good,Female,null,"5'6, 168 cm","122 lb, 55 kg",2026-03-27 17:56:27,51.33,355.0
-359,Jesse Quick,0,42,0,0,0,0,Jesse Chambers,Liberty Belle II,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,42.0,475.0
-360,Jessica Cruz,56,90,46,50,100,55,Jessica Cruz,DC Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,66.17,181.0
-361,Jessica Jones,56,44,50,70,18,55,Jessica Campbell Jones Cage,Power Woman,good,Female,Human,"5'7, 170 cm","124 lb, 56 kg",2026-03-27 17:56:27,48.83,384.0
-362,Jessica Sanders,0,0,0,0,0,0,,NBC - Heroes,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-363,Jigsaw,0,0,0,0,0,0,Billy Russo,Marvel Comics,bad,Male,null,"6'2, 188 cm","250 lb, 113 kg",2026-03-27 17:56:27,0.0,0.0
-364,Jim Powell,38,38,23,80,23,20,Jim Powell,ABC Studios,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,37.0,528.0
-365,JJ Powell,88,10,8,10,14,10,JJ Powell,ABC Studios,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,23.33,614.0
-366,Johann Krauss,0,30,0,0,0,0,Johann Krauss,Dark Horse Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,30.0,585.0
-367,John Constantine,63,10,8,40,54,65,John Constantine,DC Comics,good,Male,Human,"6'0, 183 cm","- lb, 0 kg",2026-03-27 17:56:27,40.0,491.0
-368,John Stewart,56,85,42,64,100,65,John Stewart,DC Comics,good,Male,Human,"6'1, 185 cm","201 lb, 90 kg",2026-03-27 17:56:27,68.67,151.0
-369,John Wraith,75,12,35,28,87,80,John Wraith,Marvel Comics,good,Male,null,"6'0, 183 cm","195 lb, 88 kg",2026-03-27 17:56:27,52.83,339.0
-370,Joker,100,10,12,60,43,70,Jack Napier,DC Comics,bad,Male,Human,"6'5, 196 cm","192 lb, 86 kg",2026-03-27 17:56:27,49.17,381.0
-371,Jolt,63,12,27,32,31,42,Helen Takahama,Marvel Comics,good,Female,null,"5'5, 165 cm","109 lb, 49 kg",2026-03-27 17:56:27,34.5,557.0
-372,Jubilee,56,8,22,20,66,90,Jubilation Lee,Marvel Comics,good,Female,Mutant,"5'5, 165 cm","115 lb, 52 kg",2026-03-27 17:56:27,43.67,452.0
-373,Judge Dredd,75,18,38,50,52,95,Joseph Dredd,Rebellion,good,Male,Human,"6'2, 188 cm","- lb, 0 kg",2026-03-27 17:56:27,54.67,318.0
-374,Juggernaut,44,100,42,100,85,70,Cain Marko,Marvel Comics,neutral,Male,Human,"9'5, 287 cm","1900 lb, 855 kg",2026-03-27 17:56:27,73.5,117.0
-375,Junkpile,50,38,17,90,81,30,,Marvel Comics,bad,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,51.0,360.0
-376,Justice,50,10,33,70,55,30,Vance Astrovik,Marvel Comics,good,Male,Human,"5'10, 178 cm","180 lb, 81 kg",2026-03-27 17:56:27,41.33,480.0
-377,Jyn Erso,0,0,0,0,0,0,Jyn Erso,George Lucas,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-378,K-2SO,0,0,0,0,0,0,,George Lucas,good,Male,Android,"7'0, 213 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-379,Kang,100,48,58,70,100,70,Nathaniel Richards,Iron Lad,bad,Male,null,"6'3, 191 cm","230 lb, 104 kg",2026-03-27 17:56:27,74.33,109.0
-380,Kathryn Janeway,75,8,21,25,21,50,Kathryn Janeway,Star Trek,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,33.33,563.0
-381,Katniss Everdeen,56,8,21,25,24,55,Katniss Everdeen,,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,31.5,579.0
-382,Kevin 11,25,7,12,14,100,40,Kevin Ethan Levin,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,33.0,567.0
-383,Kick-Ass,38,10,23,35,22,56,Dave Lizewski,Icon Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,30.67,582.0
-384,Kid Flash,25,4,92,42,20,30,Wallace Rudolph West,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,35.5,544.0
-385,Kid Flash II,0,47,0,0,0,0,Bartholomew Allen II,Flash IV,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,47.0,407.0
-386,Killer Croc,19,53,35,90,53,60,Waylon Jones,DC Comics,bad,Male,Metahuman,"8'0, 244 cm","790 lb, 356 kg",2026-03-27 17:56:27,51.67,350.0
-387,Killer Frost,88,10,13,35,59,30,Caitlin Snow,DC Comics,bad,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,39.17,503.0
-388,Kilowog,81,90,53,42,100,80,,DC Comics,good,Male,Bolovaxian,"7'8, 234 cm","720 lb, 324 kg",2026-03-27 17:56:27,74.33,109.0
-389,King Kong,56,100,71,75,47,75,King Kong,,good,Male,Animal,"100'0, 30.5 meters","20000000 lb, 9,000 tons",2026-03-27 17:56:27,70.67,139.0
-390,King Shark,50,88,50,90,86,40,Nanaue,DC Comics,bad,Male,Animal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,67.33,166.0
-391,Kingpin,75,18,25,40,13,70,Wilson Grant Fisk,Marvel Comics,bad,Male,Human,"6'7, 201 cm","450 lb, 203 kg",2026-03-27 17:56:27,40.17,490.0
-392,Klaw,63,38,33,100,62,60,Ulysses Klaw,Marvel Comics,bad,Male,Human,"6'2, 188 cm","216 lb, 97 kg",2026-03-27 17:56:27,59.33,251.0
-393,Kool-Aid Man,25,18,8,10,9,14,,null,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,14.0,626.0
-394,Kraven II,50,34,23,28,43,85,Alyosha Kravinoff,Marvel Comics,bad,Male,Human,"6'3, 191 cm","220 lb, 99 kg",2026-03-27 17:56:27,43.83,449.0
-395,Kraven the Hunter,63,32,35,42,25,85,Sergei Kravinoff,Marvel Comics,bad,Male,Human,"6'0, 183 cm","235 lb, 106 kg",2026-03-27 17:56:27,47.0,407.0
-396,Krypto,9,80,100,90,82,40,Krypto the Superdog,DC Comics,good,Male,Kryptonian,"0'25, 64 cm","40 lb, 18 kg",2026-03-27 17:56:27,66.83,173.0
-397,Kyle Rayner,69,90,50,60,100,60,Kyle Rayner,DC Comics,good,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-03-27 17:56:27,71.5,134.0
-398,Kylo Ren,56,44,33,30,100,70,Ben Solo,George Lucas,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,55.5,304.0
-399,Lady Bullseye,0,63,0,0,0,0,,Marvel Comics,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,63.0,215.0
-400,Lady Deathstrike,63,28,42,85,48,90,Yuriko Oyama,Marvel Comics,bad,Female,Cyborg,"5'9, 175 cm","128 lb, 58 kg",2026-03-27 17:56:27,59.33,251.0
-401,Leader,100,10,12,14,59,42,Samuel Sterns,Marvel Comics,bad,Male,null,"5'10, 178 cm","140 lb, 63 kg",2026-03-27 17:56:27,39.5,498.0
-402,Leech,25,5,12,14,62,14,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,22.0,615.0
-403,Legion,50,100,42,30,100,75,David Haller,Marvel Comics,good,Male,Mutant,"5'9, 175 cm","130 lb, 59 kg",2026-03-27 17:56:27,66.17,181.0
-404,Leonardo,75,16,50,65,59,80,Leonardo,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,57.5,278.0
-405,Lex Luthor,100,53,25,65,68,70,Lex Luthor,DC Comics,bad,Male,Human,"6'2', 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,63.5,209.0
-406,Light Lass,38,10,35,28,67,42,Ayla Ranzz,DC Comics,good,Female,null,"5'5, 165 cm","120 lb, 54 kg",2026-03-27 17:56:27,36.67,532.0
-407,Lightning Lad,38,10,23,28,60,42,Garth Ranzz,DC Comics,good,Male,null,"5'1, 155 cm","145 lb, 65 kg",2026-03-27 17:56:27,33.5,562.0
-408,Lightning Lord,44,10,23,42,66,42,Mekt Ranzz,DC Comics,bad,Male,null,"6'3, 191 cm","210 lb, 95 kg",2026-03-27 17:56:27,37.83,517.0
-409,Living Brain,75,53,35,56,31,28,,Marvel Comics,bad,-,null,"6'6, 198 cm","800 lb, 360 kg",2026-03-27 17:56:27,46.33,412.0
-410,Living Tribunal,100,100,100,100,100,30,,Marvel Comics,neutral,-,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,88.33,47.0
-411,Liz Sherman,0,0,0,0,0,0,Elizabeth Anne Sherman,Dark Horse Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-412,Lizard,50,51,27,70,63,56,Curtis Connors,Marvel Comics,bad,Male,Human,"6'8, 203 cm","510 lb, 230 kg",2026-03-27 17:56:27,52.83,339.0
-413,Lobo,94,100,54,100,100,85,Lobo,DC Comics,neutral,Male,Czarnian,"7'6, 229 cm","640 lb, 288 kg",2026-03-27 17:56:27,88.83,43.0
-414,Loki,88,63,46,85,100,60,Loki Laufeyson,Marvel Comics,bad,Male,Asgardian,"6'4, 193 cm","525 lb, 236 kg",2026-03-27 17:56:27,73.67,115.0
-415,Longshot,50,10,27,10,71,70,,Marvel Comics,good,Male,Human,"6'2, 188 cm","80 lb, 36 kg",2026-03-27 17:56:27,39.67,496.0
-416,Luke Cage,50,63,29,95,44,70,Luke Cage,Power Man,good,Male,Human,"6'6, 198 cm","425 lb, 191 kg",2026-03-27 17:56:27,58.5,262.0
-417,Luke Campbell,0,0,0,0,0,0,Luke Campbell,NBC - Heroes,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-418,Luke Skywalker,69,38,42,25,100,100,Luke Skywalker,George Lucas,good,Male,Human,"5'6, 168 cm","170 lb, 77 kg",2026-03-27 17:56:27,62.33,221.0
-419,Luna,38,6,83,14,53,14,Luna Maximoff,Marvel Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,34.67,552.0
-420,Lyja,0,0,0,0,0,0,Lyja,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-421,Mach-IV,75,36,60,84,60,56,Abner Jenkins,Marvel Comics,bad,Male,null,"5'11, 180 cm","175 lb, 79 kg",2026-03-27 17:56:27,61.83,230.0
-422,Machine Man,63,32,35,84,51,64,"X-51, Aaron Stack",Marvel Comics,good,-,null,"6', 183 cm","850 lb, 383 kg",2026-03-27 17:56:27,54.83,315.0
-423,Magneto,88,80,27,84,91,80,Erik Magnus Lensherr,Marvel Comics,bad,Male,Mutant,"6'2, 188 cm","190 lb, 86 kg",2026-03-27 17:56:27,75.0,105.0
-424,Magog,50,48,23,64,66,72,David Reid,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,53.83,328.0
-425,Magus,88,100,70,99,100,74,,Marvel Comics,bad,Male,null,"6'0, 183 cm","- lb, 0 kg",2026-03-27 17:56:27,88.5,46.0
-426,Man of Miracles,100,100,100,100,100,100,,Image Comics,-,-,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,100.0,1.0
-427,Man-Bat,38,18,50,70,33,30,Robert Kirkland Langstrom,DC Comics,neutral,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,39.83,493.0
-428,Man-Thing,50,32,8,100,100,40,Dr. Theodore Sallis,Marvel Comics,good,Male,null,"7'0, 213 cm","500 lb, 225 kg",2026-03-27 17:56:27,55.0,310.0
-429,Man-Wolf,63,44,35,42,45,70,John Jameson,Marvel Comics,good,Male,null,"6'2', 188 cm","200 lb, 90 kg",2026-03-27 17:56:27,49.83,371.0
-430,Mandarin,100,28,23,28,100,95,Khan,Marvel Comics,bad,Male,Human,"6'2, 188 cm","215 lb, 97 kg",2026-03-27 17:56:27,62.33,221.0
-431,Mantis,63,8,33,80,100,80,,Marvel Comics,good,Female,Human-Kree,"5'6, 168 cm","115 lb, 52 kg",2026-03-27 17:56:27,60.67,239.0
-432,Martian Manhunter,100,95,92,100,100,85,J'onn J'onzz,DC Comics,good,Male,Martian,"6'7, 201 cm","300 lb, 135 kg",2026-03-27 17:56:27,95.33,15.0
-433,Marvel Girl,63,85,47,42,100,80,Rachel Anne Summers,Marvel Comics,good,Female,null,"5'7', 170 cm","125 lb, 56 kg",2026-03-27 17:56:27,69.5,145.0
-434,Master Brood,0,0,0,0,0,0,Currently Colin Wood,Team Epic TV,good,Male,null,"6'0, 183 cm","180 lb, 81 kg",2026-03-27 17:56:27,0.0,0.0
-435,Master Chief,75,73,35,80,69,100,John-117,Microsoft,good,Male,Human / Altered,"7', 213 cm","- lb, 0 kg",2026-03-27 17:56:27,72.0,129.0
-436,Match,75,95,83,85,100,70,Kent Connor,DC Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,84.67,56.0
-437,Matt Parkman,63,10,12,14,59,56,Matthew Parkman,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,35.67,543.0
-438,Maverick,63,10,12,42,60,85,Christopher Bradley,Marvel Comics,good,Male,null,"6'4, 193 cm","244 lb, 110 kg",2026-03-27 17:56:27,45.33,424.0
-439,Maxima,75,90,35,56,81,75,,DC Comics,bad,Female,null,"5'11, 180 cm","160 lb, 72 kg",2026-03-27 17:56:27,68.67,151.0
-440,Maya Herrera,50,10,12,14,60,14,Maya Herrera,NBC - Heroes,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,26.67,602.0
-441,Medusa,75,34,35,70,37,56,Medusalith Amaquelin Boltagon,Marvel Comics,good,Female,Inhuman,"5'11, 180 cm","130 lb, 59 kg",2026-03-27 17:56:27,51.17,357.0
-442,Meltdown,38,10,12,42,62,64,Tabitha Smith,Boom-Boom,good,Female,null,"5'5, 165 cm","120 lb, 54 kg",2026-03-27 17:56:27,38.0,516.0
-443,Mephisto,88,85,35,95,100,42,,Marvel Comics,bad,Male,null,"6'6, 198 cm","310 lb, 140 kg",2026-03-27 17:56:27,74.17,113.0
-444,Mera,56,62,79,60,92,80,Mera,DC Comics,good,Female,Atlantean,"5'9, 175 cm","160 lb, 72 kg",2026-03-27 17:56:27,71.5,134.0
-445,Metallo,75,53,23,95,86,64,John Corben,DC Comics,bad,Male,Android,"6'5, 196 cm","200 lb, 90 kg",2026-03-27 17:56:27,66.0,183.0
-446,Metamorpho,0,82,0,0,0,0,Rex Mason,DC Comics,good,Male,null,"6'1, 185 cm","200 lb, 90 kg",2026-03-27 17:56:27,82.0,62.0
-447,Meteorite,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-448,Metron,88,10,47,56,100,28,Metron,DC Comics,good,Male,null,"6'1, 185 cm","190 lb, 86 kg",2026-03-27 17:56:27,54.83,315.0
-449,Micah Sanders,63,8,12,14,57,14,Micah Sanders,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,28.0,593.0
-450,Michelangelo,63,14,50,65,59,75,,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,54.33,321.0
-451,Micro Lad,38,28,27,28,44,32,Gim Allon,DC Comics,good,Male,null,"6', 183 cm","170 lb, 77 kg",2026-03-27 17:56:27,32.83,571.0
-452,Mimic,63,67,47,56,79,42,Calvin Montgomery Rankin,Marvel Comics,good,Male,null,"6'2, 188 cm","225 lb, 101 kg",2026-03-27 17:56:27,59.0,254.0
-453,Minna Murray,0,0,0,0,0,0,Wilhelmina Harker,Wildstorm,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-454,Misfit,63,32,23,80,91,42,Charlotte Gage-Radcliffe,Batgirl V,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,55.17,308.0
-455,Miss Martian,63,85,58,100,100,45,M'gann M'orzz,DC Comics,good,Female,null,"5'10, 178 cm","135 lb, 61 kg",2026-03-27 17:56:27,75.17,101.0
-456,Mister Fantastic,100,10,18,70,33,64,Reed Richards,Marvel Comics,good,Male,Human / Radiation,"6'1, 185 cm","180 lb, 81 kg",2026-03-27 17:56:27,49.17,381.0
-457,Mister Freeze,75,32,12,70,37,28,Victor Fries,DC Comics,bad,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-03-27 17:56:27,42.33,469.0
-458,Mister Knife,75,10,17,30,13,65,J'son,Marvel Comics,bad,Male,Spartoi,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,35.0,547.0
-459,Mister Mxyzptlk,100,85,100,100,100,50,Mr. Mxyzptlk,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,89.17,39.0
-460,Mister Sinister,100,48,46,90,100,50,Nathaniel Essex,Marvel Comics,bad,Male,Human / Altered,"6'5, 196 cm","285 lb, 128 kg",2026-03-27 17:56:27,72.33,125.0
-461,Mister Zsasz,88,22,33,28,18,85,Victor Zsasz,DC Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,45.67,421.0
-462,Mockingbird,75,31,38,20,48,95,Barbara Morse,Marvel Comics,good,Female,Human,"5'9, 175 cm","135 lb, 61 kg",2026-03-27 17:56:27,51.17,357.0
-463,MODOK,100,18,25,25,79,15,George Tarleton,Marvel Comics,bad,Male,Cyborg,"12'0, 366 cm","750 lb, 338 kg",2026-03-27 17:56:27,43.67,452.0
-464,Mogo,0,0,0,0,0,0,Mogo,DC Comics,good,Male,Planet,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-465,Mohinder Suresh,0,0,0,0,0,0,Mohinder Suresh,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-466,Moloch,0,0,0,0,0,0,Edgar William Jacobi,DC Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-467,Molten Man,50,73,23,84,53,56,Mark Raxton,Marvel Comics,bad,Male,null,"6'5, 196 cm","550 lb, 248 kg",2026-03-27 17:56:27,56.5,289.0
-468,Monarch,0,100,0,0,0,0,Nathaniel Christopher Adam,DC Comics,good,Male,null,"6'4, 193 cm","200 lb, 90 kg",2026-03-27 17:56:27,100.0,1.0
-469,Monica Dawson,50,10,35,14,48,90,Monica Dawson,NBC - Heroes,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,41.17,481.0
-470,Moon Knight,50,36,23,42,28,75,Marc Spector,Marvel Comics,good,Male,Human,"6'2, 188 cm","225 lb, 101 kg",2026-03-27 17:56:27,42.33,469.0
-471,Moonstone,56,67,47,52,74,80,Karla Sofen,Marvel Comics,bad,Female,null,"5'11, 180 cm","130 lb, 59 kg",2026-03-27 17:56:27,62.67,219.0
-472,Morlun,63,60,35,42,74,56,Morlun,Marvel Comics,bad,Male,null,"6'2, 188 cm","175 lb, 79 kg",2026-03-27 17:56:27,55.0,310.0
-473,Morph,0,40,0,0,0,0,Kevin Sydney,Marvel Comics,good,Male,null,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,40.0,491.0
-474,Moses Magnum,75,28,12,42,55,56,Moses Magnum,Marvel Comics,bad,Male,null,"5'9, 175 cm","159 lb, 72 kg",2026-03-27 17:56:27,44.67,434.0
-475,Mr Immortal,50,10,8,100,69,30,Craig Hollis,Marvel Comics,good,Male,Mutant,"6'2, 188 cm","156 lb, 70 kg",2026-03-27 17:56:27,44.5,438.0
-476,Mr Incredible,50,83,33,95,29,40,Robert Parr,Dark Horse Comics,good,Male,Human,"6'7, 201 cm","350 lb, 158 kg",2026-03-27 17:56:27,55.0,310.0
-477,Ms Marvel II,38,63,23,84,11,56,Sharon Ventura,She-Thing,good,Female,null,"5'8, 173 cm","135 lb, 61 kg",2026-03-27 17:56:27,45.83,418.0
-478,Multiple Man,63,11,23,70,28,62,James Arthur,Marvel Comics,good,Male,null,"5'11', 180 cm","155 lb, 70 kg",2026-03-27 17:56:27,42.83,462.0
-479,Mysterio,81,10,17,40,82,70,Quentin Beck,Marvel Comics,bad,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-03-27 17:56:27,50.0,370.0
-480,Mystique,75,12,23,64,64,74,Raven Darkholme,Marvel Comics,bad,Female,Mutant,"5'10, 178 cm","120 lb, 54 kg",2026-03-27 17:56:27,52.0,347.0
-481,Namor,69,95,58,70,73,85,Namor McKenzie,Marvel Comics,good,Male,Atlantean,"6'2, 188 cm","278 lb, 125 kg",2026-03-27 17:56:27,75.0,105.0
-482,Namor,0,0,0,0,0,0,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-483,Namora,50,85,42,42,48,64,Aquaria Nautica Neptunia,Marvel Comics,good,Female,null,"5'11, 180 cm","189 lb, 85 kg",2026-03-27 17:56:27,55.17,308.0
-484,Namorita,50,72,47,70,37,70,Namorita Prentiss,Marvel Comics,good,Female,null,"5'6, 168 cm","225 lb, 101 kg",2026-03-27 17:56:27,57.67,275.0
-485,Naruto Uzumaki,50,80,32,80,100,100,,Shueisha,good,Male,Human,"5'6, 168 cm","121 lb, 54 kg",2026-03-27 17:56:27,73.67,115.0
-486,Nathan Petrelli,0,0,0,0,0,0,Nathan Petrelli,NBC - Heroes,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-487,Nebula,63,52,13,50,42,60,,Marvel Comics,bad,Female,Luphomoid,"6'1, 185 cm","185 lb, 83 kg",2026-03-27 17:56:27,46.67,411.0
-488,Negasonic Teenage Warhead,50,7,8,10,45,35,Ellie Phimister,Marvel Comics,good,Female,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,25.83,606.0
-489,Nick Fury,75,11,23,42,25,100,Nicholas Joseph Fury,Marvel Comics,good,Male,Human,"6'1, 185 cm","221 lb, 99 kg",2026-03-27 17:56:27,46.0,415.0
-490,Nightcrawler,50,10,47,14,76,80,Kurt Wagner,Marvel Comics,good,Male,null,"5'9', 175 cm","195 lb, 88 kg",2026-03-27 17:56:27,46.17,413.0
-491,Nightwing,88,11,33,28,36,100,Dick Grayson,Batman II,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,49.33,376.0
-492,Niki Sanders,63,52,35,28,37,56,Nicole Sanders,NBC - Heroes,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,45.17,428.0
-493,Nina Theroux,63,5,8,10,68,20,,SyFy,good,Female,Alpha,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,29.0,591.0
-494,Nite Owl II,0,45,0,0,0,0,Daniel Dreiberg,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,45.0,430.0
-495,Northstar,50,18,83,56,65,70,Jean-Paul Beaubier,Marvel Comics,good,Male,null,"5'11, 180 cm","185 lb, 83 kg",2026-03-27 17:56:27,57.0,281.0
-496,Nova,100,85,75,100,100,80,Richard Rider,Marvel Comics,good,Male,Human,"6'1, 185 cm","190 lb, 86 kg",2026-03-27 17:56:27,90.0,34.0
-497,Nova,63,60,100,100,100,35,Frankie Raye,Marvel Comics,good,Female,Human / Cosmic,"5'4, 163 cm","130 lb, 59 kg",2026-03-27 17:56:27,76.33,93.0
-498,Odin,100,83,67,95,100,90,Odin Borson,Marvel Comics,good,Male,God / Eternal,"6'9, 206 cm","650 lb, 293 kg",2026-03-27 17:56:27,89.17,39.0
-499,Offspring,50,10,35,99,100,56,Luke O'Brian,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,58.33,266.0
-500,Omega Red,0,61,0,0,0,0,Arkady Gregorivich,Marvel Comics,bad,Male,null,"6'11, 211 cm","425 lb, 191 kg",2026-03-27 17:56:27,61.0,236.0
-502,One Punch Man,38,100,83,95,55,50,Saitama,Shueisha,good,Male,Human,"5'9, 175 cm","154 lb, 69 kg",2026-03-27 17:56:27,70.17,141.0
-503,One-Above-All,100,100,100,100,100,100,,Marvel Comics,neutral,-,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,100.0,1.0
-504,Onslaught,88,100,33,100,100,55,Onslaught,Marvel Comics,bad,Male,Mutant,"10'0, 305 cm","900 lb, 405 kg",2026-03-27 17:56:27,79.33,80.0
-505,Oracle,75,11,23,28,19,76,Barbara Gordon,Batgirl,good,Female,Human,"5'10, 178 cm","132 lb, 59 kg",2026-03-27 17:56:27,38.67,510.0
-506,Osiris,75,85,60,95,65,42,Amon Tomaz,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,70.33,140.0
-507,Overtkill,0,0,0,0,0,0,Nicholas Rocca,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-508,Ozymandias,100,18,33,20,49,95,Adrian Veidt,DC Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,52.5,344.0
-509,Parademon,9,28,17,50,53,25,,DC Comics,bad,-,Parademon,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,30.33,583.0
-510,Paul Blart,8,11,21,50,7,5,Paul Blart,Sony Pictures,good,Male,Human,"5'7, 170 cm","260 lb, 117 kg",2026-03-27 17:56:27,17.0,621.0
-511,Penance,0,0,0,0,0,0,,Marvel Comics,good,-,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-512,Penance I,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-513,Penance II,0,20,0,0,0,0,Robert Baldwin,Speedball,good,Male,null,"6', 183 cm","197 lb, 89 kg",2026-03-27 17:56:27,20.0,618.0
-514,Penguin,75,10,12,28,30,45,Oswald Chesterfield Cobblepot,DC Comics,bad,Male,Human,"5'2, 157 cm","175 lb, 79 kg",2026-03-27 17:56:27,33.33,563.0
-515,Phantom,0,48,0,0,0,0,Christopher Walker,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,48.0,394.0
-516,Phantom Girl,38,10,23,28,53,42,Tinya Wazzo,DC Comics,good,Female,null,"5'6, 168 cm","120 lb, 54 kg",2026-03-27 17:56:27,32.33,574.0
-517,Phoenix,100,100,83,100,100,80,Jean Grey,Jean Grey,good,Female,Mutant,"5'6, 168 cm","115 lb, 52 kg",2026-03-27 17:56:27,93.83,24.0
-518,Plantman,63,60,25,55,61,25,Samuel Smithers,Marvel Comics,bad,Male,Mutant,"6'0, 183 cm","193 lb, 87 kg",2026-03-27 17:56:27,48.17,393.0
-519,Plastic Lad,0,0,0,0,0,0,Luke O'Brian,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-520,Plastic Man,50,63,23,100,100,56,Patrick O'Brian,DC Comics,good,Male,Human,"6'1, 185 cm","178 lb, 80 kg",2026-03-27 17:56:27,65.33,189.0
-521,Plastique,50,10,23,28,60,42,Bette Sans Souci,DC Comics,bad,Female,null,"5'6, 168 cm","123 lb, 55 kg",2026-03-27 17:56:27,35.5,544.0
-522,Poison Ivy,81,14,21,40,100,40,Pamela Isley,DC Comics,bad,Female,Human,"5'6, 168 cm","110 lb, 50 kg",2026-03-27 17:56:27,49.33,376.0
-523,Polaris,63,73,42,50,100,45,Lorna Dane,Marvel Comics,good,Female,Mutant,"5'7, 170 cm","115 lb, 52 kg",2026-03-27 17:56:27,62.17,226.0
-524,Power Girl,94,100,100,100,100,75,Kara Zor-L,DC Comics,good,Female,Kryptonian,"5'11, 180 cm","180 lb, 81 kg",2026-03-27 17:56:27,94.83,16.0
-525,Power Man,0,82,0,0,0,0,Luke Cage,Luke Cage,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,82.0,62.0
-526,Predator,63,30,25,85,100,90,Yautja,Dark Horse Comics,bad,Male,Yautja,"7'0, 213 cm","520 lb, 234 kg",2026-03-27 17:56:27,65.5,188.0
-527,Professor X,100,8,12,14,100,32,Charles Francis Xavier,Marvel Comics,good,Male,Mutant,"6', 183 cm","190 lb, 86 kg",2026-03-27 17:56:27,44.33,440.0
-528,Professor Zoom,94,10,100,20,83,20,Eobard Thawne,DC Comics,bad,Male,Human,"5'11, 180 cm","179 lb, 81 kg",2026-03-27 17:56:27,54.5,319.0
-529,Psylocke,63,33,25,40,100,90,Elizabeth Braddock,Marvel Comics,good,Female,Mutant,"5'11, 180 cm","155 lb, 70 kg",2026-03-27 17:56:27,58.5,262.0
-530,Punisher,69,16,21,45,42,100,Frank Castle,Marvel Comics,good,Male,Human,"6'0', 183 cm","200 lb, 90 kg",2026-03-27 17:56:27,48.83,384.0
-531,Purple Man,56,10,8,30,92,10,Zebediah Killgrave,Marvel Comics,bad,Male,Human,"5'11, 180 cm","165 lb, 74 kg",2026-03-27 17:56:27,34.33,558.0
-532,Pyro,38,10,12,14,54,28,St. John Allerdyce,Marvel Comics,bad,Male,null,"5'10, 178 cm","150 lb, 68 kg",2026-03-27 17:56:27,26.0,605.0
-533,Q,100,12,17,100,100,40,Q,Star Trek,-,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,61.5,233.0
-534,Quantum,0,0,0,0,0,0,,HarperCollins,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-535,Question,81,14,27,35,20,80,Charles Victor Szasz,DC Comics,good,Male,Human,"6'2, 188 cm","185 lb, 83 kg",2026-03-27 17:56:27,42.83,462.0
-536,Quicksilver,63,28,100,60,81,56,Pietro Django Maximoff,Marvel Comics,good,Male,Mutant,"6'0, 183 cm","175 lb, 79 kg",2026-03-27 17:56:27,64.67,199.0
-537,Quill,38,10,12,14,23,14,Maxwell Jordan,Marvel Comics,good,Male,null,"5'4, 163 cm","124 lb, 56 kg",2026-03-27 17:56:27,18.5,619.0
-538,Ra's Al Ghul,100,28,32,42,27,100,Ra's Al Ghul,DC Comics,bad,Male,Human,"6'4, 193 cm","215 lb, 97 kg",2026-03-27 17:56:27,54.83,315.0
-539,Rachel Pirzad,63,4,8,10,52,10,,SyFy,good,Female,Alpha,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,24.5,611.0
-540,Rambo,63,14,25,30,30,100,John Rambo,null,good,Male,Human,"5'10, 178 cm","185 lb, 83 kg",2026-03-27 17:56:27,43.67,452.0
-541,Raphael,63,17,50,65,59,80,,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,55.67,299.0
-542,Raven,50,10,29,70,84,40,Rachel Roth,DC Comics,neutral,Female,Human,"5'5, 165 cm","110 lb, 50 kg",2026-03-27 17:56:27,47.17,406.0
-543,Ray,50,10,92,100,100,20,Ray Terrill,DC Comics,good,Male,Human,"5'10, 178 cm","155 lb, 70 kg",2026-03-27 17:56:27,62.0,229.0
-544,Razor-Fist II,0,0,0,0,0,0,Douglas Scott,Marvel Comics,bad,Male,null,"6'3, 191 cm","260 lb, 117 kg",2026-03-27 17:56:27,0.0,0.0
-545,Red Arrow,63,16,25,20,23,80,Roy Harper,DC Comics,good,Male,Human,"5'11, 180 cm","185 lb, 83 kg",2026-03-27 17:56:27,37.83,517.0
-546,Red Hood,75,12,23,28,35,95,Jason Todd,Robin II,neutral,Male,Human,"6'0, 183 cm","180 lb, 81 kg",2026-03-27 17:56:27,44.67,434.0
-547,Red Hulk,50,100,47,85,82,75,Thaddeus E. Ross,Marvel Comics,neutral,Male,Human / Radiation,"7'0, 213 cm","1400 lb, 630 kg",2026-03-27 17:56:27,73.17,120.0
-548,Red Mist,25,10,23,14,20,56,Chris Genovese,Icon Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,24.67,609.0
-549,Red Robin,81,11,27,32,29,80,Tim Drake,Robin III,good,Male,Human,"5'5, 165 cm","125 lb, 56 kg",2026-03-27 17:56:27,43.33,457.0
-550,Red Skull,75,10,12,14,19,80,Johann Shmidt,Marvel Comics,bad,Male,null,"6'2, 188 cm","240 lb, 108 kg",2026-03-27 17:56:27,35.0,547.0
-551,Red Tornado,75,38,67,60,100,40,John Smith,DC Comics,good,Male,Android,"6'1, 185 cm","325 lb, 146 kg",2026-03-27 17:56:27,63.33,211.0
-552,Redeemer II,0,0,0,0,0,0,Phil Timper,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-553,Redeemer III,0,0,0,0,0,0,Eddie Frank,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-554,Renata Soliz,0,0,0,0,0,0,,HarperCollins,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-555,Rey,63,8,21,10,87,35,,George Lucas,good,Female,Human,"5'57, 297 cm","- lb, 0 kg",2026-03-27 17:56:27,37.33,523.0
-556,Rhino,25,80,43,90,36,85,Aleksei Mikhailovich Sytsevich,Marvel Comics,bad,Male,Human / Radiation,"6'5, 196 cm","710 lb, 320 kg",2026-03-27 17:56:27,59.83,244.0
-557,Rick Flag,88,11,23,28,19,95,Richard Rogers Flag,DC Comics,bad,Male,null,"6'1, 185 cm","189 lb, 85 kg",2026-03-27 17:56:27,44.0,445.0
-558,Riddler,100,10,12,14,10,14,Edward Nigma,DC Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,26.67,602.0
-559,Rip Hunter,100,8,8,10,100,25,Richard Hunter,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,41.83,477.0
-560,Ripcord,0,0,0,0,0,0,Miranda Leevald,Marvel Comics,good,Female,null,"5'11, 180 cm","160 lb, 72 kg",2026-03-27 17:56:27,0.0,0.0
-561,Robin,88,11,27,28,32,85,Dick Grayson,Batman II,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,45.17,428.0
-562,Robin II,75,11,27,28,28,85,Jason Todd,Red Hood,good,Male,Human,"6'0, 183 cm","225 lb, 101 kg",2026-03-27 17:56:27,42.33,469.0
-563,Robin III,81,11,27,28,29,85,Tim Drake,Red Robin,good,Male,Human,"5'5, 165 cm","125 lb, 56 kg",2026-03-27 17:56:27,43.5,455.0
-564,Robin V,69,8,33,16,29,65,Damian Wayne,DC Comics,good,Male,Human,"4'6, 137 cm","84 lb, 38 kg",2026-03-27 17:56:27,36.67,532.0
-565,Robin VI,50,8,25,20,17,70,Carrie Kelley,DC Comics,neutral,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,31.67,578.0
-566,Rocket Raccoon,50,5,23,28,28,64,Rocket Raccoon,Marvel Comics,good,Male,Animal,"4'0, 122 cm","55 lb, 25 kg",2026-03-27 17:56:27,33.0,567.0
-567,Rogue,75,10,12,28,80,80,Anna Marie,Marvel Comics,good,Female,null,"5'8, 173 cm","120 lb, 54 kg",2026-03-27 17:56:27,47.5,400.0
-568,Ronin,56,12,21,10,13,80,Clint Barton,Goliath,good,Male,Human,"6'3, 191 cm","230 lb, 104 kg",2026-03-27 17:56:27,32.0,576.0
-569,Rorschach,75,10,29,20,23,80,Walter Joseph Kovacs,DC Comics,good,Male,Human,"5'6, 168 cm","140 lb, 63 kg",2026-03-27 17:56:27,39.5,498.0
-570,Sabretooth,56,48,38,90,50,100,Victor Creed,Marvel Comics,bad,Male,Mutant,"6'6, 198 cm","380 lb, 171 kg",2026-03-27 17:56:27,63.67,208.0
-571,Sage,75,10,12,14,28,56,Tessa,Marvel Comics,good,Female,null,"5'7', 170 cm","135 lb, 61 kg",2026-03-27 17:56:27,32.5,573.0
-572,Sandman,44,75,46,90,100,60,William Baker,Marvel Comics,neutral,Male,Human,"6'1, 185 cm","450 lb, 203 kg",2026-03-27 17:56:27,69.17,148.0
-573,Sasquatch,75,80,23,56,15,42,Walter Langkowski,Marvel Comics,good,Male,null,"10', 305 cm","2000 lb, 900 kg",2026-03-27 17:56:27,48.5,388.0
-574,Sauron,88,85,33,100,100,70,Sauron,J. R. R. Tolkien,bad,Male,Maiar,"9'2, 279 cm","- lb, 0 kg",2026-03-27 17:56:27,79.33,80.0
-575,Savage Dragon,63,70,54,85,66,72,Kurr,Image Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,68.33,157.0
-576,Scarecrow,81,10,12,14,48,50,Jonathan Crane,DC Comics,bad,Male,Human,"6'0, 183 cm","140 lb, 63 kg",2026-03-27 17:56:27,35.83,541.0
-577,Scarlet Spider,75,53,60,74,46,56,Benjamin Reilly,Spider-Carnage,good,Male,Human,"5'10', 178 cm","165 lb, 74 kg",2026-03-27 17:56:27,60.67,239.0
-578,Scarlet Spider II,88,55,60,40,37,56,Kaine Parker,Marvel Comics,good,Male,Clone,"6'4, 193 cm","250 lb, 113 kg",2026-03-27 17:56:27,56.0,293.0
-579,Scarlet Witch,100,10,29,70,100,80,Wanda Maximoff,Marvel Comics,bad,Female,Mutant,"5'7, 170 cm","132 lb, 59 kg",2026-03-27 17:56:27,64.83,196.0
-580,Scorpia,38,28,42,28,34,28,Elaine Coll,Marvel Comics,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,33.0,567.0
-581,Scorpion,50,52,60,85,49,80,MacDonald Gargan,Venom III,bad,Male,Human,"6'11, 211 cm","689 lb, 310 kg",2026-03-27 17:56:27,62.67,219.0
-582,Sebastian Shaw,63,85,12,95,36,56,Sebastian Hiram Shaw,Marvel Comics,bad,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,57.83,274.0
-583,Sentry,75,100,100,84,100,40,Robert Reynolds,Marvel Comics,neutral,Male,Mutant,"6'2, 188 cm","194 lb, 87 kg",2026-03-27 17:56:27,83.17,58.0
-584,Shadow King,75,12,27,100,100,75,Amahl Farouk,Marvel Comics,good,-,null,"6'1, 185 cm","330 lb, 149 kg",2026-03-27 17:56:27,64.83,196.0
-585,Shadow Lass,63,10,67,20,79,80,Tasmia Mallor,DC Comics,good,Female,Talokite,"5'8, 173 cm","120 lb, 54 kg",2026-03-27 17:56:27,53.17,335.0
-586,Shadowcat,88,8,21,25,69,70,Kitty Pryde,Marvel Comics,good,Female,Mutant,"5'6, 168 cm","110 lb, 50 kg",2026-03-27 17:56:27,46.83,409.0
-587,Shang-Chi,63,12,30,50,29,100,Shang-Chi,Marvel Comics,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-03-27 17:56:27,47.33,405.0
-588,Shatterstar,63,48,45,64,49,84,Gaveedra Seven,Marvel Comics,good,Male,null,"6'3, 191 cm","195 lb, 88 kg",2026-03-27 17:56:27,58.83,257.0
-589,She-Hulk,81,100,42,100,40,70,Jennifer Walters,Marvel Comics,good,Female,Human,"6'7, 201 cm","700 lb, 315 kg",2026-03-27 17:56:27,72.17,128.0
-590,She-Thing,69,72,21,80,23,65,Sharon Ventura,Ms Marvel II,good,Female,Human / Radiation,"6'0, 183 cm","340 lb, 153 kg",2026-03-27 17:56:27,55.0,310.0
-591,Shocker,63,10,23,70,79,56,Herman Schultz,Marvel Comics,bad,Male,Human,"5'9, 175 cm","175 lb, 79 kg",2026-03-27 17:56:27,50.17,368.0
-592,Shriek,50,10,23,28,45,42,Frances Louise Barrison,Marvel Comics,good,Female,null,"5'8, 173 cm","115 lb, 52 kg",2026-03-27 17:56:27,33.0,567.0
-593,Shrinking Violet,0,0,0,0,0,0,,DC Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-594,Sif,63,90,67,80,100,70,Sif,Marvel Comics,good,Female,Asgardian,"6'2, 188 cm","425 lb, 191 kg",2026-03-27 17:56:27,78.33,84.0
-595,Silk,75,48,71,70,71,65,Cindy Moon,Marvel Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,66.67,175.0
-596,Silk Spectre,0,0,0,0,0,0,Sally Juspeczyk,DC Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-597,Silk Spectre II,0,51,0,0,0,0,Laurie Juspeczyk,DC Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,51.0,360.0
-598,Silver Surfer,56,100,100,90,100,32,Norrin Radd,Marvel Comics,good,Male,Alien,"6'4, 193 cm","225 lb, 101 kg",2026-03-27 17:56:27,79.67,78.0
-599,Silverclaw,50,28,35,42,34,42,Maria de Guadalupe Santiago,Marvel Comics,good,Female,null,"5'2, 157 cm","110 lb, 50 kg",2026-03-27 17:56:27,38.5,514.0
-600,Simon Baz,56,90,42,55,100,60,Simoon Baz,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,67.17,168.0
-601,Sinestro,75,85,53,64,100,55,Thaal Sinestro,DC Comics,neutral,Male,Korugaran,"6'7, 201 cm","205 lb, 92 kg",2026-03-27 17:56:27,72.0,129.0
-602,Siren,56,62,79,60,92,60,Hila,DC Comics,bad,Female,Atlantean,"5'9, 175 cm","160 lb, 72 kg",2026-03-27 17:56:27,68.17,158.0
-603,Siren II,0,0,0,0,0,0,La Sirene la Bailene,DC Comics,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-604,Siryn,38,8,47,28,50,42,Theresa Rourke Cassidy,Marvel Comics,bad,Female,null,"5'6, 168 cm","115 lb, 52 kg",2026-03-27 17:56:27,35.5,544.0
-605,Skaar,50,85,27,90,69,85,,Marvel Comics,good,Male,null,"6'6, 198 cm","400 lb, 180 kg",2026-03-27 17:56:27,67.67,162.0
-606,Snake-Eyes,0,0,0,0,0,0,,Marvel Comics,bad,Male,Animal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-607,Snowbird,50,32,27,42,70,52,Narya,Marvel Comics,good,Female,null,"5'10', 178 cm","108 lb, 49 kg",2026-03-27 17:56:27,45.5,423.0
-608,Sobek,50,34,23,46,20,56,Yurrd the Unknown,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,38.17,515.0
-609,Solomon Grundy,9,93,13,100,92,30,Cyrus Gold,DC Comics,bad,Male,Zombie,"9'2, 279 cm","971 lb, 437 kg",2026-03-27 17:56:27,56.17,291.0
-610,Songbird,75,36,27,42,55,56,Melissa Joan Gold,Marvel Comics,good,Female,null,"5'5, 165 cm","145 lb, 65 kg",2026-03-27 17:56:27,48.5,388.0
-611,Space Ghost,38,18,33,40,95,80,Thaddeus Bach,DC Comics,good,Male,Human,"6'2, 188 cm","250 lb, 113 kg",2026-03-27 17:56:27,50.67,365.0
-612,Spawn,75,60,50,90,100,95,Al Simmons,Image Comics,good,Male,Demon,"6'11, 211 cm","900 lb, 405 kg",2026-03-27 17:56:27,78.33,84.0
-613,Spectre,88,100,100,100,100,70,Aztar,Aztar,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,93.0,25.0
-614,Speedball,0,0,0,0,0,0,Robert Baldwin,Penance II,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-615,Speedy,50,6,33,20,26,70,Thea Queen,DC Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,34.17,559.0
-616,Speedy,0,0,0,0,0,0,"Roy William Harper, Jr.",Arsenal,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-617,Spider-Carnage,0,69,0,0,0,0,Benjamin Reilly,Scarlet Spider,bad,Male,Symbiote,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,69.0,149.0
-618,Spider-Girl,63,38,60,65,53,75,May 'Mayday' Parker,Marvel Comics,good,Female,Human,"5'7, 170 cm","119 lb, 54 kg",2026-03-27 17:56:27,59.0,254.0
-619,Spider-Gwen,75,55,63,70,66,70,Gwen Stacy,Marvel Comics,good,Female,Human,"5'5, 165 cm","125 lb, 56 kg",2026-03-27 17:56:27,66.5,177.0
-620,Spider-Man,90,55,67,75,74,85,Peter Parker,Marvel Comics,good,Male,Human,"5'10, 178 cm","165 lb, 74 kg",2026-03-27 17:56:27,74.33,109.0
-621,Spider-Man,0,57,0,0,0,0,Miguel O'Hara,Marvel Comics,good,-,Human,"5'10, 178 cm","170 lb, 77 kg",2026-03-27 17:56:27,57.0,281.0
-622,Spider-Man,0,58,0,0,0,0,Miles Morales,Marvel Comics,good,Male,Human,"5'2, 157 cm","125 lb, 56 kg",2026-03-27 17:56:27,58.0,271.0
-623,Spider-Woman,56,42,42,60,68,70,Jessica Drew,Marvel Comics,good,Female,Human,"5'10, 178 cm","130 lb, 59 kg",2026-03-27 17:56:27,56.33,290.0
-624,Spider-Woman II,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-625,Spider-Woman III,50,48,27,42,60,28,Martha Franklin,Marvel Comics,good,Female,null,"5'8, 173 cm","123 lb, 55 kg",2026-03-27 17:56:27,42.5,468.0
-626,Spider-Woman IV,0,0,0,0,0,0,Charlotte Witter,Marvel Comics,bad,Female,null,"5'10, 178 cm","128 lb, 58 kg",2026-03-27 17:56:27,0.0,0.0
-627,Spock,81,18,17,40,56,40,S'chn T'gai Spock,Star Trek,good,Male,Human-Vulcan,"6'1, 185 cm","180 lb, 81 kg",2026-03-27 17:56:27,42.0,475.0
-628,Spyke,50,12,17,60,48,30,Evan Daniels,Marvel Comics,good,Male,Mutant,"6'0, 183 cm","185 lb, 83 kg",2026-03-27 17:56:27,36.17,538.0
-629,Stacy X,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-630,Star-Lord,69,20,33,50,25,70,Peter Jason Quill,Marvel Comics,good,Male,Human-Spartoi,"6'2, 188 cm","175 lb, 79 kg",2026-03-27 17:56:27,44.5,438.0
-631,Stardust,88,85,100,110,100,85,,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,94.67,18.0
-632,Starfire,50,80,33,85,59,70,Koriand'r,DC Comics,good,Female,Tamaranean,"6'4, 193 cm","158 lb, 71 kg",2026-03-27 17:56:27,62.83,216.0
-633,Stargirl,63,80,25,90,87,55,Courtney Whitmore,DC Comics,good,Female,Human,"5'5, 165 cm","137 lb, 62 kg",2026-03-27 17:56:27,66.67,175.0
-634,Static,69,8,42,50,90,40,Virgil Hawkins,DC Comics,good,Male,Mutant,"5'7, 170 cm","140 lb, 63 kg",2026-03-27 17:56:27,49.83,371.0
-635,Steel,81,82,53,90,64,64,John Henry Irons,DC Comics,good,Male,null,"6'7, 201 cm","290 lb, 131 kg",2026-03-27 17:56:27,72.33,125.0
-636,Stephanie Powell,69,10,54,10,24,10,Stephanie Powell,ABC Studios,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,29.5,589.0
-637,Steppenwolf,94,100,83,100,100,100,,DC Comics,bad,Male,New God,"6'0, 183 cm","203 lb, 91 kg",2026-03-27 17:56:27,96.17,11.0
-638,Storm,75,10,47,30,88,75,Ororo Munroe,Marvel Comics,good,Female,Mutant,"5'11, 180 cm","127 lb, 57 kg",2026-03-27 17:56:27,54.17,322.0
-639,Stormtrooper,10,8,8,15,5,20,,George Lucas,bad,Male,Human,"6'0, 183 cm","- lb, 0 kg",2026-03-27 17:56:27,11.0,627.0
-640,Sunspot,63,63,35,25,90,70,Roberto DaCosta,Marvel Comics,good,Male,Mutant,"5'8, 173 cm","170 lb, 77 kg",2026-03-27 17:56:27,57.67,275.0
-641,Superboy,75,95,83,90,95,60,Kon-El / Conner Kent,DC Comics,good,Male,null,"5'7, 170 cm","150 lb, 68 kg",2026-03-27 17:56:27,83.0,59.0
-642,Superboy-Prime,94,100,100,100,100,85,Kal-El,DC Comics,bad,Male,Kryptonian,"5'11, 180 cm","170 lb, 77 kg",2026-03-27 17:56:27,96.5,9.0
-643,Supergirl,94,100,100,100,100,75,Kara Zor-El,DC Comics,good,Female,Kryptonian,"5'5, 165 cm","120 lb, 54 kg",2026-03-27 17:56:27,94.83,16.0
-644,Superman,94,100,100,100,100,85,Clark Kent,Superman Prime One-Million,good,Male,Kryptonian,"6'3, 191 cm","225 lb, 101 kg",2026-03-27 17:56:27,96.5,9.0
-645,Swamp Thing,88,95,25,100,100,55,Alec Holland,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,77.17,91.0
-646,Swarm,75,18,50,90,38,35,Fritz von Meyer,Marvel Comics,bad,Male,Mutant,"6'5, 196 cm","104 lb, 47 kg",2026-03-27 17:56:27,51.0,360.0
-647,Sylar,75,10,12,28,91,56,Gabriel Gray,NBC - Heroes,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,45.33,424.0
-648,Synch,75,67,23,28,74,56,Everett Thomas,Marvel Comics,good,Male,null,"5'11, 180 cm","165 lb, 74 kg",2026-03-27 17:56:27,53.83,328.0
-649,T-1000,75,34,33,100,100,75,Cyberdyne Systems Series 1000 Terminator,Dark Horse Comics,bad,Male,Android,"6'0, 183 cm","325 lb, 146 kg",2026-03-27 17:56:27,69.5,145.0
-650,T-800,75,34,17,60,73,65,Cyberdyne Systems Series 800 Terminator Model 101,Dark Horse Comics,bad,Male,Cyborg,"-, 0 cm","390 lb, 176 kg",2026-03-27 17:56:27,54.0,323.0
-651,T-850,75,80,25,90,83,75,Cyberdyne Systems Series 850 Terminator,Dark Horse Comics,bad,Male,Cyborg,"-, 0 cm","440 lb, 198 kg",2026-03-27 17:56:27,71.33,136.0
-652,T-X,75,63,29,85,100,80,Cyberdyne Systems Series X Terminator,Dark Horse Comics,bad,Female,Cyborg,"-, 0 cm","330 lb, 149 kg",2026-03-27 17:56:27,72.0,129.0
-653,Taskmaster,75,12,50,20,63,100,Tony Masters,Marvel Comics,bad,Male,Human,"6'2, 188 cm","220 lb, 99 kg",2026-03-27 17:56:27,53.33,334.0
-654,Tempest,38,10,45,28,66,60,Angel Salvadore Bohusk,Angel Salvadore,good,Female,null,"5'4, 163 cm","121 lb, 54 kg",2026-03-27 17:56:27,41.17,481.0
-655,Thanos,100,100,33,100,100,80,Thanos,Marvel Comics,bad,Male,Eternal,"6'7, 201 cm","985 lb, 443 kg",2026-03-27 17:56:27,85.5,54.0
-656,The Cape,38,10,23,32,22,64,Vince Faraday,null,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,31.5,579.0
-657,The Comedian,63,14,17,10,12,80,Edward Morgen Blake,DC Comics,neutral,Male,Human,"6'2, 188 cm","225 lb, 101 kg",2026-03-27 17:56:27,32.67,572.0
-658,Thing,75,84,21,100,38,80,Ben Grimm,Marvel Comics,good,Male,Human / Radiation,"6'0, 183 cm","500 lb, 225 kg",2026-03-27 17:56:27,66.33,179.0
-659,Thor,69,100,83,100,100,100,Thor Odinson,Rune King Thor,good,Male,Asgardian,"6'6, 198 cm","640 lb, 288 kg",2026-03-27 17:56:27,92.0,26.0
-660,Thor Girl,75,83,70,84,100,70,Tarene,Marvel Comics,good,Female,Asgardian,"5'9, 175 cm","317 lb, 143 kg",2026-03-27 17:56:27,80.33,75.0
-661,Thunderbird,50,32,27,32,13,70,John Proudstar,Marvel Comics,good,Male,null,"6'1, 185 cm","225 lb, 101 kg",2026-03-27 17:56:27,37.33,523.0
-662,Thunderbird II,0,0,0,0,0,0,James Proudstar,Warpath,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-663,Thunderbird III,0,0,0,0,0,0,Neal Shaara,Marvel Comics,good,Male,null,"5'9', 175 cm","165 lb, 74 kg",2026-03-27 17:56:27,0.0,0.0
-664,Thunderstrike,63,80,70,84,42,72,Eric Kevin Masterson,Marvel Comics,good,Male,null,"6'6, 198 cm","640 lb, 288 kg",2026-03-27 17:56:27,68.5,156.0
-665,Thundra,38,81,32,64,26,54,Thundra,Marvel Comics,good,Female,null,"7'2, 218 cm","350 lb, 158 kg",2026-03-27 17:56:27,49.17,381.0
-666,Tiger Shark,38,72,46,70,51,28,Todd Arliss,Marvel Comics,bad,Male,Human,"6'1, 185 cm","450 lb, 203 kg",2026-03-27 17:56:27,50.83,364.0
-667,Tigra,63,32,53,38,33,90,Greer Grant Nelson,Marvel Comics,good,Female,null,"5'10, 178 cm","180 lb, 81 kg",2026-03-27 17:56:27,51.5,352.0
-668,Tinkerer,100,10,23,14,10,14,Phineas Mason,Marvel Comics,bad,Male,null,"5'4, 163 cm","120 lb, 54 kg",2026-03-27 17:56:27,28.5,592.0
-669,Titan,0,0,0,0,0,0,,HarperCollins,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-670,Toad,50,34,58,56,70,28,Mortimer Toynbee,Marvel Comics,neutral,Male,Mutant,"5'9, 175 cm","169 lb, 76 kg",2026-03-27 17:56:27,49.33,376.0
-671,Toxin,56,73,70,84,82,70,Patrick Mulligan,Marvel Comics,good,Male,Symbiote,"6'2, 188 cm","215 lb, 97 kg",2026-03-27 17:56:27,72.5,124.0
-672,Toxin,75,80,42,85,97,70,Eddie Brock,Anti-Venom,good,Male,Symbiote,"6'3, 191 cm","260 lb, 117 kg",2026-03-27 17:56:27,74.83,107.0
-673,Tracy Strauss,0,0,0,0,0,0,Tracy Strauss,NBC - Heroes,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-674,Trickster,0,0,0,0,0,0,Giovanni Giuseppe,DC Comics,-,Male,Human,"6'0, 183 cm","179 lb, 81 kg",2026-03-27 17:56:27,0.0,0.0
-675,Trigon,0,99,0,0,0,0,,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,99.0,4.0
-676,Triplicate Girl,63,10,23,42,44,42,Luornu Durgo,DC Comics,good,Female,null,"5'6, 168 cm","130 lb, 59 kg",2026-03-27 17:56:27,37.33,523.0
-677,Triton,56,63,50,65,35,55,Triton,Marvel Comics,good,Male,Inhuman,"6'2, 188 cm","190 lb, 86 kg",2026-03-27 17:56:27,54.0,323.0
-678,Two-Face,88,10,12,14,9,28,Harvey Dent,DC Comics,bad,Male,null,"6'0, 183 cm","182 lb, 82 kg",2026-03-27 17:56:27,26.83,600.0
-679,Ultragirl,50,80,35,70,35,80,Tsu-Zana,Marvel Comics,good,Female,null,"5'6, 168 cm","233 lb, 105 kg",2026-03-27 17:56:27,58.33,266.0
-680,Ultron,88,83,42,100,100,64,Ultron,Marvel Comics,bad,Male,Android,"6'9, 206 cm","735 lb, 331 kg",2026-03-27 17:56:27,79.5,79.0
-681,Utgard-Loki,50,80,23,84,85,64,,Marvel Comics,bad,Male,Frost Giant,"50'0, 15.2 meters","128000 lb, 58 tons",2026-03-27 17:56:27,64.33,204.0
-682,Vagabond,0,0,0,0,0,0,Priscilla Lyons,Marvel Comics,good,Female,null,"5'6', 168 cm","120 lb, 54 kg",2026-03-27 17:56:27,0.0,0.0
-683,Valerie Hart,0,0,0,0,0,0,,Team Epic TV,good,Female,null,"5'9, 175 cm","125 lb, 56 kg",2026-03-27 17:56:27,0.0,0.0
-684,Valkyrie,0,94,0,0,0,0,Brunnhilde (also spelled Brunnhilda),Marvel Comics,good,Female,null,"6'3', 191 cm","475 lb, 214 kg",2026-03-27 17:56:27,94.0,23.0
-685,Vanisher,63,10,75,56,61,42,,Marvel Comics,bad,Male,null,"5'5, 165 cm","175 lb, 79 kg",2026-03-27 17:56:27,51.17,357.0
-686,Vegeta,81,100,92,95,100,100,Vegeta,Shueisha,bad,Male,Saiyan,"5'6, 168 cm","163 lb, 73 kg",2026-03-27 17:56:27,94.67,18.0
-687,Venom,75,57,65,84,86,84,Eddie Brock,Anti-Venom,bad,Male,Symbiote,"6'3, 191 cm","260 lb, 117 kg",2026-03-27 17:56:27,75.17,101.0
-688,Venom II,50,57,47,70,54,56,Angelo Fortunato,Marvel Comics,bad,Male,null,"5'9, 175 cm","110 lb, 50 kg",2026-03-27 17:56:27,55.67,299.0
-689,Venom III,63,73,35,90,73,56,MacDonald Gargan,Scorpion,bad,Male,Symbiote,"7'6, 229 cm","742 lb, 334 kg",2026-03-27 17:56:27,65.0,191.0
-690,Venompool,69,57,63,100,100,100,Wade Wilson,Deadpool,-,Male,Symbiote,"7'5, 226 cm","- lb, 0 kg",2026-03-27 17:56:27,81.5,69.0
-691,Vertigo II,0,0,0,0,0,0,-,Blaquesmith,good,Female,null,"5'6', 168 cm","115 lb, 52 kg",2026-03-27 17:56:27,0.0,0.0
-692,Vibe,50,10,17,30,99,30,Cisco Ramon,DC Comics,good,Male,Human,"5'10, 178 cm","157 lb, 71 kg",2026-03-27 17:56:27,39.33,501.0
-693,Vindicator,63,63,53,64,58,70,Heather Hudson,Vindicator II,good,Female,Human,"5'5, 165 cm","120 lb, 54 kg",2026-03-27 17:56:27,61.83,230.0
-694,Vindicator,0,0,0,0,0,0,Dr. James McDonald Hudson,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-695,Violator,0,53,0,0,0,0,,Image Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,53.0,336.0
-696,Violet Parr,56,9,13,50,79,15,Violet Parr,Dark Horse Comics,good,Female,Human,"4'6, 137 cm","90 lb, 41 kg",2026-03-27 17:56:27,37.0,528.0
-697,Vision,100,72,54,95,100,70,Vision,Anti-Vision,good,Male,Android,"6'3, 191 cm","300 lb, 135 kg",2026-03-27 17:56:27,81.83,67.0
-698,Vision II,0,0,0,0,0,0,Vision,Anti-Vision,good,-,null,"6'3', 191 cm","300 lb, 135 kg",2026-03-27 17:56:27,0.0,0.0
-699,Vixen,50,38,50,50,62,25,Mari McCabe,DC Comics,good,Female,Human,"5'9, 175 cm","140 lb, 63 kg",2026-03-27 17:56:27,45.83,418.0
-700,Vulcan,0,56,0,0,0,0,Gabriel Summers,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,56.0,293.0
-701,Vulture,75,22,42,25,26,30,Adrian Toomes,Marvel Comics,bad,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-03-27 17:56:27,36.67,532.0
-702,Walrus,50,28,8,50,11,20,Hubert Carpent,Marvel Comics,bad,Male,Human,"6'0, 183 cm","360 lb, 162 kg",2026-03-27 17:56:27,27.83,594.0
-703,War Machine,63,80,63,100,100,85,James Rupert Rhodes,Marvel Comics,good,Male,Human,"6'1, 185 cm","210 lb, 95 kg",2026-03-27 17:56:27,81.83,67.0
-704,Warbird,0,0,0,0,0,0,Carol Danvers,Binary,good,Female,null,"5'11', 180 cm","120 lb, 54 kg",2026-03-27 17:56:27,0.0,0.0
-705,Warlock,88,36,79,95,71,95,Adam Warlock,Marvel Comics,good,Male,null,"6'2', 188 cm","240 lb, 108 kg",2026-03-27 17:56:27,77.33,90.0
-706,Warp,38,10,23,28,85,50,Emil LaSalle,DC Comics,bad,Male,null,"5'8, 173 cm","148 lb, 67 kg",2026-03-27 17:56:27,39.0,504.0
-707,Warpath,38,72,47,70,26,84,James Proudstar,Thunderbird II,good,Male,Mutant,"7'2, 218 cm","350 lb, 158 kg",2026-03-27 17:56:27,56.17,291.0
-708,Wasp,63,17,58,52,29,42,Janet Van Dyne,Marvel Comics,good,Female,Human,"5'4, 163 cm","110 lb, 50 kg",2026-03-27 17:56:27,43.5,455.0
-709,Watcher,100,80,67,89,100,56,Uatu,Marvel Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,82.0,62.0
-710,Weapon XI,0,0,0,0,0,0,Weapon XI,Marvel Comics,bad,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-711,White Canary,63,7,33,15,49,90,,DC Comics,bad,Female,Human,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,42.83,462.0
-712,White Queen,0,0,0,0,0,0,Emma Grace Frost,Marvel Comics,good,Female,null,"5'10', 178 cm","144 lb, 65 kg",2026-03-27 17:56:27,0.0,0.0
-713,Wildfire,50,32,23,100,77,42,Drake Burroughs,DC Comics,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,54.0,323.0
-714,Winter Soldier,56,32,35,65,60,84,Bucky Barnes,Marvel Comics,good,Male,Human,"5'9, 175 cm","260 lb, 117 kg",2026-03-27 17:56:27,55.33,307.0
-715,Wiz Kid,0,0,0,0,0,0,Takashi Matsuya,Marvel Comics,good,-,null,"4'7', 140 cm","87 lb, 39 kg",2026-03-27 17:56:27,0.0,0.0
-716,Wolfsbane,38,16,35,42,26,42,Rahne Sinclair,Marvel Comics,good,Female,null,"12', 366 cm","1050 lb, 473 kg",2026-03-27 17:56:27,33.17,566.0
-717,Wolverine,63,32,50,100,89,100,Logan,Marvel Comics,good,Male,Mutant,"5'3, 160 cm","300 lb, 135 kg",2026-03-27 17:56:27,72.33,125.0
-718,Wonder Girl,75,90,25,80,39,60,Cassandra Elizabeth Sandsmark,DC Comics,good,Female,Demi-God,"5'5, 165 cm","114 lb, 51 kg",2026-03-27 17:56:27,61.5,233.0
-719,Wonder Man,75,100,53,90,64,64,Simon Williams,Marvel Comics,good,Male,null,"6'2, 188 cm","380 lb, 171 kg",2026-03-27 17:56:27,74.33,109.0
-720,Wonder Woman,88,100,79,100,100,100,Diana Prince,DC Comics,good,Female,Amazon,"6'0, 183 cm","165 lb, 74 kg",2026-03-27 17:56:27,94.5,20.0
-721,Wondra,0,0,0,0,0,0,,Marvel Comics,good,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,0.0,0.0
-722,Wyatt Wingfoot,10,10,12,1,1,56,Wyatt Wingfoot,Marvel Comics,good,Male,null,"6'5', 196 cm","260 lb, 117 kg",2026-03-27 17:56:27,15.0,624.0
-723,X-23,75,24,42,100,55,95,Laura Kinney,Marvel Comics,good,Female,Mutant / Clone,"5'1, 155 cm","110 lb, 50 kg",2026-03-27 17:56:27,65.17,190.0
-724,X-Man,88,53,53,95,100,84,Nate Grey,Marvel Comics,good,Male,null,"5'9, 175 cm","135 lb, 61 kg",2026-03-27 17:56:27,78.83,82.0
-725,Yellow Claw,0,0,0,0,0,0,,Marvel Comics,bad,Male,null,"6'2, 188 cm","210 lb, 95 kg",2026-03-27 17:56:27,0.0,0.0
-726,Yellowjacket,88,10,12,28,12,14,Hank Pym,Ant-Man,good,Male,Human,"6', 183 cm","185 lb, 83 kg",2026-03-27 17:56:27,27.33,597.0
-727,Yellowjacket II,50,10,35,28,31,28,Rita DeMara,Marvel Comics,good,Female,Human,"5'5, 165 cm","115 lb, 52 kg",2026-03-27 17:56:27,30.33,583.0
-728,Ymir,50,100,27,100,98,28,Ymir,Marvel Comics,good,Male,Frost Giant,"1000, 304.8 meters","- lb, 0 kg",2026-03-27 17:56:27,67.17,168.0
-729,Yoda,88,52,33,25,100,90,Yoda,George Lucas,good,Male,Yoda's species,"2'2, 66 cm","38 lb, 17 kg",2026-03-27 17:56:27,64.67,199.0
-730,Zatanna,81,10,23,28,100,56,Zatanna Zatara,DC Comics,good,Female,Human,"5'7, 170 cm","127 lb, 57 kg",2026-03-27 17:56:27,49.67,374.0
-731,Zoom,50,10,100,28,100,28,Hunter Zolomon,DC Comics,bad,Male,null,"6'1, 185 cm","181 lb, 81 kg",2026-03-27 17:56:27,52.67,342.0
+1,A-Bomb,38,100,17,80,24,64,Richard Milhouse Jones,Marvel Comics,good,Male,Human,"6'8, 203 cm","980 lb, 441 kg",2026-04-15 20:11:17,53.83,289.0
+2,Abe Sapien,88,28,35,65,100,85,Abraham Sapien,Dark Horse Comics,good,Male,Icthyo Sapien,"6'3, 191 cm","145 lb, 65 kg",2026-04-15 20:11:17,66.83,148.0
+3,Abin Sur,50,90,53,64,99,65,Desconocido,DC Comics,good,Male,Ungaran,"6'1, 185 cm","200 lb, 90 kg",2026-04-15 20:11:17,70.17,120.0
+4,Abomination,63,80,53,90,62,95,Emil Blonsky,Marvel Comics,bad,Male,Human / Radiation,"6'8, 203 cm","980 lb, 441 kg",2026-04-15 20:11:17,73.83,96.0
+5,Abraxas,88,63,83,100,100,55,Abraxas,Marvel Comics,bad,Male,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,81.5,53.0
+6,Absorbing Man,38,80,25,100,98,64,Carl Creel,Marvel Comics,bad,Male,Human,"6'4, 193 cm","270 lb, 122 kg",2026-04-15 20:11:17,67.5,139.0
+7,Adam Monroe,63,10,12,100,100,64,Desconocido,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,58.17,240.0
+8,Adam Strange,69,10,33,40,37,50,Adam Strange,DC Comics,good,Male,Human,"6'1, 185 cm","195 lb, 88 kg",2026-04-15 20:11:17,39.83,438.0
+9,Agent 13,0,46,0,0,0,0,Sharon Carter,Sharon Carter,good,Female,Desconocido,"5'8, 173 cm","135 lb, 61 kg",2026-04-15 20:11:17,7.67,612.0
+10,Agent Bob,10,8,13,5,5,20,Bob,Marvel Comics,good,Male,Human,"5'10, 178 cm","181 lb, 81 kg",2026-04-15 20:11:17,10.17,594.0
+11,Agent Zero,75,28,38,80,72,95,Christoph Nord,Marvel Comics,good,Male,Desconocido,"6'3, 191 cm","230 lb, 104 kg",2026-04-15 20:11:17,64.67,171.0
+12,Air-Walker,50,85,100,85,100,40,Gabriel Lan,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","240 lb, 108 kg",2026-04-15 20:11:17,76.67,74.0
+13,Ajax,56,48,35,80,34,55,Francis,Marvel Comics,bad,Male,Cyborg,"6'4, 193 cm","200 lb, 90 kg",2026-04-15 20:11:17,51.33,314.0
+14,Alan Scott,63,80,23,90,100,32,Alan Ladd Wellington Scott,DC Comics,good,Male,Desconocido,"5'11, 180 cm","201 lb, 90 kg",2026-04-15 20:11:17,64.67,171.0
+15,Alex Mercer,50,80,42,90,100,50,Alexander J. Mercer,Wildstorm,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,68.67,127.0
+16,Alex Woolsly,0,37,0,0,0,0,Alex Woolsly,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,6.17,623.0
+17,Alfred Pennyworth,63,10,17,10,7,55,Alfred Thaddeus Crane Pennyworth,DC Comics,good,Male,Human,"5'10, 178 cm","160 lb, 72 kg",2026-04-15 20:11:17,27.0,539.0
+18,Alien,50,28,42,90,57,60,Xenomorph,Dark Horse Comics,bad,Male,Xenomorph XX121,"8'0, 244 cm","375 lb, 169 kg",2026-04-15 20:11:17,54.5,282.0
+19,Allan Quatermain,0,0,0,0,0,0,Desconocido,Wildstorm,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+20,Amazo,63,100,83,100,100,100,Desconocido,DC Comics,bad,Male,Android,"8'5, 257 cm","385 lb, 173 kg",2026-04-15 20:11:17,91.0,20.0
+21,Ammo,0,0,0,0,0,0,Desconocido,Marvel Comics,bad,Male,Human,"6'2, 188 cm","225 lb, 101 kg",2026-04-15 20:11:17,0.0,630.0
+22,Ando Masahashi,0,0,0,0,0,0,Ando Masahashi,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+23,Angel,75,30,58,90,100,75,Liam,Dark Horse Comics,good,Male,Vampire,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,71.33,115.0
+24,Angel,63,13,46,64,28,42,Warren Kenneth Worthington III,Archangel,good,Male,Desconocido,"6'0, 183 cm","150 lb, 68 kg",2026-04-15 20:11:17,42.67,413.0
+25,Angel Dust,38,55,23,42,17,30,Christina,Marvel Comics,good,Female,Mutant,"5'5, 165 cm","126 lb, 57 kg",2026-04-15 20:11:17,34.17,501.0
+26,Angel Salvadore,38,10,28,28,56,60,Angel Salvadore Bohusk,Tempest,good,Female,Desconocido,"5'4, 163 cm","121 lb, 54 kg",2026-04-15 20:11:17,36.67,475.0
+27,Angela,0,97,0,0,0,0,Desconocido,Image Comics,bad,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,16.17,564.0
+28,Animal Man,56,48,47,85,73,80,Bernhard Baker,DC Comics,good,Male,Human,"6'0, 183 cm","185 lb, 83 kg",2026-04-15 20:11:17,64.83,168.0
+29,Annihilus,75,80,47,56,59,64,Annihilus,Marvel Comics,bad,Male,Desconocido,"5'11, 180 cm","200 lb, 90 kg",2026-04-15 20:11:17,63.5,181.0
+30,Ant-Man,100,18,23,28,32,32,Hank Pym,Giant-Man,good,Male,Human,"6'11, 211 cm","270 lb, 122 kg",2026-04-15 20:11:17,38.83,451.0
+31,Ant-Man II,75,18,17,40,53,30,Scott Lang,Marvel Comics,good,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-04-15 20:11:17,38.83,451.0
+32,Anti-Monitor,88,100,50,100,100,90,Desconocido,DC Comics,bad,Male,God / Eternal,"200, 61.0 meters","- lb, 0 kg",2026-04-15 20:11:17,88.0,36.0
+33,Anti-Spawn,0,58,0,0,0,0,Jason Wynn,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,9.67,597.0
+34,Anti-Venom,75,60,65,90,96,84,Eddie Brock,Toxin,Desconocido,Male,Symbiote,"7'6, 229 cm","795 lb, 358 kg",2026-04-15 20:11:17,78.33,67.0
+35,Apocalypse,100,100,33,100,100,60,En Sabah Nur,Marvel Comics,bad,Male,Mutant,"7'0, 213 cm","300 lb, 135 kg",2026-04-15 20:11:17,82.17,48.0
+36,Aquababy,10,16,12,14,37,14,"Arthur Curry, Jr.",DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,17.17,559.0
+37,Aqualad,63,44,42,75,89,60,Garth,DC Comics,good,Male,Atlantean,"5'10, 178 cm","235 lb, 106 kg",2026-04-15 20:11:17,62.17,197.0
+38,Aquaman,81,85,79,80,100,80,Orin,DC Comics,good,Male,Atlantean,"6'1, 185 cm","325 lb, 146 kg",2026-04-15 20:11:17,84.17,44.0
+39,Arachne,50,48,50,70,71,70,Julia Carpenter,Marvel Comics,good,Female,Human,"5'9, 175 cm","140 lb, 63 kg",2026-04-15 20:11:17,59.83,214.0
+40,Archangel,63,13,58,64,35,42,Warren Kenneth Worthington III,Angel,good,Male,Mutant,"6'0, 183 cm","150 lb, 68 kg",2026-04-15 20:11:17,45.83,372.0
+41,Arclight,38,63,23,42,52,70,Philippa Sontag,Marvel Comics,bad,Female,Desconocido,"5'8, 173 cm","126 lb, 57 kg",2026-04-15 20:11:17,48.0,352.0
+42,Ardina,63,100,100,80,100,25,Ardina,Marvel Comics,good,Female,Alien,"6'4, 193 cm","218 lb, 98 kg",2026-04-15 20:11:17,78.0,71.0
+43,Ares,75,82,35,80,84,101,Desconocido,Marvel Comics,good,Male,Desconocido,"6'1, 185 cm","600 lb, 270 kg",2026-04-15 20:11:17,76.17,77.0
+44,Ariel,50,10,12,14,94,28,Ariel,Marvel Comics,good,Female,Desconocido,"5'5, 165 cm","130 lb, 59 kg",2026-04-15 20:11:17,34.67,494.0
+45,Armor,50,63,12,80,55,54,Hisako Ichiki,Marvel Comics,good,Female,Desconocido,"5'4, 163 cm","112 lb, 50 kg",2026-04-15 20:11:17,52.33,305.0
+46,Arsenal,0,54,0,0,0,0,"Roy William Harper, Jr.",Speedy,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,9.0,604.0
+47,Astro Boy,0,90,0,0,0,0,Atom,Desconocido,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,15.0,572.0
+48,Atlas,63,80,25,100,98,50,Erik Josten,Goliath,good,Male,Mutant,"6'0, 183 cm","225 lb, 101 kg",2026-04-15 20:11:17,69.33,125.0
+49,Atlas,63,100,42,100,27,80,Desconocido,DC Comics,bad,Male,God / Eternal,"6'6, 198 cm","280 lb, 126 kg",2026-04-15 20:11:17,68.67,127.0
+50,Atom,0,0,0,0,0,0,Albert Pratt,DC Comics,good,Male,Desconocido,"5'10, 178 cm","150 lb, 68 kg",2026-04-15 20:11:17,0.0,630.0
+51,Atom,0,0,0,0,0,0,Desconocido,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+52,Atom Girl,38,10,23,28,38,42,Salu Digby,DC Comics,good,Female,Desconocido,"5'6, 168 cm","120 lb, 54 kg",2026-04-15 20:11:17,29.83,527.0
+53,Atom II,88,10,33,45,40,60,Ray Palmer,DC Comics,good,Male,Human,"6'0, 183 cm","180 lb, 81 kg",2026-04-15 20:11:17,46.0,370.0
+54,Atom III,0,0,0,0,0,0,Adam Cray,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+55,Atom IV,0,0,0,0,0,0,Ryan Choi,DC Comics,good,Male,Desconocido,"-, 0 cm","160 lb, 72 kg",2026-04-15 20:11:17,0.0,630.0
+56,Aurora,63,10,96,60,74,56,Jeanne-Marie Beaubier,Marvel Comics,good,Female,Mutant,"5'11, 180 cm","140 lb, 63 kg",2026-04-15 20:11:17,59.83,214.0
+57,Azazel,50,11,47,95,100,80,Desconocido,Marvel Comics,bad,Male,Neyaphem,"6'0, 183 cm","149 lb, 67 kg",2026-04-15 20:11:17,63.83,179.0
+58,Azrael,63,18,17,20,35,80,Michael Washington Lane,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,38.83,451.0
+59,Aztar,0,98,0,0,0,0,Aztar,Spectre,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,16.33,563.0
+60,Bane,88,38,23,56,51,95,Desconocido,DC Comics,bad,Male,Human,"6'8, 203 cm","400 lb, 180 kg",2026-04-15 20:11:17,58.5,232.0
+61,Banshee,50,10,58,40,63,70,Sean Cassidy,Marvel Comics,good,Male,Human,"6'0, 183 cm","170 lb, 77 kg",2026-04-15 20:11:17,48.5,346.0
+62,Bantam,25,53,23,54,21,56,Roberto Velasquez,Marvel Comics,good,Male,Desconocido,"5'5, 165 cm","119 lb, 54 kg",2026-04-15 20:11:17,38.67,454.0
+63,Batgirl,88,11,33,40,34,90,Barbara Gordon,Oracle,good,Female,Human,"5'7, 170 cm","126 lb, 57 kg",2026-04-15 20:11:17,49.33,334.0
+64,Batgirl,0,27,0,0,0,0,Mary Elizabeth Kane,Hawkfire,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,4.5,626.0
+65,Batgirl III,0,43,0,0,0,0,Helena Rosa Bertinelli,Huntress,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,7.17,618.0
+66,Batgirl IV,69,12,27,56,46,100,Cassandra Cain,DC Comics,good,Female,Human,"5'5, 165 cm","115 lb, 52 kg",2026-04-15 20:11:17,51.67,309.0
+67,Batgirl V,0,0,0,0,0,0,Charlotte Gage-Radcliffe,Misfit,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+68,Batgirl VI,75,10,23,28,22,80,Stephanie Brown,Spoiler,good,Female,Desconocido,"5'6, 168 cm","135 lb, 61 kg",2026-04-15 20:11:17,39.67,441.0
+69,Batman,81,40,29,55,63,90,Terry McGinnis,DC Comics,good,Male,Human,"5'10, 178 cm","170 lb, 77 kg",2026-04-15 20:11:17,59.67,219.0
+70,Batman,100,26,27,50,47,100,Bruce Wayne,DC Comics,good,Male,Human,"6'2, 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,58.33,236.0
+71,Batman II,88,11,33,28,36,100,Dick Grayson,Nightwing,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,49.33,334.0
+72,Battlestar,50,53,35,74,48,74,Lemar Hoskins,Marvel Comics,good,Male,Desconocido,"6'6, 198 cm","295 lb, 133 kg",2026-04-15 20:11:17,55.67,262.0
+73,Batwoman V,81,8,29,25,27,80,Katherine Rebecca Kane,DC Comics,good,Female,Human,"5'10, 178 cm","- lb, 0 kg",2026-04-15 20:11:17,41.67,425.0
+74,Beak,0,0,0,0,0,0,Barnell Bohusk,Marvel Comics,good,Male,Desconocido,"5'9, 175 cm","140 lb, 63 kg",2026-04-15 20:11:17,0.0,630.0
+75,Beast,94,48,38,60,43,85,Henry Philip McCoy,Marvel Comics,good,Male,Mutant,"5'11, 180 cm","402 lb, 181 kg",2026-04-15 20:11:17,61.33,206.0
+76,Beast Boy,50,28,50,70,79,40,Garfield Mark Logan,DC Comics,good,Male,Human,"5'8, 173 cm","150 lb, 68 kg",2026-04-15 20:11:17,52.83,298.0
+77,Beetle,0,54,0,0,0,0,Desconocido,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,9.0,604.0
+78,Ben 10,10,7,8,10,90,40,Benjamin Kirby Tennyson,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,27.5,537.0
+79,Beta Ray Bill,63,80,35,95,100,84,Beta Ray Bill (translation of his Korbinite name),Marvel Comics,good,Male,Desconocido,"6'7, 201 cm","480 lb, 216 kg",2026-04-15 20:11:17,76.17,77.0
+80,Beyonder,100,100,100,100,100,84,Desconocido,Marvel Comics,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,97.33,4.0
+81,Big Barda,88,100,79,100,100,100,Barda Free,DC Comics,bad,Female,New God,"6'2, 188 cm","300 lb, 135 kg",2026-04-15 20:11:17,94.5,13.0
+82,Big Daddy,38,10,12,32,22,64,Damon Macready,Icon Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,29.67,528.0
+83,Big Man,75,12,23,28,19,70,Frederick Foswell,Marvel Comics,bad,Male,Desconocido,"5'5, 165 cm","157 lb, 71 kg",2026-04-15 20:11:17,37.83,461.0
+84,Bill Harken,63,36,33,60,27,40,Desconocido,SyFy,good,Male,Alpha,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,43.17,407.0
+85,Billy Kincaid,0,0,0,0,0,0,Billy Kincaid,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+86,Binary,0,0,0,0,0,0,Carol Danvers,Captain Marvel,good,Female,Desconocido,"5'11, 180 cm","120 lb, 54 kg",2026-04-15 20:11:17,0.0,630.0
+87,Bionic Woman,56,37,33,40,20,40,Jamie Sommers,Desconocido,good,Female,Cyborg,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,37.67,465.0
+88,Bird-Brain,25,10,35,28,21,42,Desconocido,Marvel Comics,good,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,26.83,540.0
+89,Bird-Man,0,0,0,0,0,0,Henry Hawk,Marvel Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+90,Bird-Man II,0,0,0,0,0,0,Achille DiBacco,Marvel Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+91,Birdman,0,35,0,0,0,0,Ray Randal,Hanna-Barbera,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,5.83,624.0
+92,Bishop,63,14,23,75,100,65,Lucas Bishop,Marvel Comics,good,Male,Mutant,"6'6, 198 cm","275 lb, 124 kg",2026-04-15 20:11:17,56.67,252.0
+93,Bizarro,38,95,100,100,100,85,Bizarro,DC Comics,neutral,Male,Bizarro,"6'3, 191 cm","345 lb, 155 kg",2026-04-15 20:11:17,86.33,40.0
+94,Black Abbott,0,0,0,0,0,0,Desconocido,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+95,Black Adam,88,100,92,100,100,56,Teth-Adam,DC Comics,bad,Male,Desconocido,"6'3, 191 cm","250 lb, 113 kg",2026-04-15 20:11:17,89.33,26.0
+96,Black Bolt,75,67,100,84,100,56,Blackagar Boltagon,Marvel Comics,good,Male,Inhuman,"6'2, 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,80.33,59.0
+97,Black Canary,63,8,33,20,52,80,Laurel Lance,DC Comics,good,Female,Metahuman,"5'7, 170 cm","130 lb, 59 kg",2026-04-15 20:11:17,42.67,413.0
+98,Black Canary,63,8,33,15,45,80,Dinah Drake Lance,DC Comics,good,Female,Human,"5'5, 165 cm","128 lb, 58 kg",2026-04-15 20:11:17,40.67,433.0
+99,Black Cat,75,16,33,10,23,70,Felicia Hardy,Marvel Comics,good,Female,Human,"5'10, 178 cm","120 lb, 54 kg",2026-04-15 20:11:17,37.83,461.0
+100,Black Flash,44,10,100,80,100,30,Desconocido,DC Comics,neutral,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,60.67,209.0
+101,Black Goliath,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+102,Black Knight III,63,10,8,70,43,70,Dane Whitman,Marvel Comics,good,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-04-15 20:11:17,44.0,396.0
+103,Black Lightning,50,11,53,28,70,75,Jefferson Pierce,DC Comics,good,Male,Desconocido,"6'1, 185 cm","200 lb, 90 kg",2026-04-15 20:11:17,47.83,353.0
+104,Black Mamba,75,10,35,42,88,65,Tanya Sealy,Marvel Comics,bad,Female,Desconocido,"5'7, 170 cm","115 lb, 52 kg",2026-04-15 20:11:17,52.5,303.0
+105,Black Manta,75,28,50,60,76,85,David,DC Comics,bad,Male,Human,"6'2, 188 cm","205 lb, 92 kg",2026-04-15 20:11:17,62.33,192.0
+106,Black Panther,88,16,30,60,41,100,T'Challa,Marvel Comics,good,Male,Human,"6'0, 183 cm","200 lb, 90 kg",2026-04-15 20:11:17,55.83,260.0
+107,Black Widow,75,13,33,30,36,100,Natasha Romanoff,Marvel Comics,good,Female,Human,"5'7, 170 cm","131 lb, 59 kg",2026-04-15 20:11:17,47.83,353.0
+108,Black Widow II,0,48,0,0,0,0,Yelena Belova,Marvel Comics,good,Female,Desconocido,"5'7', 170 cm","135 lb, 61 kg",2026-04-15 20:11:17,8.0,609.0
+109,Blackout,63,32,45,80,45,65,Desconocido,Marvel Comics,bad,Male,Demon,"6'3, 191 cm","230 lb, 104 kg",2026-04-15 20:11:17,55.0,273.0
+110,Blackwing,38,10,35,32,20,56,Joseph Manfredi,Marvel Comics,bad,Male,Desconocido,"6'1, 185 cm","190 lb, 86 kg",2026-04-15 20:11:17,31.83,519.0
+111,Blackwulf,50,28,8,30,69,25,Lucian,Marvel Comics,Desconocido,Male,Alien,"6'2, 188 cm","195 lb, 88 kg",2026-04-15 20:11:17,35.0,490.0
+112,Blade,63,28,38,50,40,90,Eric Brooks,Marvel Comics,good,Male,Vampire,"6'2, 188 cm","215 lb, 97 kg",2026-04-15 20:11:17,51.5,311.0
+113,Blaquesmith,0,0,0,0,0,0,Desconocido,Vertigo II,good,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+114,Bling!,69,14,12,90,52,28,Roxanne Washington,Marvel Comics,good,Female,Desconocido,"5'6, 168 cm","152 lb, 68 kg",2026-04-15 20:11:17,44.17,395.0
+115,Blink,50,8,20,28,77,64,Clarice Ferguson,Marvel Comics,good,Female,Mutant,"5'5, 165 cm","125 lb, 56 kg",2026-04-15 20:11:17,41.17,427.0
+116,Blizzard,0,0,0,0,0,0,Gregor Shapanka,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+117,Blizzard,0,72,0,0,0,0,Desconocido,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,12.0,583.0
+118,Blizzard II,38,10,27,42,47,56,Donald Gill,Marvel Comics,bad,Male,Desconocido,"5'9, 175 cm","170 lb, 77 kg",2026-04-15 20:11:17,36.67,475.0
+119,Blob,10,83,23,95,28,72,Frederick J. Dukes,Marvel Comics,bad,Male,Desconocido,"5'10, 178 cm","510 lb, 230 kg",2026-04-15 20:11:17,51.83,307.0
+120,Bloodaxe,63,80,33,80,100,84,Jackie Lukus,Marvel Comics,bad,Female,Human,"7'2, 218 cm","1100 lb, 495 kg",2026-04-15 20:11:17,73.33,100.0
+121,Bloodhawk,50,10,50,80,80,64,Lemuel Krug,Marvel Comics,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,55.67,262.0
+122,Bloodwraith,0,72,0,0,0,0,Sean Dolan,Marvel Comics,bad,Male,Desconocido,"100'0, 30.5 meters","- lb, 0 kg",2026-04-15 20:11:17,12.0,583.0
+123,Blue Beetle,0,0,0,0,0,0,Daniel Garrett,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+124,Blue Beetle,0,0,0,0,0,0,Desconocido,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+125,Blue Beetle II,0,45,0,0,0,0,Theodore Kord,DC Comics,good,Male,Desconocido,"6'0, 183 cm","190 lb, 86 kg",2026-04-15 20:11:17,7.5,613.0
+126,Blue Beetle III,50,34,58,80,100,30,Jaime Reyes,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,58.67,229.0
+127,Boba Fett,63,10,38,36,68,70,Desconocido,George Lucas,bad,Male,Human / Clone,"6'0, 183 cm","- lb, 0 kg",2026-04-15 20:11:17,47.5,356.0
+128,Bolt,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+129,Bomb Queen,0,73,0,0,0,0,Desconocido,Image Comics,bad,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,12.17,582.0
+130,Boom-Boom,38,10,12,42,57,64,Tabitha Smith,Meltdown,good,Female,Mutant,"5'5, 165 cm","122 lb, 55 kg",2026-04-15 20:11:17,37.17,470.0
+131,Boomer,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+132,Booster Gold,69,85,42,70,100,40,Michael Jon Carter,DC Comics,good,Male,Human,"6'5, 196 cm","215 lb, 97 kg",2026-04-15 20:11:17,67.67,137.0
+133,Box,0,0,0,0,0,0,Roger Bochs,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+134,Box III,0,0,0,0,0,0,Dr. Walter Langowski,Marvel Comics,good,Desconocido,Desconocido,"6'4, 193 cm","245 lb, 110 kg",2026-04-15 20:11:17,0.0,630.0
+135,Box IV,50,75,23,28,11,56,Madison Jeffries,Gemini V,good,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,40.5,434.0
+136,Brainiac,100,95,63,90,60,75,Vril Dox,DC Comics,bad,Male,Android,"6'6, 198 cm","300 lb, 135 kg",2026-04-15 20:11:17,80.5,57.0
+137,Brainiac 5,100,10,23,28,60,32,Querl Dox,DC Comics,good,Male,Desconocido,"5'7, 170 cm","135 lb, 61 kg",2026-04-15 20:11:17,42.17,420.0
+138,Brother Voodoo,0,65,0,0,0,0,Jericho Drumm,Marvel Comics,good,Male,Human,"6'0, 183 cm","220 lb, 99 kg",2026-04-15 20:11:17,10.83,591.0
+139,Brundlefly,69,32,25,40,27,15,Seth Brundle,Desconocido,Desconocido,Male,Mutant,"6'4, 193 cm","- lb, 0 kg",2026-04-15 20:11:17,34.67,494.0
+140,Buffy,63,28,42,70,48,60,Buffy Anne Summers,Dark Horse Comics,good,Female,Human,"5'2, 157 cm","115 lb, 52 kg",2026-04-15 20:11:17,51.83,307.0
+141,Bullseye,50,11,25,70,20,70,Lester,Marvel Comics,bad,Male,Human,"6'0, 183 cm","200 lb, 90 kg",2026-04-15 20:11:17,41.0,430.0
+142,Bumblebee,63,28,25,10,47,35,Karen Beecher,DC Comics,good,Female,Human,"5'7, 170 cm","130 lb, 59 kg",2026-04-15 20:11:17,34.67,494.0
+143,Bumbleboy,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+144,Bushido,38,10,8,10,19,70,Ryuko Orsono,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,25.83,546.0
+145,Cable,88,48,23,56,100,80,Nathan Summers,Marvel Comics,good,Male,Mutant,"6'8, 203 cm","350 lb, 158 kg",2026-04-15 20:11:17,65.83,160.0
+146,Callisto,63,53,23,42,52,85,Callisto,Marvel Comics,bad,Female,Desconocido,"5'9, 175 cm","165 lb, 74 kg",2026-04-15 20:11:17,53.0,297.0
+147,Cameron Hicks,50,10,23,28,51,70,Desconocido,SyFy,good,Male,Alpha,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,38.67,454.0
+148,Cannonball,50,28,67,99,94,56,Samuel Zachery Guthrie,Marvel Comics,good,Male,Desconocido,"6'0, 183 cm","181 lb, 81 kg",2026-04-15 20:11:17,65.67,161.0
+149,Captain America,69,19,38,55,60,100,Steve Rogers,Marvel Comics,good,Male,Human,"6'2, 188 cm","240 lb, 108 kg",2026-04-15 20:11:17,56.83,249.0
+150,Captain Atom,81,93,83,90,100,80,Nathaniel Adam,DC Comics,good,Male,Human / Radiation,"6'4, 193 cm","200 lb, 90 kg",2026-04-15 20:11:17,87.83,38.0
+151,Captain Britain,75,77,50,60,31,80,Brian Braddock,Marvel Comics,good,Male,Human,"6'6, 198 cm","257 lb, 116 kg",2026-04-15 20:11:17,62.17,197.0
+152,Captain Cold,50,10,17,20,28,20,Leonard Snart,DC Comics,neutral,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,24.17,553.0
+153,Captain Epic,0,0,0,0,0,0,Desconocido,Team Epic TV,good,Male,Desconocido,"6'2, 188 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+154,Captain Hindsight,25,10,83,30,10,20,Jack Brolin,South Park,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,29.67,528.0
+155,Captain Mar-vell,0,80,0,0,0,0,Mar-Vell,Marvel Comics,good,Male,Desconocido,"6'2', 188 cm","240 lb, 108 kg",2026-04-15 20:11:17,13.33,580.0
+156,Captain Marvel,88,100,88,95,100,75,Billy Batson,DC Comics,good,Male,Human,"6'4, 193 cm","225 lb, 101 kg",2026-04-15 20:11:17,91.0,20.0
+157,Captain Marvel,84,88,71,95,100,90,Carol Danvers,Binary,good,Female,Human-Kree,"5'11, 180 cm","165 lb, 74 kg",2026-04-15 20:11:17,88.0,36.0
+158,Captain Marvel II,75,81,27,90,34,56,Frederick Christopher Freeman,DC Comics,good,Male,Human,"5'9, 175 cm","165 lb, 74 kg",2026-04-15 20:11:17,60.5,212.0
+159,Captain Midnight,0,0,0,0,0,0,Desconocido,Dark Horse Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+160,Captain Planet,50,88,75,80,100,60,Desconocido,Marvel Comics,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,75.5,82.0
+161,Captain Universe,0,92,0,0,0,0,Desconocido,Marvel Comics,good,Desconocido,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,15.33,570.0
+162,Carnage,63,63,70,84,88,90,Cletus Kasady,Marvel Comics,bad,Male,Symbiote,"6'1, 185 cm","190 lb, 86 kg",2026-04-15 20:11:17,76.33,75.0
+163,Cat,0,90,0,0,0,0,Shirlee Bryant,Marvel Comics,good,Female,Desconocido,"5'8, 173 cm","135 lb, 61 kg",2026-04-15 20:11:17,15.0,572.0
+164,Cat II,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+165,Catwoman,69,11,33,28,27,85,Selina Kyle,DC Comics,good,Female,Human,"5'9, 175 cm","135 lb, 61 kg",2026-04-15 20:11:17,42.17,420.0
+166,Cecilia Reyes,0,0,0,0,0,0,Dr. Cecilia Reyes,Marvel Comics,good,Desconocido,Desconocido,"5'7, 170 cm","138 lb, 62 kg",2026-04-15 20:11:17,0.0,630.0
+167,Century,88,80,53,64,100,100,Desconocido,Marvel Comics,good,Male,Alien,"6'7, 201 cm","215 lb, 97 kg",2026-04-15 20:11:17,80.83,55.0
+168,Cerebra,0,57,0,0,0,0,Shakti Haddad,Marvel Comics,good,Female,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,9.5,600.0
+169,Chamber,50,10,20,80,57,64,Jonothon Evan Starsmore,Marvel Comics,good,Male,Mutant,"5'9, 175 cm","140 lb, 63 kg",2026-04-15 20:11:17,46.83,364.0
+170,Chameleon,88,10,12,28,28,28,Dmitri Anatoly Smerdyakov Kravinoff,DC Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,32.33,516.0
+171,Changeling,63,10,23,42,64,64,Kevin Sidney,Marvel Comics,bad,Male,Desconocido,"5'11, 180 cm","180 lb, 81 kg",2026-04-15 20:11:17,44.33,391.0
+172,Cheetah,38,8,42,20,32,70,Priscilla Rich,DC Comics,bad,Female,Human,"5'4, 163 cm","110 lb, 50 kg",2026-04-15 20:11:17,35.0,490.0
+173,Cheetah II,38,20,42,20,39,60,Deborah Domaine,DC Comics,bad,Female,Human,"5'7, 170 cm","122 lb, 55 kg",2026-04-15 20:11:17,36.5,480.0
+174,Cheetah III,88,100,88,80,78,95,Barbara Minerva,DC Comics,bad,Female,Human,"5'9, 175 cm","120 lb, 54 kg",2026-04-15 20:11:17,88.17,35.0
+175,Chromos,0,0,0,0,0,0,Bernard Embers,Team Epic TV,bad,Male,Desconocido,"6'1, 185 cm","190 lb, 86 kg",2026-04-15 20:11:17,0.0,630.0
+176,Chuck Norris,50,80,47,56,42,99,Carlos Ray Norris,Desconocido,good,Male,Desconocido,"5'10, 178 cm","- lb, 0 kg",2026-04-15 20:11:17,62.33,192.0
+177,Citizen Steel,50,95,33,100,23,60,Nathan Heywood,DC Comics,good,Male,Human,"6'0, 183 cm","378 lb, 170 kg",2026-04-15 20:11:17,60.17,213.0
+178,Claire Bennet,38,9,12,100,90,28,Claire Bennet,NBC - Heroes,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,46.17,368.0
+179,Clea,0,39,0,0,0,0,Clea,Marvel Comics,good,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,6.5,622.0
+180,Cloak,63,10,47,64,100,56,Tyrone Johnson,Marvel Comics,good,Male,Desconocido,"7'5, 226 cm","155 lb, 70 kg",2026-04-15 20:11:17,56.67,252.0
+181,Clock King,75,10,17,10,7,40,William Tockman,DC Comics,bad,Male,Human,"5'10, 178 cm","173 lb, 78 kg",2026-04-15 20:11:17,26.5,544.0
+182,Cogliostro,0,0,0,0,0,0,Cain,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+183,Colin Wagner,0,0,0,0,0,0,Desconocido,HarperCollins,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+184,Colossal Boy,0,0,0,0,0,0,Desconocido,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+185,Colossus,63,83,33,100,45,80,Piotr Nikolaievitch Rasputin,Marvel Comics,good,Male,Mutant,"7'5, 226 cm","500 lb, 225 kg",2026-04-15 20:11:17,67.33,141.0
+186,Copycat,56,10,21,25,54,60,Vanessa Carlysle,Marvel Comics,neutral,Female,Mutant,"6'0, 183 cm","148 lb, 67 kg",2026-04-15 20:11:17,37.67,465.0
+187,Corsair,0,16,0,0,0,0,Christopher Summers,Marvel Comics,good,Male,Desconocido,"6'3, 191 cm","175 lb, 79 kg",2026-04-15 20:11:17,2.67,628.0
+188,Cottonmouth,50,10,8,10,27,25,Burchell Clemens,Marvel Comics,bad,Male,Human,"6'0, 183 cm","220 lb, 99 kg",2026-04-15 20:11:17,21.67,557.0
+189,Crimson Crusader,0,58,0,0,0,0,Rory Destine,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,9.67,597.0
+190,Crimson Dynamo,0,65,0,0,0,0,Anton Vanko,Marvel Comics,good,Male,Desconocido,"5'11, 180 cm","230 lb, 104 kg",2026-04-15 20:11:17,10.83,591.0
+191,Crystal,63,16,12,14,61,56,Crystallia Amaquelin,Marvel Comics,good,Female,Inhuman,"5'6, 168 cm","110 lb, 50 kg",2026-04-15 20:11:17,37.0,472.0
+192,Curse,0,0,0,0,0,0,Phillip Krahn,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+193,Cy-Gor,0,96,0,0,0,0,Desconocido,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,16.0,565.0
+194,Cyborg,75,53,42,85,71,64,Victor Stone,DC Comics,good,Male,Cyborg,"6'6, 198 cm","385 lb, 173 kg",2026-04-15 20:11:17,65.0,165.0
+195,Cyborg Superman,75,93,92,100,100,80,Henry Henshaw,DC Comics,bad,Male,Cyborg,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,90.0,24.0
+196,Cyclops,75,10,23,42,76,80,Scott Summers,Marvel Comics,good,Male,Mutant,"6'3, 191 cm","195 lb, 88 kg",2026-04-15 20:11:17,51.0,319.0
+197,Cypher,0,44,0,0,0,0,Douglas Aaron Ramsey,Marvel Comics,good,Desconocido,Desconocido,"5'9', 175 cm","150 lb, 68 kg",2026-04-15 20:11:17,7.33,616.0
+198,Dagger,63,10,35,42,52,70,Tandy Bowen,Marvel Comics,good,Female,Desconocido,"Shaker Heights, Ohio","116 lb, 52 kg",2026-04-15 20:11:17,45.33,378.0
+199,Danny Cooper,0,0,0,0,0,0,Desconocido,HarperCollins,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+200,Daphne Powell,38,10,8,10,56,10,Daphne Powell,ABC Studios,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,22.0,555.0
+201,Daredevil,75,13,25,35,61,100,Matt Murdock,Marvel Comics,good,Male,Human,"6'0, 183 cm","200 lb, 90 kg",2026-04-15 20:11:17,51.5,311.0
+202,Darkhawk,50,32,33,70,74,64,Christopher Powell,Marvel Comics,good,Male,Human,"6'1, 185 cm","180 lb, 81 kg",2026-04-15 20:11:17,53.83,289.0
+203,Darkman,75,14,23,85,12,28,Peyton Westlake,Universal Studios,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,39.5,443.0
+204,Darkseid,88,100,83,100,100,95,Uxas,DC Comics,bad,Male,New God,"8'9, 267 cm","1815 lb, 817 kg",2026-04-15 20:11:17,94.33,15.0
+205,Darkside,0,0,0,0,0,0,Desconocido,Desconocido,bad,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+206,Darkstar,38,8,35,42,79,64,Laynia Petrovna,Marvel Comics,good,Female,Mutant,"5'6, 168 cm","125 lb, 56 kg",2026-04-15 20:11:17,44.33,391.0
+207,Darth Maul,56,48,50,30,100,100,Desconocido,George Lucas,bad,Male,Dathomirian Zabrak,"5'7, 170 cm","- lb, 0 kg",2026-04-15 20:11:17,64.0,178.0
+208,Darth Vader,69,48,33,35,100,100,Anakin Skywalker,George Lucas,bad,Male,Cyborg,"6'6, 198 cm","300 lb, 135 kg",2026-04-15 20:11:17,64.17,177.0
+209,Dash,25,12,92,60,20,30,Dashiell Robert Parr,Dark Horse Comics,good,Male,Human,"4'0, 122 cm","60 lb, 27 kg",2026-04-15 20:11:17,39.83,438.0
+210,Data,100,32,21,40,56,50,Data,Star Trek,good,Male,Android,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,49.83,329.0
+211,Dazzler,63,10,33,60,100,55,Alison Blaire,Marvel Comics,good,Female,Mutant,"5'8, 173 cm","115 lb, 52 kg",2026-04-15 20:11:17,53.5,294.0
+212,Deadman,50,10,33,100,100,42,Boston Brand,DC Comics,good,Male,Human,"6'0, 183 cm","201 lb, 90 kg",2026-04-15 20:11:17,55.83,260.0
+213,Deadpool,69,32,50,100,100,100,Wade Wilson,Evil Deadpool,neutral,Male,Mutant,"6'2, 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,75.17,83.0
+214,Deadshot,50,10,23,28,55,80,Floyd Lawton,DC Comics,bad,Male,Human,"6'1, 185 cm","202 lb, 91 kg",2026-04-15 20:11:17,41.0,430.0
+215,Deathlok,69,32,30,70,40,60,Luther Manning,Marvel Comics,good,Male,Cyborg,"6'4, 193 cm","395 lb, 178 kg",2026-04-15 20:11:17,50.17,326.0
+216,Deathstroke,75,30,35,100,47,90,Slade Joseph Wilson,DC Comics,neutral,Male,Human,"6'4, 193 cm","225 lb, 101 kg",2026-04-15 20:11:17,62.83,187.0
+217,Demogoblin,50,48,42,35,67,60,Desconocido,Marvel Comics,bad,Male,Demon,"6'1, 185 cm","210 lb, 95 kg",2026-04-15 20:11:17,50.33,324.0
+218,Destroyer,50,95,58,98,85,70,Desconocido,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","850 lb, 383 kg",2026-04-15 20:11:17,76.0,79.0
+219,Diamondback,44,16,23,28,45,60,Willis Stryker,Marvel Comics,bad,Male,Human,"6'4, 193 cm","200 lb, 90 kg",2026-04-15 20:11:17,36.0,483.0
+220,DL Hawkins,50,12,12,56,48,56,Daniel Lawrence Hawkins,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,39.0,449.0
+221,Doc Samson,75,80,33,80,36,70,Leonard Samson,Marvel Comics,good,Male,Human / Radiation,"6'6, 198 cm","380 lb, 171 kg",2026-04-15 20:11:17,62.33,192.0
+222,Doctor Doom,100,32,20,100,100,84,Victor von Doom,Marvel Comics,bad,Male,Human,"6'7, 201 cm","415 lb, 187 kg",2026-04-15 20:11:17,72.67,104.0
+223,Doctor Doom II,0,0,0,0,0,0,Kristoff Vernard,Marvel Comics,bad,Male,Desconocido,"6'7, 201 cm","293 lb, 132 kg",2026-04-15 20:11:17,0.0,630.0
+224,Doctor Fate,81,16,25,80,100,50,Kent Nelson,DC Comics,good,Male,Human,"6'2, 188 cm","197 lb, 89 kg",2026-04-15 20:11:17,58.67,229.0
+225,Doctor Octopus,94,48,33,40,53,65,Otto Octavius,Marvel Comics,bad,Male,Human,"5'9, 175 cm","245 lb, 110 kg",2026-04-15 20:11:17,55.5,267.0
+226,Doctor Strange,100,10,12,84,100,60,Stephen Strange,Marvel Comics,good,Male,Human,"6'2, 188 cm","180 lb, 81 kg",2026-04-15 20:11:17,61.0,207.0
+227,Domino,63,10,27,28,49,74,Neena Thurman,Marvel Comics,good,Female,Human,"5'8, 173 cm","120 lb, 54 kg",2026-04-15 20:11:17,41.83,423.0
+228,Donatello,88,14,46,60,58,75,Desconocido,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,56.83,249.0
+229,Donna Troy,0,89,0,0,0,0,Donna Hinckley Stacey Troy,DC Comics,good,Female,Amazon,"5'9, 175 cm","140 lb, 63 kg",2026-04-15 20:11:17,14.83,575.0
+230,Doomsday,75,100,67,100,100,90,Doomsday,DC Comics,bad,Male,Alien,"8'0, 244 cm","915 lb, 412 kg",2026-04-15 20:11:17,88.67,32.0
+231,Doppelganger,8,63,60,95,69,84,Desconocido,Marvel Comics,bad,Male,Desconocido,"6'5, 196 cm","230 lb, 104 kg",2026-04-15 20:11:17,63.17,185.0
+232,Dormammu,88,95,83,100,100,80,Dormammu,Marvel Comics,bad,Male,Desconocido,"6'1, 185 cm","- lb, 0 kg",2026-04-15 20:11:17,91.0,20.0
+233,Dr Manhattan,88,100,42,100,100,42,Jonathan Osterman,DC Comics,good,Male,Human / Cosmic,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,78.67,66.0
+234,Drax the Destroyer,56,80,25,85,46,65,Arthur Sampson Douglas,Marvel Comics,good,Male,Human / Altered,"6'4, 193 cm","680 lb, 306 kg",2026-04-15 20:11:17,59.5,220.0
+235,Ego,88,80,83,99,71,28,Ego,Marvel Comics,bad,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,74.83,89.0
+236,Elastigirl,63,32,33,95,52,70,Helen Parr,Dark Horse Comics,good,Female,Human,"5'6, 168 cm","125 lb, 56 kg",2026-04-15 20:11:17,57.5,245.0
+237,Electro,69,10,50,56,67,64,Maxwell Dillon,Marvel Comics,bad,Male,Human,"5'11, 180 cm","165 lb, 74 kg",2026-04-15 20:11:17,52.67,301.0
+238,Elektra,63,11,30,28,59,100,Elektra Natchios,Marvel Comics,good,Female,Human,"5'9, 175 cm","130 lb, 59 kg",2026-04-15 20:11:17,48.5,346.0
+239,Elle Bishop,50,8,12,42,63,42,Desconocido,NBC - Heroes,bad,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,36.17,481.0
+240,Elongated Man,75,10,33,90,44,40,Ralph Dibny,DC Comics,good,Male,Desconocido,"6'1, 185 cm","178 lb, 80 kg",2026-04-15 20:11:17,48.67,345.0
+241,Emma Frost,75,63,35,90,100,42,Emma Frost,Marvel Comics,good,Female,Desconocido,"5'10', 178 cm","144 lb, 65 kg",2026-04-15 20:11:17,67.5,139.0
+242,Enchantress,63,14,25,60,100,40,June Moone,DC Comics,good,Female,Human,"5'6, 168 cm","126 lb, 57 kg",2026-04-15 20:11:17,50.33,324.0
+243,Energy,0,0,0,0,0,0,Desconocido,HarperCollins,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+244,ERG-1,0,0,0,0,0,0,Desconocido,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+245,Ethan Hunt,75,11,29,30,26,95,Ethan Hunt,Desconocido,good,Male,Human,"5'6, 168 cm","- lb, 0 kg",2026-04-15 20:11:17,44.33,391.0
+246,Etrigan,50,85,17,100,100,50,Jason Blood,DC Comics,neutral,Male,Demon,"6'4, 193 cm","452 lb, 203 kg",2026-04-15 20:11:17,67.0,146.0
+247,Evil Deadpool,69,32,50,100,100,100,Wade Wilson,Deadpool,bad,Male,Mutant,"6'2, 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,75.17,83.0
+248,Evilhawk,50,32,33,70,85,64,Dargin Bokk,Marvel Comics,bad,Male,Alien,"6'3, 191 cm","235 lb, 106 kg",2026-04-15 20:11:17,55.67,262.0
+249,Exodus,63,81,28,28,100,70,Bennet du Paris,Marvel Comics,bad,Male,Mutant,"6'0, 183 cm","195 lb, 88 kg",2026-04-15 20:11:17,61.67,203.0
+250,Fabian Cortez,0,0,0,0,0,0,Fabian Cortez,Marvel Comics,bad,Desconocido,Desconocido,"6'5, 196 cm","214 lb, 96 kg",2026-04-15 20:11:17,0.0,630.0
+251,Falcon,38,13,50,28,22,64,Sam Wilson,Marvel Comics,good,Male,Human,"6'2, 188 cm","240 lb, 108 kg",2026-04-15 20:11:17,35.83,484.0
+252,Fallen One II,88,85,83,100,100,56,Desconocido,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,85.33,42.0
+253,Faora,88,95,75,100,98,90,Faora Hu-Ul,DC Comics,bad,Female,Kryptonian,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,91.0,20.0
+254,Feral,38,28,45,28,27,70,Maria Callasantos,Marvel Comics,good,Desconocido,Desconocido,"5'9, 175 cm","110 lb, 50 kg",2026-04-15 20:11:17,39.33,446.0
+255,Fighting Spirit,0,0,0,0,0,0,Carol Carter,DC Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+256,Fin Fang Foom,50,81,23,100,75,70,Desconocido,Marvel Comics,good,Male,Kakarantharaian,"32'0, 975 cm","40000 lb, 18 tons",2026-04-15 20:11:17,66.5,152.0
+257,Firebird,38,8,40,14,100,42,Bonita Juarez,Marvel Comics,good,Female,Desconocido,"5'5', 165 cm","125 lb, 56 kg",2026-04-15 20:11:17,40.33,435.0
+258,Firelord,38,63,75,90,52,28,Pyreus Kril,Marvel Comics,good,Desconocido,Desconocido,"6'4', 193 cm","220 lb, 99 kg",2026-04-15 20:11:17,57.67,242.0
+259,Firestar,50,8,54,55,71,32,Angelica Jones,Marvel Comics,good,Female,Mutant,"5'8, 173 cm","125 lb, 56 kg",2026-04-15 20:11:17,45.0,384.0
+260,Firestorm,50,53,58,56,100,42,Jason Rusch,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,59.83,214.0
+261,Firestorm,38,80,58,80,100,40,Ronald Raymond,DC Comics,good,Male,Human,"6'2, 188 cm","202 lb, 91 kg",2026-04-15 20:11:17,66.0,158.0
+262,Fixer,0,0,0,0,0,0,Paul Norbert Ebersol,Marvel Comics,bad,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+263,Flash,63,10,100,50,68,32,Jay Garrick,DC Comics,good,Male,Human,"5'11, 180 cm","179 lb, 81 kg",2026-04-15 20:11:17,53.83,289.0
+264,Flash Gordon,0,69,0,0,0,0,Steven Gordon,Desconocido,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,11.5,586.0
+265,Flash II,88,48,100,60,100,60,Barry Allen,Black Racer,good,Male,Black Racer,"6'0, 183 cm","195 lb, 88 kg",2026-04-15 20:11:17,76.0,79.0
+266,Flash III,63,10,100,60,100,32,Wally West,Speed Demon,good,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-04-15 20:11:17,60.83,208.0
+267,Flash IV,63,10,100,32,100,48,Bartholomew Allen II,Impulse,good,Male,Human,"5'2, 157 cm","115 lb, 52 kg",2026-04-15 20:11:17,58.83,227.0
+268,Forge,63,10,12,28,25,48,Desconocido,Marvel Comics,good,Desconocido,Desconocido,"6', 183 cm","180 lb, 81 kg",2026-04-15 20:11:17,31.0,523.0
+269,Franklin Richards,63,80,50,60,100,50,Franklin  Richards,Marvel Comics,good,Male,Mutant,"4'8, 142 cm","100 lb, 45 kg",2026-04-15 20:11:17,67.17,143.0
+270,Franklin Storm,38,10,1,1,0,10,Dr. Franklin Storm,Marvel Comics,good,Desconocido,Desconocido,"6'2', 188 cm","205 lb, 92 kg",2026-04-15 20:11:17,10.0,596.0
+271,Frenzy,63,53,35,100,38,52,Joanna Cargill,Marvel Comics,bad,Female,Desconocido,"6'11, 211 cm","230 lb, 104 kg",2026-04-15 20:11:17,56.83,249.0
+272,Frigga,0,0,0,0,0,0,Frigga,Marvel Comics,good,Female,Desconocido,"5'11', 180 cm","370 lb, 167 kg",2026-04-15 20:11:17,0.0,630.0
+273,Galactus,100,100,83,100,100,50,Galan,Marvel Comics,neutral,Male,Cosmic Entity,"28'9, 876 cm","36400 lb, 16 tons",2026-04-15 20:11:17,88.83,30.0
+274,Gambit,63,10,23,28,55,84,Remy Etienne LeBeau,Marvel Comics,good,Male,Mutant,"6'1, 185 cm","179 lb, 81 kg",2026-04-15 20:11:17,43.83,398.0
+275,Gamora,75,85,42,85,53,100,Gamora Zen Whoberi Ben Titan,Marvel Comics,good,Female,Zen-Whoberian,"6'0, 183 cm","170 lb, 77 kg",2026-04-15 20:11:17,73.33,100.0
+276,Garbage Man,0,82,0,0,0,0,Richard Ethan Morse,DC Comics,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,13.67,577.0
+277,Gary Bell,63,5,8,10,54,10,Gary Bell,SyFy,good,Male,Alpha,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,25.0,548.0
+278,General Zod,94,100,96,100,100,95,Dru-Zod,DC Comics,bad,Male,Kryptonian,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,97.5,3.0
+279,Genesis,0,68,0,0,0,0,Tyler Dayspring,Marvel Comics,good,Male,Desconocido,"6'1, 185 cm","191 lb, 86 kg",2026-04-15 20:11:17,11.33,588.0
+280,Ghost Rider,50,55,25,100,100,60,Johnny Blaze,Marvel Comics,good,Male,Demon,"6'2, 188 cm","220 lb, 99 kg",2026-04-15 20:11:17,65.0,165.0
+281,Ghost Rider II,0,70,0,0,0,0,Daniel Ketch,Marvel Comics,good,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,11.67,585.0
+282,Giant-Man,0,78,0,0,0,0,Hank Pym,Ant-Man,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,13.0,581.0
+283,Giant-Man II,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+284,Giganta,81,89,23,85,32,42,Doris Zuel,DC Comics,bad,Female,Desconocido,"205, 62.5 meters","1400 lb, 630 kg",2026-04-15 20:11:17,58.67,229.0
+285,Gladiator,50,100,100,100,77,70,Kallark,Marvel Comics,neutral,Male,Strontian,"6'6, 198 cm","595 lb, 268 kg",2026-04-15 20:11:17,82.83,47.0
+286,Goblin Queen,75,10,23,28,65,56,Madelyne Jennifer Pryor,Marvel Comics,bad,Female,Desconocido,"5'6, 168 cm","110 lb, 50 kg",2026-04-15 20:11:17,42.83,409.0
+287,Godzilla,44,100,54,100,100,20,Gojira,Desconocido,bad,Desconocido,Kaiju,"354'4, 108.0 meters","200000000 lb, 90,000 tons",2026-04-15 20:11:17,69.67,122.0
+288,Gog,50,34,47,72,39,56,Desconocido,DC Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,49.67,332.0
+289,Goku,56,100,75,90,100,100,Kakarot,Shueisha,good,Male,Saiyan,"5'9, 175 cm","137 lb, 62 kg",2026-04-15 20:11:17,86.83,39.0
+290,Goliath,0,0,0,0,0,0,Erik Josten,Atlas,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+291,Goliath,0,0,0,0,0,0,Clint Barton,Hawkeye,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+292,Goliath,0,0,0,0,0,0,Hank Pym,Ant-Man,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+293,Goliath IV,0,0,0,0,0,0,William Barrett Foster,Marvel Comics,good,Male,Desconocido,"6', 183 cm","200 lb, 90 kg",2026-04-15 20:11:17,0.0,630.0
+294,Gorilla Grodd,81,53,33,70,100,65,Grodd,DC Comics,bad,Male,Gorilla,"6'6, 198 cm","600 lb, 270 kg",2026-04-15 20:11:17,67.0,146.0
+295,Granny Goodness,0,96,0,0,0,0,Desconocido,DC Comics,bad,Female,Desconocido,"5'10, 178 cm","256 lb, 115 kg",2026-04-15 20:11:17,16.0,565.0
+296,Gravity,50,32,33,40,69,30,Greg Willis,Marvel Comics,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,42.33,416.0
+297,Greedo,38,10,13,15,31,40,Greedo,George Lucas,bad,Male,Rodian,"5'7, 170 cm","- lb, 0 kg",2026-04-15 20:11:17,24.5,551.0
+298,Green Arrow,81,12,35,28,39,90,Oliver Queen,DC Comics,good,Male,Human,"6'2, 188 cm","195 lb, 88 kg",2026-04-15 20:11:17,47.5,356.0
+299,Green Goblin,100,48,38,60,48,50,Norman Osborn,Marvel Comics,bad,Male,Human,"5'11, 180 cm","185 lb, 83 kg",2026-04-15 20:11:17,57.33,247.0
+300,Green Goblin II,75,55,37,50,44,26,Harold Osborn,Marvel Comics,bad,Male,Desconocido,"5'10, 178 cm","170 lb, 77 kg",2026-04-15 20:11:17,47.83,353.0
+301,Green Goblin III,0,0,0,0,0,0,Barton Hamilton,Marvel Comics,good,Male,Desconocido,"6', 183 cm","195 lb, 88 kg",2026-04-15 20:11:17,0.0,630.0
+302,Green Goblin IV,0,0,0,0,0,0,Phillip Benjamin Urich,Marvel Comics,good,Male,Desconocido,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,0.0,630.0
+303,Groot,75,85,33,70,100,64,Groot,Marvel Comics,good,Male,Flora Colossus,"23'0, 701 cm","8200 lb, 4 tons",2026-04-15 20:11:17,71.17,117.0
+304,Guardian,0,45,0,0,0,0,James Hudson,Marvel Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,7.5,613.0
+305,Guy Gardner,38,90,53,64,100,64,Guy Gardner,DC Comics,good,Male,Human-Vuldarian,"6'2, 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,68.17,134.0
+306,Hal Jordan,69,90,75,80,100,70,Hal Jordan,DC Comics,good,Male,Human,"6'2, 188 cm","200 lb, 90 kg",2026-04-15 20:11:17,80.67,56.0
+307,Han Solo,50,10,17,20,43,60,Han Solo,George Lucas,good,Male,Human,"6'0, 183 cm","176 lb, 79 kg",2026-04-15 20:11:17,33.33,505.0
+308,Hancock,63,90,67,100,100,50,John Hancock,Sony Pictures,good,Male,Human,"6'2, 188 cm","- lb, 0 kg",2026-04-15 20:11:17,78.33,67.0
+309,Harley Quinn,88,12,33,65,55,80,Harley Quinn,DC Comics,bad,Female,Human,"5'7, 170 cm","140 lb, 63 kg",2026-04-15 20:11:17,55.5,267.0
+310,Harry Potter,75,7,21,10,100,50,Harry James Potter,J. K. Rowling,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,43.83,398.0
+311,Havok,63,10,25,60,71,45,Alexander Summers,Marvel Comics,good,Male,Mutant,"6', 183 cm","175 lb, 79 kg",2026-04-15 20:11:17,45.67,375.0
+312,Hawk,38,38,35,95,43,42,Henry Hall,DC Comics,good,Male,Desconocido,"6'1, 185 cm","197 lb, 89 kg",2026-04-15 20:11:17,48.5,346.0
+313,Hawkeye,56,12,21,10,29,80,Clint Barton,Goliath,good,Male,Human,"6'3, 191 cm","230 lb, 104 kg",2026-04-15 20:11:17,34.67,494.0
+314,Hawkeye II,50,6,8,10,24,50,Katherine Elizabeth Bishop,Marvel Comics,good,Female,Human,"5'5, 165 cm","126 lb, 57 kg",2026-04-15 20:11:17,24.67,549.0
+315,Hawkgirl,50,28,53,99,96,72,Kendra Saunders,DC Comics,good,Female,Desconocido,"5'9, 175 cm","135 lb, 61 kg",2026-04-15 20:11:17,66.33,154.0
+316,Hawkman,0,66,0,0,0,0,Carter Hall,DC Comics,good,Male,Desconocido,"6'1, 185 cm","195 lb, 88 kg",2026-04-15 20:11:17,11.0,589.0
+317,Hawkwoman,0,96,0,0,0,0,Shayera Hol,DC Comics,good,Female,Desconocido,"5'9, 175 cm","120 lb, 54 kg",2026-04-15 20:11:17,16.0,565.0
+318,Hawkwoman II,0,0,0,0,0,0,Sharon Parker,DC Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+319,Hawkwoman III,0,92,0,0,0,0,Shayera Thal,DC Comics,good,Female,Desconocido,"5'7, 170 cm","145 lb, 65 kg",2026-04-15 20:11:17,15.33,570.0
+320,Heat Wave,38,10,17,45,27,30,Mick Rory,DC Comics,bad,Male,Human,"5'11, 180 cm","179 lb, 81 kg",2026-04-15 20:11:17,27.83,535.0
+321,Hela,63,100,46,100,100,45,Desconocido,Marvel Comics,bad,Female,Asgardian,"7'0, 213 cm","500 lb, 225 kg",2026-04-15 20:11:17,75.67,81.0
+322,Hellboy,63,53,21,95,73,75,Anung Un Rama,Dark Horse Comics,good,Male,Demon,"8'6, 259 cm","350 lb, 158 kg",2026-04-15 20:11:17,63.33,183.0
+323,Hellcat,63,11,33,45,46,70,Patricia Walker,Marvel Comics,good,Female,Human,"5'8, 173 cm","135 lb, 61 kg",2026-04-15 20:11:17,44.67,385.0
+324,Hellstorm,0,56,0,0,0,0,Daimon Hellstrom,Marvel Comics,good,Male,Desconocido,"6'1', 185 cm","180 lb, 81 kg",2026-04-15 20:11:17,9.33,602.0
+325,Hercules,63,100,46,85,89,100,Heracles,Marvel Comics,good,Male,Demi-God,"6'5, 196 cm","325 lb, 146 kg",2026-04-15 20:11:17,80.5,57.0
+326,Hiro Nakamura,0,15,0,0,0,0,Hiro Nakamura,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,2.5,629.0
+327,Hit-Girl,56,7,29,20,27,65,Mindy McCready,Icon Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,34.0,503.0
+328,Hobgoblin,0,53,0,0,0,0,Roderick Kingsley,Marvel Comics,bad,Male,Desconocido,"5'11, 180 cm","185 lb, 83 kg",2026-04-15 20:11:17,8.83,606.0
+329,Hollow,0,0,0,0,0,0,Monet St. Croix,Marvel Comics,good,Female,Desconocido,"5'7, 170 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+330,Hope Summers,63,10,12,32,93,75,Hope Summers,Marvel Comics,good,Female,Desconocido,"5'6, 168 cm","106 lb, 48 kg",2026-04-15 20:11:17,47.5,356.0
+331,Howard the Duck,0,44,0,0,0,0,Howard (Last name unrevealed),Marvel Comics,good,Male,Desconocido,"2'7', 79 cm","40 lb, 18 kg",2026-04-15 20:11:17,7.33,616.0
+332,Hulk,88,100,63,100,98,85,Bruce Banner,Marvel Comics,good,Male,Human / Radiation,"8'0, 244 cm","1400 lb, 630 kg",2026-04-15 20:11:17,89.0,29.0
+333,Human Torch,63,11,63,70,87,42,Johnny Storm,Marvel Comics,good,Male,Human / Radiation,"5'10, 178 cm","170 lb, 77 kg",2026-04-15 20:11:17,56.0,258.0
+334,Huntress,69,10,23,28,34,95,Helena Rosa Bertinelli,Batgirl III,good,Female,Desconocido,"5'11, 180 cm","130 lb, 59 kg",2026-04-15 20:11:17,43.17,407.0
+335,Husk,63,63,35,78,48,64,Paige Elisabeth Guthrie,Marvel Comics,good,Female,Mutant,"5'7, 170 cm","128 lb, 58 kg",2026-04-15 20:11:17,58.5,232.0
+336,Hybrid,63,63,58,75,100,80,Scott Washington,Marvel Comics,good,Male,Symbiote,"5'9, 175 cm","172 lb, 77 kg",2026-04-15 20:11:17,73.17,102.0
+337,Hydro-Man,38,13,25,80,66,50,Morris Bench,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","265 lb, 119 kg",2026-04-15 20:11:17,45.33,378.0
+338,Hyperion,88,100,100,95,87,80,Mark Milton,Marvel Comics,good,Male,Eternal,"6'0, 183 cm","460 lb, 207 kg",2026-04-15 20:11:17,91.67,19.0
+339,Iceman,63,32,53,100,100,64,Bobby Drake,Marvel Comics,good,Male,Mutant,"5'8, 173 cm","145 lb, 65 kg",2026-04-15 20:11:17,68.67,127.0
+340,Impulse,50,10,100,60,74,60,Bartholomew Allen II,Flash IV,good,Male,Human,"5'7, 170 cm","145 lb, 65 kg",2026-04-15 20:11:17,59.0,224.0
+341,Indiana Jones,69,10,17,30,19,30,Indiana Jones,George Lucas,good,Male,Human,"6'0, 183 cm","176 lb, 79 kg",2026-04-15 20:11:17,29.17,531.0
+342,Indigo,75,63,50,50,100,50,Iroque,DC Comics,neutral,Female,Alien,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,64.67,171.0
+343,Ink,38,28,17,40,73,50,Eric Gitter,Marvel Comics,good,Male,Mutant,"5'11, 180 cm","180 lb, 81 kg",2026-04-15 20:11:17,41.0,430.0
+344,Invisible Woman,88,10,27,85,93,56,Susan Storm Richards,Marvel Comics,good,Female,Human / Radiation,"5'6, 168 cm","120 lb, 54 kg",2026-04-15 20:11:17,59.83,214.0
+345,Iron Fist,75,55,33,50,95,100,Danny Rand,Marvel Comics,good,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-04-15 20:11:17,68.0,136.0
+346,Iron Man,100,85,58,85,100,64,Tony Stark,Marvel Comics,good,Male,Human,"6'6, 198 cm","425 lb, 191 kg",2026-04-15 20:11:17,82.0,49.0
+347,Iron Monger,88,63,25,90,57,56,Obadiah Stane,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","4230 lb, 2 tons",2026-04-15 20:11:17,63.17,185.0
+348,Isis,75,48,75,46,50,56,Adrianna Tomaz,DC Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,58.33,236.0
+349,Jack Bauer,0,43,0,0,0,0,Kiefer Sutherland,Desconocido,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,7.17,618.0
+350,Jack of Hearts,63,55,100,30,77,30,Jonathan Hart,Marvel Comics,good,Male,Human,"5'1, 155 cm","175 lb, 79 kg",2026-04-15 20:11:17,59.17,223.0
+351,Jack-Jack,6,34,67,80,100,6,Jack-Jack Parr,Dark Horse Comics,good,Male,Human,"2'4, 71 cm","30 lb, 14 kg",2026-04-15 20:11:17,48.83,342.0
+352,James Bond,88,13,17,35,25,90,James Bond,Titan Books,good,Male,Human,"6'0, 183 cm","- lb, 0 kg",2026-04-15 20:11:17,44.67,385.0
+353,James T. Kirk,69,11,17,30,30,75,James T. Kirk,Star Trek,good,Male,Human,"5'10, 178 cm","170 lb, 77 kg",2026-04-15 20:11:17,38.67,454.0
+354,Jar Jar Binks,10,6,33,10,21,15,Jar Jar Binks,George Lucas,good,Male,Gungan,"6'4, 193 cm","- lb, 0 kg",2026-04-15 20:11:17,15.83,568.0
+355,Jason Bourne,88,12,29,30,26,100,Jason Bourne,Desconocido,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,47.5,356.0
+356,Jean Grey,94,80,21,20,92,70,Jean Grey,Phoenix,good,Female,Mutant,"5'6, 168 cm","115 lb, 52 kg",2026-04-15 20:11:17,62.83,187.0
+357,Jean-Luc Picard,75,10,17,30,26,65,Jean-Luc Picard,Star Trek,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,37.17,470.0
+358,Jennifer Kale,75,10,35,42,74,72,Jennifer Kale,Marvel Comics,good,Female,Desconocido,"5'6, 168 cm","122 lb, 55 kg",2026-04-15 20:11:17,51.33,314.0
+359,Jesse Quick,0,42,0,0,0,0,Jesse Chambers,Liberty Belle II,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,7.0,620.0
+360,Jessica Cruz,56,90,46,50,100,55,Jessica Cruz,DC Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,66.17,156.0
+361,Jessica Jones,56,44,50,70,18,55,Jessica Campbell Jones Cage,Power Woman,good,Female,Human,"5'7, 170 cm","124 lb, 56 kg",2026-04-15 20:11:17,48.83,342.0
+362,Jessica Sanders,0,0,0,0,0,0,Desconocido,NBC - Heroes,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+363,Jigsaw,0,0,0,0,0,0,Billy Russo,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","250 lb, 113 kg",2026-04-15 20:11:17,0.0,630.0
+364,Jim Powell,38,38,23,80,23,20,Jim Powell,ABC Studios,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,37.0,472.0
+365,JJ Powell,88,10,8,10,14,10,JJ Powell,ABC Studios,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,23.33,554.0
+366,Johann Krauss,0,30,0,0,0,0,Johann Krauss,Dark Horse Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,5.0,625.0
+367,John Constantine,63,10,8,40,54,65,John Constantine,DC Comics,good,Male,Human,"6'0, 183 cm","- lb, 0 kg",2026-04-15 20:11:17,40.0,437.0
+368,John Stewart,56,85,42,64,100,65,John Stewart,DC Comics,good,Male,Human,"6'1, 185 cm","201 lb, 90 kg",2026-04-15 20:11:17,68.67,127.0
+369,John Wraith,75,12,35,28,87,80,John Wraith,Marvel Comics,good,Male,Desconocido,"6'0, 183 cm","195 lb, 88 kg",2026-04-15 20:11:17,52.83,298.0
+370,Joker,100,10,12,60,43,70,Jack Napier,DC Comics,bad,Male,Human,"6'5, 196 cm","192 lb, 86 kg",2026-04-15 20:11:17,49.17,339.0
+371,Jolt,63,12,27,32,31,42,Helen Takahama,Marvel Comics,good,Female,Desconocido,"5'5, 165 cm","109 lb, 49 kg",2026-04-15 20:11:17,34.5,499.0
+372,Jubilee,56,8,22,20,66,90,Jubilation Lee,Marvel Comics,good,Female,Mutant,"5'5, 165 cm","115 lb, 52 kg",2026-04-15 20:11:17,43.67,401.0
+373,Judge Dredd,75,18,38,50,52,95,Joseph Dredd,Rebellion,good,Male,Human,"6'2, 188 cm","- lb, 0 kg",2026-04-15 20:11:17,54.67,281.0
+374,Juggernaut,44,100,42,100,85,70,Cain Marko,Marvel Comics,neutral,Male,Human,"9'5, 287 cm","1900 lb, 855 kg",2026-04-15 20:11:17,73.5,99.0
+375,Junkpile,50,38,17,90,81,30,Desconocido,Marvel Comics,bad,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,51.0,319.0
+376,Justice,50,10,33,70,55,30,Vance Astrovik,Marvel Comics,good,Male,Human,"5'10, 178 cm","180 lb, 81 kg",2026-04-15 20:11:17,41.33,426.0
+377,Jyn Erso,0,0,0,0,0,0,Jyn Erso,George Lucas,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+378,K-2SO,0,0,0,0,0,0,Desconocido,George Lucas,good,Male,Android,"7'0, 213 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+379,Kang,100,48,58,70,100,70,Nathaniel Richards,Iron Lad,bad,Male,Desconocido,"6'3, 191 cm","230 lb, 104 kg",2026-04-15 20:11:17,74.33,91.0
+380,Kathryn Janeway,75,8,21,25,21,50,Kathryn Janeway,Star Trek,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,33.33,505.0
+381,Katniss Everdeen,56,8,21,25,24,55,Katniss Everdeen,Desconocido,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,31.5,521.0
+382,Kevin 11,25,7,12,14,100,40,Kevin Ethan Levin,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,33.0,509.0
+383,Kick-Ass,38,10,23,35,22,56,Dave Lizewski,Icon Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,30.67,524.0
+384,Kid Flash,25,4,92,42,20,30,Wallace Rudolph West,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,35.5,487.0
+385,Kid Flash II,0,47,0,0,0,0,Bartholomew Allen II,Flash IV,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,7.83,611.0
+386,Killer Croc,19,53,35,90,53,60,Waylon Jones,DC Comics,bad,Male,Metahuman,"8'0, 244 cm","790 lb, 356 kg",2026-04-15 20:11:17,51.67,309.0
+387,Killer Frost,88,10,13,35,59,30,Caitlin Snow,DC Comics,bad,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,39.17,448.0
+388,Kilowog,81,90,53,42,100,80,Desconocido,DC Comics,good,Male,Bolovaxian,"7'8, 234 cm","720 lb, 324 kg",2026-04-15 20:11:17,74.33,91.0
+389,King Kong,56,100,71,75,47,75,King Kong,Desconocido,good,Male,Animal,"100'0, 30.5 meters","20000000 lb, 9,000 tons",2026-04-15 20:11:17,70.67,118.0
+390,King Shark,50,88,50,90,86,40,Nanaue,DC Comics,bad,Male,Animal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,67.33,141.0
+391,Kingpin,75,18,25,40,13,70,Wilson Grant Fisk,Marvel Comics,bad,Male,Human,"6'7, 201 cm","450 lb, 203 kg",2026-04-15 20:11:17,40.17,436.0
+392,Klaw,63,38,33,100,62,60,Ulysses Klaw,Marvel Comics,bad,Male,Human,"6'2, 188 cm","216 lb, 97 kg",2026-04-15 20:11:17,59.33,221.0
+393,Kool-Aid Man,25,18,8,10,9,14,Desconocido,Desconocido,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,14.0,576.0
+394,Kraven II,50,34,23,28,43,85,Alyosha Kravinoff,Marvel Comics,bad,Male,Human,"6'3, 191 cm","220 lb, 99 kg",2026-04-15 20:11:17,43.83,398.0
+395,Kraven the Hunter,63,32,35,42,25,85,Sergei Kravinoff,Marvel Comics,bad,Male,Human,"6'0, 183 cm","235 lb, 106 kg",2026-04-15 20:11:17,47.0,363.0
+396,Krypto,9,80,100,90,82,40,Krypto the Superdog,DC Comics,good,Male,Kryptonian,"0'25, 64 cm","40 lb, 18 kg",2026-04-15 20:11:17,66.83,148.0
+397,Kyle Rayner,69,90,50,60,100,60,Kyle Rayner,DC Comics,good,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-04-15 20:11:17,71.5,113.0
+398,Kylo Ren,56,44,33,30,100,70,Ben Solo,George Lucas,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,55.5,267.0
+399,Lady Bullseye,0,63,0,0,0,0,Desconocido,Marvel Comics,bad,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,10.5,593.0
+400,Lady Deathstrike,63,28,42,85,48,90,Yuriko Oyama,Marvel Comics,bad,Female,Cyborg,"5'9, 175 cm","128 lb, 58 kg",2026-04-15 20:11:17,59.33,221.0
+401,Leader,100,10,12,14,59,42,Samuel Sterns,Marvel Comics,bad,Male,Desconocido,"5'10, 178 cm","140 lb, 63 kg",2026-04-15 20:11:17,39.5,443.0
+402,Leech,25,5,12,14,62,14,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,22.0,555.0
+403,Legion,50,100,42,30,100,75,David Haller,Marvel Comics,good,Male,Mutant,"5'9, 175 cm","130 lb, 59 kg",2026-04-15 20:11:17,66.17,156.0
+404,Leonardo,75,16,50,65,59,80,Leonardo,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,57.5,245.0
+405,Lex Luthor,100,53,25,65,68,70,Lex Luthor,DC Comics,bad,Male,Human,"6'2', 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,63.5,181.0
+406,Light Lass,38,10,35,28,67,42,Ayla Ranzz,DC Comics,good,Female,Desconocido,"5'5, 165 cm","120 lb, 54 kg",2026-04-15 20:11:17,36.67,475.0
+407,Lightning Lad,38,10,23,28,60,42,Garth Ranzz,DC Comics,good,Male,Desconocido,"5'1, 155 cm","145 lb, 65 kg",2026-04-15 20:11:17,33.5,504.0
+408,Lightning Lord,44,10,23,42,66,42,Mekt Ranzz,DC Comics,bad,Male,Desconocido,"6'3, 191 cm","210 lb, 95 kg",2026-04-15 20:11:17,37.83,461.0
+409,Living Brain,75,53,35,56,31,28,Desconocido,Marvel Comics,bad,Desconocido,Desconocido,"6'6, 198 cm","800 lb, 360 kg",2026-04-15 20:11:17,46.33,367.0
+410,Living Tribunal,100,100,100,100,100,30,Desconocido,Marvel Comics,neutral,Desconocido,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,88.33,34.0
+411,Liz Sherman,0,0,0,0,0,0,Elizabeth Anne Sherman,Dark Horse Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+412,Lizard,50,51,27,70,63,56,Curtis Connors,Marvel Comics,bad,Male,Human,"6'8, 203 cm","510 lb, 230 kg",2026-04-15 20:11:17,52.83,298.0
+413,Lobo,94,100,54,100,100,85,Lobo,DC Comics,neutral,Male,Czarnian,"7'6, 229 cm","640 lb, 288 kg",2026-04-15 20:11:17,88.83,30.0
+414,Loki,88,63,46,85,100,60,Loki Laufeyson,Marvel Comics,bad,Male,Asgardian,"6'4, 193 cm","525 lb, 236 kg",2026-04-15 20:11:17,73.67,97.0
+415,Longshot,50,10,27,10,71,70,Desconocido,Marvel Comics,good,Male,Human,"6'2, 188 cm","80 lb, 36 kg",2026-04-15 20:11:17,39.67,441.0
+416,Luke Cage,50,63,29,95,44,70,Luke Cage,Power Man,good,Male,Human,"6'6, 198 cm","425 lb, 191 kg",2026-04-15 20:11:17,58.5,232.0
+417,Luke Campbell,0,0,0,0,0,0,Luke Campbell,NBC - Heroes,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+418,Luke Skywalker,69,38,42,25,100,100,Luke Skywalker,George Lucas,good,Male,Human,"5'6, 168 cm","170 lb, 77 kg",2026-04-15 20:11:17,62.33,192.0
+419,Luna,38,6,83,14,53,14,Luna Maximoff,Marvel Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,34.67,494.0
+420,Lyja,0,0,0,0,0,0,Lyja,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+421,Mach-IV,75,36,60,84,60,56,Abner Jenkins,Marvel Comics,bad,Male,Desconocido,"5'11, 180 cm","175 lb, 79 kg",2026-04-15 20:11:17,61.83,201.0
+422,Machine Man,63,32,35,84,51,64,"X-51, Aaron Stack",Marvel Comics,good,Desconocido,Desconocido,"6', 183 cm","850 lb, 383 kg",2026-04-15 20:11:17,54.83,278.0
+423,Magneto,88,80,27,84,91,80,Erik Magnus Lensherr,Marvel Comics,bad,Male,Mutant,"6'2, 188 cm","190 lb, 86 kg",2026-04-15 20:11:17,75.0,87.0
+424,Magog,50,48,23,64,66,72,David Reid,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,53.83,289.0
+425,Magus,88,100,70,99,100,74,Desconocido,Marvel Comics,bad,Male,Desconocido,"6'0, 183 cm","- lb, 0 kg",2026-04-15 20:11:17,88.5,33.0
+426,Man of Miracles,100,100,100,100,100,100,Desconocido,Image Comics,Desconocido,Desconocido,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,100.0,1.0
+427,Man-Bat,38,18,50,70,33,30,Robert Kirkland Langstrom,DC Comics,neutral,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,39.83,438.0
+428,Man-Thing,50,32,8,100,100,40,Dr. Theodore Sallis,Marvel Comics,good,Male,Desconocido,"7'0, 213 cm","500 lb, 225 kg",2026-04-15 20:11:17,55.0,273.0
+429,Man-Wolf,63,44,35,42,45,70,John Jameson,Marvel Comics,good,Male,Desconocido,"6'2', 188 cm","200 lb, 90 kg",2026-04-15 20:11:17,49.83,329.0
+430,Mandarin,100,28,23,28,100,95,Khan,Marvel Comics,bad,Male,Human,"6'2, 188 cm","215 lb, 97 kg",2026-04-15 20:11:17,62.33,192.0
+431,Mantis,63,8,33,80,100,80,Desconocido,Marvel Comics,good,Female,Human-Kree,"5'6, 168 cm","115 lb, 52 kg",2026-04-15 20:11:17,60.67,209.0
+432,Martian Manhunter,100,95,92,100,100,85,J'onn J'onzz,DC Comics,good,Male,Martian,"6'7, 201 cm","300 lb, 135 kg",2026-04-15 20:11:17,95.33,8.0
+433,Marvel Girl,63,85,47,42,100,80,Rachel Anne Summers,Marvel Comics,good,Female,Desconocido,"5'7', 170 cm","125 lb, 56 kg",2026-04-15 20:11:17,69.5,123.0
+434,Master Brood,0,0,0,0,0,0,Currently Colin Wood,Team Epic TV,good,Male,Desconocido,"6'0, 183 cm","180 lb, 81 kg",2026-04-15 20:11:17,0.0,630.0
+435,Master Chief,75,73,35,80,69,100,John-117,Microsoft,good,Male,Human / Altered,"7', 213 cm","- lb, 0 kg",2026-04-15 20:11:17,72.0,110.0
+436,Match,75,95,83,85,100,70,Kent Connor,DC Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,84.67,43.0
+437,Matt Parkman,63,10,12,14,59,56,Matthew Parkman,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,35.67,486.0
+438,Maverick,63,10,12,42,60,85,Christopher Bradley,Marvel Comics,good,Male,Desconocido,"6'4, 193 cm","244 lb, 110 kg",2026-04-15 20:11:17,45.33,378.0
+439,Maxima,75,90,35,56,81,75,Desconocido,DC Comics,bad,Female,Desconocido,"5'11, 180 cm","160 lb, 72 kg",2026-04-15 20:11:17,68.67,127.0
+440,Maya Herrera,50,10,12,14,60,14,Maya Herrera,NBC - Heroes,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,26.67,542.0
+441,Medusa,75,34,35,70,37,56,Medusalith Amaquelin Boltagon,Marvel Comics,good,Female,Inhuman,"5'11, 180 cm","130 lb, 59 kg",2026-04-15 20:11:17,51.17,316.0
+442,Meltdown,38,10,12,42,62,64,Tabitha Smith,Boom-Boom,good,Female,Desconocido,"5'5, 165 cm","120 lb, 54 kg",2026-04-15 20:11:17,38.0,460.0
+443,Mephisto,88,85,35,95,100,42,Desconocido,Marvel Comics,bad,Male,Desconocido,"6'6, 198 cm","310 lb, 140 kg",2026-04-15 20:11:17,74.17,95.0
+444,Mera,56,62,79,60,92,80,Mera,DC Comics,good,Female,Atlantean,"5'9, 175 cm","160 lb, 72 kg",2026-04-15 20:11:17,71.5,113.0
+445,Metallo,75,53,23,95,86,64,John Corben,DC Comics,bad,Male,Android,"6'5, 196 cm","200 lb, 90 kg",2026-04-15 20:11:17,66.0,158.0
+446,Metamorpho,0,82,0,0,0,0,Rex Mason,DC Comics,good,Male,Desconocido,"6'1, 185 cm","200 lb, 90 kg",2026-04-15 20:11:17,13.67,577.0
+447,Meteorite,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+448,Metron,88,10,47,56,100,28,Metron,DC Comics,good,Male,Desconocido,"6'1, 185 cm","190 lb, 86 kg",2026-04-15 20:11:17,54.83,278.0
+449,Micah Sanders,63,8,12,14,57,14,Micah Sanders,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,28.0,534.0
+450,Michelangelo,63,14,50,65,59,75,Desconocido,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,54.33,284.0
+451,Micro Lad,38,28,27,28,44,32,Gim Allon,DC Comics,good,Male,Desconocido,"6', 183 cm","170 lb, 77 kg",2026-04-15 20:11:17,32.83,513.0
+452,Mimic,63,67,47,56,79,42,Calvin Montgomery Rankin,Marvel Comics,good,Male,Desconocido,"6'2, 188 cm","225 lb, 101 kg",2026-04-15 20:11:17,59.0,224.0
+453,Minna Murray,0,0,0,0,0,0,Wilhelmina Harker,Wildstorm,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+454,Misfit,63,32,23,80,91,42,Charlotte Gage-Radcliffe,Batgirl V,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,55.17,271.0
+455,Miss Martian,63,85,58,100,100,45,M'gann M'orzz,DC Comics,good,Female,Desconocido,"5'10, 178 cm","135 lb, 61 kg",2026-04-15 20:11:17,75.17,83.0
+456,Mister Fantastic,100,10,18,70,33,64,Reed Richards,Marvel Comics,good,Male,Human / Radiation,"6'1, 185 cm","180 lb, 81 kg",2026-04-15 20:11:17,49.17,339.0
+457,Mister Freeze,75,32,12,70,37,28,Victor Fries,DC Comics,bad,Male,Human,"6'0, 183 cm","190 lb, 86 kg",2026-04-15 20:11:17,42.33,416.0
+458,Mister Knife,75,10,17,30,13,65,J'son,Marvel Comics,bad,Male,Spartoi,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,35.0,490.0
+459,Mister Mxyzptlk,100,85,100,100,100,50,Mr. Mxyzptlk,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,89.17,27.0
+460,Mister Sinister,100,48,46,90,100,50,Nathaniel Essex,Marvel Comics,bad,Male,Human / Altered,"6'5, 196 cm","285 lb, 128 kg",2026-04-15 20:11:17,72.33,106.0
+461,Mister Zsasz,88,22,33,28,18,85,Victor Zsasz,DC Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,45.67,375.0
+462,Mockingbird,75,31,38,20,48,95,Barbara Morse,Marvel Comics,good,Female,Human,"5'9, 175 cm","135 lb, 61 kg",2026-04-15 20:11:17,51.17,316.0
+463,MODOK,100,18,25,25,79,15,George Tarleton,Marvel Comics,bad,Male,Cyborg,"12'0, 366 cm","750 lb, 338 kg",2026-04-15 20:11:17,43.67,401.0
+464,Mogo,0,0,0,0,0,0,Mogo,DC Comics,good,Male,Planet,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+465,Mohinder Suresh,0,0,0,0,0,0,Mohinder Suresh,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+466,Moloch,0,0,0,0,0,0,Edgar William Jacobi,DC Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+467,Molten Man,50,73,23,84,53,56,Mark Raxton,Marvel Comics,bad,Male,Desconocido,"6'5, 196 cm","550 lb, 248 kg",2026-04-15 20:11:17,56.5,254.0
+468,Monarch,0,100,0,0,0,0,Nathaniel Christopher Adam,DC Comics,good,Male,Desconocido,"6'4, 193 cm","200 lb, 90 kg",2026-04-15 20:11:17,16.67,561.0
+469,Monica Dawson,50,10,35,14,48,90,Monica Dawson,NBC - Heroes,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,41.17,427.0
+470,Moon Knight,50,36,23,42,28,75,Marc Spector,Marvel Comics,good,Male,Human,"6'2, 188 cm","225 lb, 101 kg",2026-04-15 20:11:17,42.33,416.0
+471,Moonstone,56,67,47,52,74,80,Karla Sofen,Marvel Comics,bad,Female,Desconocido,"5'11, 180 cm","130 lb, 59 kg",2026-04-15 20:11:17,62.67,190.0
+472,Morlun,63,60,35,42,74,56,Morlun,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","175 lb, 79 kg",2026-04-15 20:11:17,55.0,273.0
+473,Morph,0,40,0,0,0,0,Kevin Sydney,Marvel Comics,good,Male,Desconocido,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,6.67,621.0
+474,Moses Magnum,75,28,12,42,55,56,Moses Magnum,Marvel Comics,bad,Male,Desconocido,"5'9, 175 cm","159 lb, 72 kg",2026-04-15 20:11:17,44.67,385.0
+475,Mr Immortal,50,10,8,100,69,30,Craig Hollis,Marvel Comics,good,Male,Mutant,"6'2, 188 cm","156 lb, 70 kg",2026-04-15 20:11:17,44.5,389.0
+476,Mr Incredible,50,83,33,95,29,40,Robert Parr,Dark Horse Comics,good,Male,Human,"6'7, 201 cm","350 lb, 158 kg",2026-04-15 20:11:17,55.0,273.0
+477,Ms Marvel II,38,63,23,84,11,56,Sharon Ventura,She-Thing,good,Female,Desconocido,"5'8, 173 cm","135 lb, 61 kg",2026-04-15 20:11:17,45.83,372.0
+478,Multiple Man,63,11,23,70,28,62,James Arthur,Marvel Comics,good,Male,Desconocido,"5'11', 180 cm","155 lb, 70 kg",2026-04-15 20:11:17,42.83,409.0
+479,Mysterio,81,10,17,40,82,70,Quentin Beck,Marvel Comics,bad,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-04-15 20:11:17,50.0,328.0
+480,Mystique,75,12,23,64,64,74,Raven Darkholme,Marvel Comics,bad,Female,Mutant,"5'10, 178 cm","120 lb, 54 kg",2026-04-15 20:11:17,52.0,306.0
+481,Namor,69,95,58,70,73,85,Namor McKenzie,Marvel Comics,good,Male,Atlantean,"6'2, 188 cm","278 lb, 125 kg",2026-04-15 20:11:17,75.0,87.0
+482,Namor,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+483,Namora,50,85,42,42,48,64,Aquaria Nautica Neptunia,Marvel Comics,good,Female,Desconocido,"5'11, 180 cm","189 lb, 85 kg",2026-04-15 20:11:17,55.17,271.0
+484,Namorita,50,72,47,70,37,70,Namorita Prentiss,Marvel Comics,good,Female,Desconocido,"5'6, 168 cm","225 lb, 101 kg",2026-04-15 20:11:17,57.67,242.0
+485,Naruto Uzumaki,50,80,32,80,100,100,Desconocido,Shueisha,good,Male,Human,"5'6, 168 cm","121 lb, 54 kg",2026-04-15 20:11:17,73.67,97.0
+486,Nathan Petrelli,0,0,0,0,0,0,Nathan Petrelli,NBC - Heroes,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+487,Nebula,63,52,13,50,42,60,Desconocido,Marvel Comics,bad,Female,Luphomoid,"6'1, 185 cm","185 lb, 83 kg",2026-04-15 20:11:17,46.67,366.0
+488,Negasonic Teenage Warhead,50,7,8,10,45,35,Ellie Phimister,Marvel Comics,good,Female,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,25.83,546.0
+489,Nick Fury,75,11,23,42,25,100,Nicholas Joseph Fury,Marvel Comics,good,Male,Human,"6'1, 185 cm","221 lb, 99 kg",2026-04-15 20:11:17,46.0,370.0
+490,Nightcrawler,50,10,47,14,76,80,Kurt Wagner,Marvel Comics,good,Male,Desconocido,"5'9', 175 cm","195 lb, 88 kg",2026-04-15 20:11:17,46.17,368.0
+491,Nightwing,88,11,33,28,36,100,Dick Grayson,Batman II,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,49.33,334.0
+492,Niki Sanders,63,52,35,28,37,56,Nicole Sanders,NBC - Heroes,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,45.17,382.0
+493,Nina Theroux,63,5,8,10,68,20,Desconocido,SyFy,good,Female,Alpha,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,29.0,532.0
+494,Nite Owl II,0,45,0,0,0,0,Daniel Dreiberg,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,7.5,613.0
+495,Northstar,50,18,83,56,65,70,Jean-Paul Beaubier,Marvel Comics,good,Male,Desconocido,"5'11, 180 cm","185 lb, 83 kg",2026-04-15 20:11:17,57.0,248.0
+496,Nova,100,85,75,100,100,80,Richard Rider,Marvel Comics,good,Male,Human,"6'1, 185 cm","190 lb, 86 kg",2026-04-15 20:11:17,90.0,24.0
+497,Nova,63,60,100,100,100,35,Frankie Raye,Marvel Comics,good,Female,Human / Cosmic,"5'4, 163 cm","130 lb, 59 kg",2026-04-15 20:11:17,76.33,75.0
+498,Odin,100,83,67,95,100,90,Odin Borson,Marvel Comics,good,Male,God / Eternal,"6'9, 206 cm","650 lb, 293 kg",2026-04-15 20:11:17,89.17,27.0
+499,Offspring,50,10,35,99,100,56,Luke O'Brian,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,58.33,236.0
+500,Omega Red,0,61,0,0,0,0,Arkady Gregorivich,Marvel Comics,bad,Male,Desconocido,"6'11, 211 cm","425 lb, 191 kg",2026-04-15 20:11:17,10.17,594.0
+501,Omniscient,0,0,0,0,0,0,Omniscient is the closest English word that compares to his alien tongue.,Team Epic TV,good,Male,Desconocido,"5'11, 180 cm","145 lb, 65 kg",2026-04-15 20:11:17,0.0,630.0
+502,One Punch Man,38,100,83,95,55,50,Saitama,Shueisha,good,Male,Human,"5'9, 175 cm","154 lb, 69 kg",2026-04-15 20:11:17,70.17,120.0
+503,One-Above-All,100,100,100,100,100,100,Desconocido,Marvel Comics,neutral,Desconocido,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,100.0,1.0
+504,Onslaught,88,100,33,100,100,55,Onslaught,Marvel Comics,bad,Male,Mutant,"10'0, 305 cm","900 lb, 405 kg",2026-04-15 20:11:17,79.33,63.0
+505,Oracle,75,11,23,28,19,76,Barbara Gordon,Batgirl,good,Female,Human,"5'10, 178 cm","132 lb, 59 kg",2026-04-15 20:11:17,38.67,454.0
+506,Osiris,75,85,60,95,65,42,Amon Tomaz,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,70.33,119.0
+507,Overtkill,0,0,0,0,0,0,Nicholas Rocca,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+508,Ozymandias,100,18,33,20,49,95,Adrian Veidt,DC Comics,bad,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,52.5,303.0
+509,Parademon,9,28,17,50,53,25,Desconocido,DC Comics,bad,Desconocido,Parademon,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,30.33,525.0
+510,Paul Blart,8,11,21,50,7,5,Paul Blart,Sony Pictures,good,Male,Human,"5'7, 170 cm","260 lb, 117 kg",2026-04-15 20:11:17,17.0,560.0
+511,Penance,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Desconocido,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+512,Penance I,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+513,Penance II,0,20,0,0,0,0,Robert Baldwin,Speedball,good,Male,Desconocido,"6', 183 cm","197 lb, 89 kg",2026-04-15 20:11:17,3.33,627.0
+514,Penguin,75,10,12,28,30,45,Oswald Chesterfield Cobblepot,DC Comics,bad,Male,Human,"5'2, 157 cm","175 lb, 79 kg",2026-04-15 20:11:17,33.33,505.0
+515,Phantom,0,48,0,0,0,0,Christopher Walker,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,8.0,609.0
+516,Phantom Girl,38,10,23,28,53,42,Tinya Wazzo,DC Comics,good,Female,Desconocido,"5'6, 168 cm","120 lb, 54 kg",2026-04-15 20:11:17,32.33,516.0
+517,Phoenix,100,100,83,100,100,80,Jean Grey,Jean Grey,good,Female,Mutant,"5'6, 168 cm","115 lb, 52 kg",2026-04-15 20:11:17,93.83,16.0
+518,Plantman,63,60,25,55,61,25,Samuel Smithers,Marvel Comics,bad,Male,Mutant,"6'0, 183 cm","193 lb, 87 kg",2026-04-15 20:11:17,48.17,351.0
+519,Plastic Lad,0,0,0,0,0,0,Luke O'Brian,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+520,Plastic Man,50,63,23,100,100,56,Patrick O'Brian,DC Comics,good,Male,Human,"6'1, 185 cm","178 lb, 80 kg",2026-04-15 20:11:17,65.33,163.0
+521,Plastique,50,10,23,28,60,42,Bette Sans Souci,DC Comics,bad,Female,Desconocido,"5'6, 168 cm","123 lb, 55 kg",2026-04-15 20:11:17,35.5,487.0
+522,Poison Ivy,81,14,21,40,100,40,Pamela Isley,DC Comics,bad,Female,Human,"5'6, 168 cm","110 lb, 50 kg",2026-04-15 20:11:17,49.33,334.0
+523,Polaris,63,73,42,50,100,45,Lorna Dane,Marvel Comics,good,Female,Mutant,"5'7, 170 cm","115 lb, 52 kg",2026-04-15 20:11:17,62.17,197.0
+524,Power Girl,94,100,100,100,100,75,Kara Zor-L,DC Comics,good,Female,Kryptonian,"5'11, 180 cm","180 lb, 81 kg",2026-04-15 20:11:17,94.83,9.0
+525,Power Man,0,82,0,0,0,0,Luke Cage,Luke Cage,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,13.67,577.0
+526,Predator,63,30,25,85,100,90,Yautja,Dark Horse Comics,bad,Male,Yautja,"7'0, 213 cm","520 lb, 234 kg",2026-04-15 20:11:17,65.5,162.0
+527,Professor X,100,8,12,14,100,32,Charles Francis Xavier,Marvel Comics,good,Male,Mutant,"6', 183 cm","190 lb, 86 kg",2026-04-15 20:11:17,44.33,391.0
+528,Professor Zoom,94,10,100,20,83,20,Eobard Thawne,DC Comics,bad,Male,Human,"5'11, 180 cm","179 lb, 81 kg",2026-04-15 20:11:17,54.5,282.0
+529,Psylocke,63,33,25,40,100,90,Elizabeth Braddock,Marvel Comics,good,Female,Mutant,"5'11, 180 cm","155 lb, 70 kg",2026-04-15 20:11:17,58.5,232.0
+530,Punisher,69,16,21,45,42,100,Frank Castle,Marvel Comics,good,Male,Human,"6'0', 183 cm","200 lb, 90 kg",2026-04-15 20:11:17,48.83,342.0
+531,Purple Man,56,10,8,30,92,10,Zebediah Killgrave,Marvel Comics,bad,Male,Human,"5'11, 180 cm","165 lb, 74 kg",2026-04-15 20:11:17,34.33,500.0
+532,Pyro,38,10,12,14,54,28,St. John Allerdyce,Marvel Comics,bad,Male,Desconocido,"5'10, 178 cm","150 lb, 68 kg",2026-04-15 20:11:17,26.0,545.0
+533,Q,100,12,17,100,100,40,Q,Star Trek,Desconocido,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,61.5,204.0
+534,Quantum,0,0,0,0,0,0,Desconocido,HarperCollins,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+535,Question,81,14,27,35,20,80,Charles Victor Szasz,DC Comics,good,Male,Human,"6'2, 188 cm","185 lb, 83 kg",2026-04-15 20:11:17,42.83,409.0
+536,Quicksilver,63,28,100,60,81,56,Pietro Django Maximoff,Marvel Comics,good,Male,Mutant,"6'0, 183 cm","175 lb, 79 kg",2026-04-15 20:11:17,64.67,171.0
+537,Quill,38,10,12,14,23,14,Maxwell Jordan,Marvel Comics,good,Male,Desconocido,"5'4, 163 cm","124 lb, 56 kg",2026-04-15 20:11:17,18.5,558.0
+538,Ra's Al Ghul,100,28,32,42,27,100,Ra's Al Ghul,DC Comics,bad,Male,Human,"6'4, 193 cm","215 lb, 97 kg",2026-04-15 20:11:17,54.83,278.0
+539,Rachel Pirzad,63,4,8,10,52,10,Desconocido,SyFy,good,Female,Alpha,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,24.5,551.0
+540,Rambo,63,14,25,30,30,100,John Rambo,Desconocido,good,Male,Human,"5'10, 178 cm","185 lb, 83 kg",2026-04-15 20:11:17,43.67,401.0
+541,Raphael,63,17,50,65,59,80,Desconocido,IDW Publishing,good,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,55.67,262.0
+542,Raven,50,10,29,70,84,40,Rachel Roth,DC Comics,neutral,Female,Human,"5'5, 165 cm","110 lb, 50 kg",2026-04-15 20:11:17,47.17,362.0
+543,Ray,50,10,92,100,100,20,Ray Terrill,DC Comics,good,Male,Human,"5'10, 178 cm","155 lb, 70 kg",2026-04-15 20:11:17,62.0,200.0
+544,Razor-Fist II,0,0,0,0,0,0,Douglas Scott,Marvel Comics,bad,Male,Desconocido,"6'3, 191 cm","260 lb, 117 kg",2026-04-15 20:11:17,0.0,630.0
+545,Red Arrow,63,16,25,20,23,80,Roy Harper,DC Comics,good,Male,Human,"5'11, 180 cm","185 lb, 83 kg",2026-04-15 20:11:17,37.83,461.0
+546,Red Hood,75,12,23,28,35,95,Jason Todd,Robin II,neutral,Male,Human,"6'0, 183 cm","180 lb, 81 kg",2026-04-15 20:11:17,44.67,385.0
+547,Red Hulk,50,100,47,85,82,75,Thaddeus E. Ross,Marvel Comics,neutral,Male,Human / Radiation,"7'0, 213 cm","1400 lb, 630 kg",2026-04-15 20:11:17,73.17,102.0
+548,Red Mist,25,10,23,14,20,56,Chris Genovese,Icon Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,24.67,549.0
+549,Red Robin,81,11,27,32,29,80,Tim Drake,Robin III,good,Male,Human,"5'5, 165 cm","125 lb, 56 kg",2026-04-15 20:11:17,43.33,406.0
+550,Red Skull,75,10,12,14,19,80,Johann Shmidt,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","240 lb, 108 kg",2026-04-15 20:11:17,35.0,490.0
+551,Red Tornado,75,38,67,60,100,40,John Smith,DC Comics,good,Male,Android,"6'1, 185 cm","325 lb, 146 kg",2026-04-15 20:11:17,63.33,183.0
+552,Redeemer II,0,0,0,0,0,0,Phil Timper,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+553,Redeemer III,0,0,0,0,0,0,Eddie Frank,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+554,Renata Soliz,0,0,0,0,0,0,Desconocido,HarperCollins,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+555,Rey,63,8,21,10,87,35,Desconocido,George Lucas,good,Female,Human,"5'57, 297 cm","- lb, 0 kg",2026-04-15 20:11:17,37.33,467.0
+556,Rhino,25,80,43,90,36,85,Aleksei Mikhailovich Sytsevich,Marvel Comics,bad,Male,Human / Radiation,"6'5, 196 cm","710 lb, 320 kg",2026-04-15 20:11:17,59.83,214.0
+557,Rick Flag,88,11,23,28,19,95,Richard Rogers Flag,DC Comics,bad,Male,Desconocido,"6'1, 185 cm","189 lb, 85 kg",2026-04-15 20:11:17,44.0,396.0
+558,Riddler,100,10,12,14,10,14,Edward Nigma,DC Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,26.67,542.0
+559,Rip Hunter,100,8,8,10,100,25,Richard Hunter,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,41.83,423.0
+560,Ripcord,0,0,0,0,0,0,Miranda Leevald,Marvel Comics,good,Female,Desconocido,"5'11, 180 cm","160 lb, 72 kg",2026-04-15 20:11:17,0.0,630.0
+561,Robin,88,11,27,28,32,85,Dick Grayson,Batman II,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,45.17,382.0
+562,Robin II,75,11,27,28,28,85,Jason Todd,Red Hood,good,Male,Human,"6'0, 183 cm","225 lb, 101 kg",2026-04-15 20:11:17,42.33,416.0
+563,Robin III,81,11,27,28,29,85,Tim Drake,Red Robin,good,Male,Human,"5'5, 165 cm","125 lb, 56 kg",2026-04-15 20:11:17,43.5,404.0
+564,Robin V,69,8,33,16,29,65,Damian Wayne,DC Comics,good,Male,Human,"4'6, 137 cm","84 lb, 38 kg",2026-04-15 20:11:17,36.67,475.0
+565,Robin VI,50,8,25,20,17,70,Carrie Kelley,DC Comics,neutral,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,31.67,520.0
+566,Rocket Raccoon,50,5,23,28,28,64,Rocket Raccoon,Marvel Comics,good,Male,Animal,"4'0, 122 cm","55 lb, 25 kg",2026-04-15 20:11:17,33.0,509.0
+567,Rogue,75,10,12,28,80,80,Anna Marie,Marvel Comics,good,Female,Desconocido,"5'8, 173 cm","120 lb, 54 kg",2026-04-15 20:11:17,47.5,356.0
+568,Ronin,56,12,21,10,13,80,Clint Barton,Goliath,good,Male,Human,"6'3, 191 cm","230 lb, 104 kg",2026-04-15 20:11:17,32.0,518.0
+569,Rorschach,75,10,29,20,23,80,Walter Joseph Kovacs,DC Comics,good,Male,Human,"5'6, 168 cm","140 lb, 63 kg",2026-04-15 20:11:17,39.5,443.0
+570,Sabretooth,56,48,38,90,50,100,Victor Creed,Marvel Comics,bad,Male,Mutant,"6'6, 198 cm","380 lb, 171 kg",2026-04-15 20:11:17,63.67,180.0
+571,Sage,75,10,12,14,28,56,Tessa,Marvel Comics,good,Female,Desconocido,"5'7', 170 cm","135 lb, 61 kg",2026-04-15 20:11:17,32.5,515.0
+572,Sandman,44,75,46,90,100,60,William Baker,Marvel Comics,neutral,Male,Human,"6'1, 185 cm","450 lb, 203 kg",2026-04-15 20:11:17,69.17,126.0
+573,Sasquatch,75,80,23,56,15,42,Walter Langkowski,Marvel Comics,good,Male,Desconocido,"10', 305 cm","2000 lb, 900 kg",2026-04-15 20:11:17,48.5,346.0
+574,Sauron,88,85,33,100,100,70,Sauron,J. R. R. Tolkien,bad,Male,Maiar,"9'2, 279 cm","- lb, 0 kg",2026-04-15 20:11:17,79.33,63.0
+575,Savage Dragon,63,70,54,85,66,72,Kurr,Image Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,68.33,133.0
+576,Scarecrow,81,10,12,14,48,50,Jonathan Crane,DC Comics,bad,Male,Human,"6'0, 183 cm","140 lb, 63 kg",2026-04-15 20:11:17,35.83,484.0
+577,Scarlet Spider,75,53,60,74,46,56,Benjamin Reilly,Spider-Carnage,good,Male,Human,"5'10', 178 cm","165 lb, 74 kg",2026-04-15 20:11:17,60.67,209.0
+578,Scarlet Spider II,88,55,60,40,37,56,Kaine Parker,Marvel Comics,good,Male,Clone,"6'4, 193 cm","250 lb, 113 kg",2026-04-15 20:11:17,56.0,258.0
+579,Scarlet Witch,100,10,29,70,100,80,Wanda Maximoff,Marvel Comics,bad,Female,Mutant,"5'7, 170 cm","132 lb, 59 kg",2026-04-15 20:11:17,64.83,168.0
+580,Scorpia,38,28,42,28,34,28,Elaine Coll,Marvel Comics,bad,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,33.0,509.0
+581,Scorpion,50,52,60,85,49,80,MacDonald Gargan,Venom III,bad,Male,Human,"6'11, 211 cm","689 lb, 310 kg",2026-04-15 20:11:17,62.67,190.0
+582,Sebastian Shaw,63,85,12,95,36,56,Sebastian Hiram Shaw,Marvel Comics,bad,Male,Mutant,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,57.83,241.0
+583,Sentry,75,100,100,84,100,40,Robert Reynolds,Marvel Comics,neutral,Male,Mutant,"6'2, 188 cm","194 lb, 87 kg",2026-04-15 20:11:17,83.17,45.0
+584,Shadow King,75,12,27,100,100,75,Amahl Farouk,Marvel Comics,good,Desconocido,Desconocido,"6'1, 185 cm","330 lb, 149 kg",2026-04-15 20:11:17,64.83,168.0
+585,Shadow Lass,63,10,67,20,79,80,Tasmia Mallor,DC Comics,good,Female,Talokite,"5'8, 173 cm","120 lb, 54 kg",2026-04-15 20:11:17,53.17,296.0
+586,Shadowcat,88,8,21,25,69,70,Kitty Pryde,Marvel Comics,good,Female,Mutant,"5'6, 168 cm","110 lb, 50 kg",2026-04-15 20:11:17,46.83,364.0
+587,Shang-Chi,63,12,30,50,29,100,Shang-Chi,Marvel Comics,good,Male,Human,"5'10, 178 cm","175 lb, 79 kg",2026-04-15 20:11:17,47.33,361.0
+588,Shatterstar,63,48,45,64,49,84,Gaveedra Seven,Marvel Comics,good,Male,Desconocido,"6'3, 191 cm","195 lb, 88 kg",2026-04-15 20:11:17,58.83,227.0
+589,She-Hulk,81,100,42,100,40,70,Jennifer Walters,Marvel Comics,good,Female,Human,"6'7, 201 cm","700 lb, 315 kg",2026-04-15 20:11:17,72.17,109.0
+590,She-Thing,69,72,21,80,23,65,Sharon Ventura,Ms Marvel II,good,Female,Human / Radiation,"6'0, 183 cm","340 lb, 153 kg",2026-04-15 20:11:17,55.0,273.0
+591,Shocker,63,10,23,70,79,56,Herman Schultz,Marvel Comics,bad,Male,Human,"5'9, 175 cm","175 lb, 79 kg",2026-04-15 20:11:17,50.17,326.0
+592,Shriek,50,10,23,28,45,42,Frances Louise Barrison,Marvel Comics,good,Female,Desconocido,"5'8, 173 cm","115 lb, 52 kg",2026-04-15 20:11:17,33.0,509.0
+593,Shrinking Violet,0,0,0,0,0,0,Desconocido,DC Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+594,Sif,63,90,67,80,100,70,Sif,Marvel Comics,good,Female,Asgardian,"6'2, 188 cm","425 lb, 191 kg",2026-04-15 20:11:17,78.33,67.0
+595,Silk,75,48,71,70,71,65,Cindy Moon,Marvel Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,66.67,150.0
+596,Silk Spectre,0,0,0,0,0,0,Sally Juspeczyk,DC Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+597,Silk Spectre II,0,51,0,0,0,0,Laurie Juspeczyk,DC Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,8.5,608.0
+598,Silver Surfer,56,100,100,90,100,32,Norrin Radd,Marvel Comics,good,Male,Alien,"6'4, 193 cm","225 lb, 101 kg",2026-04-15 20:11:17,79.67,61.0
+599,Silverclaw,50,28,35,42,34,42,Maria de Guadalupe Santiago,Marvel Comics,good,Female,Desconocido,"5'2, 157 cm","110 lb, 50 kg",2026-04-15 20:11:17,38.5,458.0
+600,Simon Baz,56,90,42,55,100,60,Simoon Baz,DC Comics,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,67.17,143.0
+601,Sinestro,75,85,53,64,100,55,Thaal Sinestro,DC Comics,neutral,Male,Korugaran,"6'7, 201 cm","205 lb, 92 kg",2026-04-15 20:11:17,72.0,110.0
+602,Siren,56,62,79,60,92,60,Hila,DC Comics,bad,Female,Atlantean,"5'9, 175 cm","160 lb, 72 kg",2026-04-15 20:11:17,68.17,134.0
+603,Siren II,0,0,0,0,0,0,La Sirene la Bailene,DC Comics,bad,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+604,Siryn,38,8,47,28,50,42,Theresa Rourke Cassidy,Marvel Comics,bad,Female,Desconocido,"5'6, 168 cm","115 lb, 52 kg",2026-04-15 20:11:17,35.5,487.0
+605,Skaar,50,85,27,90,69,85,Desconocido,Marvel Comics,good,Male,Desconocido,"6'6, 198 cm","400 lb, 180 kg",2026-04-15 20:11:17,67.67,137.0
+606,Snake-Eyes,0,0,0,0,0,0,Desconocido,Marvel Comics,bad,Male,Animal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+607,Snowbird,50,32,27,42,70,52,Narya,Marvel Comics,good,Female,Desconocido,"5'10', 178 cm","108 lb, 49 kg",2026-04-15 20:11:17,45.5,377.0
+608,Sobek,50,34,23,46,20,56,Yurrd the Unknown,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,38.17,459.0
+609,Solomon Grundy,9,93,13,100,92,30,Cyrus Gold,DC Comics,bad,Male,Zombie,"9'2, 279 cm","971 lb, 437 kg",2026-04-15 20:11:17,56.17,256.0
+610,Songbird,75,36,27,42,55,56,Melissa Joan Gold,Marvel Comics,good,Female,Desconocido,"5'5, 165 cm","145 lb, 65 kg",2026-04-15 20:11:17,48.5,346.0
+611,Space Ghost,38,18,33,40,95,80,Thaddeus Bach,DC Comics,good,Male,Human,"6'2, 188 cm","250 lb, 113 kg",2026-04-15 20:11:17,50.67,323.0
+612,Spawn,75,60,50,90,100,95,Al Simmons,Image Comics,good,Male,Demon,"6'11, 211 cm","900 lb, 405 kg",2026-04-15 20:11:17,78.33,67.0
+613,Spectre,88,100,100,100,100,70,Aztar,Aztar,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,93.0,17.0
+614,Speedball,0,0,0,0,0,0,Robert Baldwin,Penance II,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+615,Speedy,50,6,33,20,26,70,Thea Queen,DC Comics,good,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,34.17,501.0
+616,Speedy,0,0,0,0,0,0,"Roy William Harper, Jr.",Arsenal,good,Male,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+617,Spider-Carnage,0,69,0,0,0,0,Benjamin Reilly,Scarlet Spider,bad,Male,Symbiote,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,11.5,586.0
+618,Spider-Girl,63,38,60,65,53,75,May 'Mayday' Parker,Marvel Comics,good,Female,Human,"5'7, 170 cm","119 lb, 54 kg",2026-04-15 20:11:17,59.0,224.0
+619,Spider-Gwen,75,55,63,70,66,70,Gwen Stacy,Marvel Comics,good,Female,Human,"5'5, 165 cm","125 lb, 56 kg",2026-04-15 20:11:17,66.5,152.0
+620,Spider-Man,90,55,67,75,74,85,Peter Parker,Marvel Comics,good,Male,Human,"5'10, 178 cm","165 lb, 74 kg",2026-04-15 20:11:17,74.33,91.0
+621,Spider-Man,0,57,0,0,0,0,Miguel O'Hara,Marvel Comics,good,Desconocido,Human,"5'10, 178 cm","170 lb, 77 kg",2026-04-15 20:11:17,9.5,600.0
+622,Spider-Man,0,58,0,0,0,0,Miles Morales,Marvel Comics,good,Male,Human,"5'2, 157 cm","125 lb, 56 kg",2026-04-15 20:11:17,9.67,597.0
+623,Spider-Woman,56,42,42,60,68,70,Jessica Drew,Marvel Comics,good,Female,Human,"5'10, 178 cm","130 lb, 59 kg",2026-04-15 20:11:17,56.33,255.0
+624,Spider-Woman II,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+625,Spider-Woman III,50,48,27,42,60,28,Martha Franklin,Marvel Comics,good,Female,Desconocido,"5'8, 173 cm","123 lb, 55 kg",2026-04-15 20:11:17,42.5,415.0
+626,Spider-Woman IV,0,0,0,0,0,0,Charlotte Witter,Marvel Comics,bad,Female,Desconocido,"5'10, 178 cm","128 lb, 58 kg",2026-04-15 20:11:17,0.0,630.0
+627,Spock,81,18,17,40,56,40,S'chn T'gai Spock,Star Trek,good,Male,Human-Vulcan,"6'1, 185 cm","180 lb, 81 kg",2026-04-15 20:11:17,42.0,422.0
+628,Spyke,50,12,17,60,48,30,Evan Daniels,Marvel Comics,good,Male,Mutant,"6'0, 183 cm","185 lb, 83 kg",2026-04-15 20:11:17,36.17,481.0
+629,Stacy X,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+630,Star-Lord,69,20,33,50,25,70,Peter Jason Quill,Marvel Comics,good,Male,Human-Spartoi,"6'2, 188 cm","175 lb, 79 kg",2026-04-15 20:11:17,44.5,389.0
+631,Stardust,88,85,100,110,100,85,Desconocido,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,94.67,11.0
+632,Starfire,50,80,33,85,59,70,Koriand'r,DC Comics,good,Female,Tamaranean,"6'4, 193 cm","158 lb, 71 kg",2026-04-15 20:11:17,62.83,187.0
+633,Stargirl,63,80,25,90,87,55,Courtney Whitmore,DC Comics,good,Female,Human,"5'5, 165 cm","137 lb, 62 kg",2026-04-15 20:11:17,66.67,150.0
+634,Static,69,8,42,50,90,40,Virgil Hawkins,DC Comics,good,Male,Mutant,"5'7, 170 cm","140 lb, 63 kg",2026-04-15 20:11:17,49.83,329.0
+635,Steel,81,82,53,90,64,64,John Henry Irons,DC Comics,good,Male,Desconocido,"6'7, 201 cm","290 lb, 131 kg",2026-04-15 20:11:17,72.33,106.0
+636,Stephanie Powell,69,10,54,10,24,10,Stephanie Powell,ABC Studios,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,29.5,530.0
+637,Steppenwolf,94,100,83,100,100,100,Desconocido,DC Comics,bad,Male,New God,"6'0, 183 cm","203 lb, 91 kg",2026-04-15 20:11:17,96.17,7.0
+638,Storm,75,10,47,30,88,75,Ororo Munroe,Marvel Comics,good,Female,Mutant,"5'11, 180 cm","127 lb, 57 kg",2026-04-15 20:11:17,54.17,285.0
+639,Stormtrooper,10,8,8,15,5,20,Desconocido,George Lucas,bad,Male,Human,"6'0, 183 cm","- lb, 0 kg",2026-04-15 20:11:17,11.0,589.0
+640,Sunspot,63,63,35,25,90,70,Roberto DaCosta,Marvel Comics,good,Male,Mutant,"5'8, 173 cm","170 lb, 77 kg",2026-04-15 20:11:17,57.67,242.0
+641,Superboy,75,95,83,90,95,60,Kon-El / Conner Kent,DC Comics,good,Male,Desconocido,"5'7, 170 cm","150 lb, 68 kg",2026-04-15 20:11:17,83.0,46.0
+642,Superboy-Prime,94,100,100,100,100,85,Kal-El,DC Comics,bad,Male,Kryptonian,"5'11, 180 cm","170 lb, 77 kg",2026-04-15 20:11:17,96.5,5.0
+643,Supergirl,94,100,100,100,100,75,Kara Zor-El,DC Comics,good,Female,Kryptonian,"5'5, 165 cm","120 lb, 54 kg",2026-04-15 20:11:17,94.83,9.0
+644,Superman,94,100,100,100,100,85,Clark Kent,Superman Prime One-Million,good,Male,Kryptonian,"6'3, 191 cm","225 lb, 101 kg",2026-04-15 20:11:17,96.5,5.0
+645,Swamp Thing,88,95,25,100,100,55,Alec Holland,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,77.17,73.0
+646,Swarm,75,18,50,90,38,35,Fritz von Meyer,Marvel Comics,bad,Male,Mutant,"6'5, 196 cm","104 lb, 47 kg",2026-04-15 20:11:17,51.0,319.0
+647,Sylar,75,10,12,28,91,56,Gabriel Gray,NBC - Heroes,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,45.33,378.0
+648,Synch,75,67,23,28,74,56,Everett Thomas,Marvel Comics,good,Male,Desconocido,"5'11, 180 cm","165 lb, 74 kg",2026-04-15 20:11:17,53.83,289.0
+649,T-1000,75,34,33,100,100,75,Cyberdyne Systems Series 1000 Terminator,Dark Horse Comics,bad,Male,Android,"6'0, 183 cm","325 lb, 146 kg",2026-04-15 20:11:17,69.5,123.0
+650,T-800,75,34,17,60,73,65,Cyberdyne Systems Series 800 Terminator Model 101,Dark Horse Comics,bad,Male,Cyborg,"-, 0 cm","390 lb, 176 kg",2026-04-15 20:11:17,54.0,286.0
+651,T-850,75,80,25,90,83,75,Cyberdyne Systems Series 850 Terminator,Dark Horse Comics,bad,Male,Cyborg,"-, 0 cm","440 lb, 198 kg",2026-04-15 20:11:17,71.33,115.0
+652,T-X,75,63,29,85,100,80,Cyberdyne Systems Series X Terminator,Dark Horse Comics,bad,Female,Cyborg,"-, 0 cm","330 lb, 149 kg",2026-04-15 20:11:17,72.0,110.0
+653,Taskmaster,75,12,50,20,63,100,Tony Masters,Marvel Comics,bad,Male,Human,"6'2, 188 cm","220 lb, 99 kg",2026-04-15 20:11:17,53.33,295.0
+654,Tempest,38,10,45,28,66,60,Angel Salvadore Bohusk,Angel Salvadore,good,Female,Desconocido,"5'4, 163 cm","121 lb, 54 kg",2026-04-15 20:11:17,41.17,427.0
+655,Thanos,100,100,33,100,100,80,Thanos,Marvel Comics,bad,Male,Eternal,"6'7, 201 cm","985 lb, 443 kg",2026-04-15 20:11:17,85.5,41.0
+656,The Cape,38,10,23,32,22,64,Vince Faraday,Desconocido,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,31.5,521.0
+657,The Comedian,63,14,17,10,12,80,Edward Morgen Blake,DC Comics,neutral,Male,Human,"6'2, 188 cm","225 lb, 101 kg",2026-04-15 20:11:17,32.67,514.0
+658,Thing,75,84,21,100,38,80,Ben Grimm,Marvel Comics,good,Male,Human / Radiation,"6'0, 183 cm","500 lb, 225 kg",2026-04-15 20:11:17,66.33,154.0
+659,Thor,69,100,83,100,100,100,Thor Odinson,Rune King Thor,good,Male,Asgardian,"6'6, 198 cm","640 lb, 288 kg",2026-04-15 20:11:17,92.0,18.0
+660,Thor Girl,75,83,70,84,100,70,Tarene,Marvel Comics,good,Female,Asgardian,"5'9, 175 cm","317 lb, 143 kg",2026-04-15 20:11:17,80.33,59.0
+661,Thunderbird,50,32,27,32,13,70,John Proudstar,Marvel Comics,good,Male,Desconocido,"6'1, 185 cm","225 lb, 101 kg",2026-04-15 20:11:17,37.33,467.0
+662,Thunderbird II,0,0,0,0,0,0,James Proudstar,Warpath,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+663,Thunderbird III,0,0,0,0,0,0,Neal Shaara,Marvel Comics,good,Male,Desconocido,"5'9', 175 cm","165 lb, 74 kg",2026-04-15 20:11:17,0.0,630.0
+664,Thunderstrike,63,80,70,84,42,72,Eric Kevin Masterson,Marvel Comics,good,Male,Desconocido,"6'6, 198 cm","640 lb, 288 kg",2026-04-15 20:11:17,68.5,132.0
+665,Thundra,38,81,32,64,26,54,Thundra,Marvel Comics,good,Female,Desconocido,"7'2, 218 cm","350 lb, 158 kg",2026-04-15 20:11:17,49.17,339.0
+666,Tiger Shark,38,72,46,70,51,28,Todd Arliss,Marvel Comics,bad,Male,Human,"6'1, 185 cm","450 lb, 203 kg",2026-04-15 20:11:17,50.83,322.0
+667,Tigra,63,32,53,38,33,90,Greer Grant Nelson,Marvel Comics,good,Female,Desconocido,"5'10, 178 cm","180 lb, 81 kg",2026-04-15 20:11:17,51.5,311.0
+668,Tinkerer,100,10,23,14,10,14,Phineas Mason,Marvel Comics,bad,Male,Desconocido,"5'4, 163 cm","120 lb, 54 kg",2026-04-15 20:11:17,28.5,533.0
+669,Titan,0,0,0,0,0,0,Desconocido,HarperCollins,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+670,Toad,50,34,58,56,70,28,Mortimer Toynbee,Marvel Comics,neutral,Male,Mutant,"5'9, 175 cm","169 lb, 76 kg",2026-04-15 20:11:17,49.33,334.0
+671,Toxin,56,73,70,84,82,70,Patrick Mulligan,Marvel Comics,good,Male,Symbiote,"6'2, 188 cm","215 lb, 97 kg",2026-04-15 20:11:17,72.5,105.0
+672,Toxin,75,80,42,85,97,70,Eddie Brock,Anti-Venom,good,Male,Symbiote,"6'3, 191 cm","260 lb, 117 kg",2026-04-15 20:11:17,74.83,89.0
+673,Tracy Strauss,0,0,0,0,0,0,Tracy Strauss,NBC - Heroes,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+674,Trickster,0,0,0,0,0,0,Giovanni Giuseppe,DC Comics,Desconocido,Male,Human,"6'0, 183 cm","179 lb, 81 kg",2026-04-15 20:11:17,0.0,630.0
+675,Trigon,0,99,0,0,0,0,Desconocido,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,16.5,562.0
+676,Triplicate Girl,63,10,23,42,44,42,Luornu Durgo,DC Comics,good,Female,Desconocido,"5'6, 168 cm","130 lb, 59 kg",2026-04-15 20:11:17,37.33,467.0
+677,Triton,56,63,50,65,35,55,Triton,Marvel Comics,good,Male,Inhuman,"6'2, 188 cm","190 lb, 86 kg",2026-04-15 20:11:17,54.0,286.0
+678,Two-Face,88,10,12,14,9,28,Harvey Dent,DC Comics,bad,Male,Desconocido,"6'0, 183 cm","182 lb, 82 kg",2026-04-15 20:11:17,26.83,540.0
+679,Ultragirl,50,80,35,70,35,80,Tsu-Zana,Marvel Comics,good,Female,Desconocido,"5'6, 168 cm","233 lb, 105 kg",2026-04-15 20:11:17,58.33,236.0
+680,Ultron,88,83,42,100,100,64,Ultron,Marvel Comics,bad,Male,Android,"6'9, 206 cm","735 lb, 331 kg",2026-04-15 20:11:17,79.5,62.0
+681,Utgard-Loki,50,80,23,84,85,64,Desconocido,Marvel Comics,bad,Male,Frost Giant,"50'0, 15.2 meters","128000 lb, 58 tons",2026-04-15 20:11:17,64.33,176.0
+682,Vagabond,0,0,0,0,0,0,Priscilla Lyons,Marvel Comics,good,Female,Desconocido,"5'6', 168 cm","120 lb, 54 kg",2026-04-15 20:11:17,0.0,630.0
+683,Valerie Hart,0,0,0,0,0,0,Desconocido,Team Epic TV,good,Female,Desconocido,"5'9, 175 cm","125 lb, 56 kg",2026-04-15 20:11:17,0.0,630.0
+684,Valkyrie,0,94,0,0,0,0,Brunnhilde (also spelled Brunnhilda),Marvel Comics,good,Female,Desconocido,"6'3', 191 cm","475 lb, 214 kg",2026-04-15 20:11:17,15.67,569.0
+685,Vanisher,63,10,75,56,61,42,Desconocido,Marvel Comics,bad,Male,Desconocido,"5'5, 165 cm","175 lb, 79 kg",2026-04-15 20:11:17,51.17,316.0
+686,Vegeta,81,100,92,95,100,100,Vegeta,Shueisha,bad,Male,Saiyan,"5'6, 168 cm","163 lb, 73 kg",2026-04-15 20:11:17,94.67,11.0
+687,Venom,75,57,65,84,86,84,Eddie Brock,Anti-Venom,bad,Male,Symbiote,"6'3, 191 cm","260 lb, 117 kg",2026-04-15 20:11:17,75.17,83.0
+688,Venom II,50,57,47,70,54,56,Angelo Fortunato,Marvel Comics,bad,Male,Desconocido,"5'9, 175 cm","110 lb, 50 kg",2026-04-15 20:11:17,55.67,262.0
+689,Venom III,63,73,35,90,73,56,MacDonald Gargan,Scorpion,bad,Male,Symbiote,"7'6, 229 cm","742 lb, 334 kg",2026-04-15 20:11:17,65.0,165.0
+690,Venompool,69,57,63,100,100,100,Wade Wilson,Deadpool,Desconocido,Male,Symbiote,"7'5, 226 cm","- lb, 0 kg",2026-04-15 20:11:17,81.5,53.0
+691,Vertigo II,0,0,0,0,0,0,Desconocido,Blaquesmith,good,Female,Desconocido,"5'6', 168 cm","115 lb, 52 kg",2026-04-15 20:11:17,0.0,630.0
+692,Vibe,50,10,17,30,99,30,Cisco Ramon,DC Comics,good,Male,Human,"5'10, 178 cm","157 lb, 71 kg",2026-04-15 20:11:17,39.33,446.0
+693,Vindicator,63,63,53,64,58,70,Heather Hudson,Vindicator II,good,Female,Human,"5'5, 165 cm","120 lb, 54 kg",2026-04-15 20:11:17,61.83,201.0
+694,Vindicator,0,0,0,0,0,0,Dr. James McDonald Hudson,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+695,Violator,0,53,0,0,0,0,Desconocido,Image Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,8.83,606.0
+696,Violet Parr,56,9,13,50,79,15,Violet Parr,Dark Horse Comics,good,Female,Human,"4'6, 137 cm","90 lb, 41 kg",2026-04-15 20:11:17,37.0,472.0
+697,Vision,100,72,54,95,100,70,Vision,Anti-Vision,good,Male,Android,"6'3, 191 cm","300 lb, 135 kg",2026-04-15 20:11:17,81.83,51.0
+698,Vision II,0,0,0,0,0,0,Vision,Anti-Vision,good,Desconocido,Desconocido,"6'3', 191 cm","300 lb, 135 kg",2026-04-15 20:11:17,0.0,630.0
+699,Vixen,50,38,50,50,62,25,Mari McCabe,DC Comics,good,Female,Human,"5'9, 175 cm","140 lb, 63 kg",2026-04-15 20:11:17,45.83,372.0
+700,Vulcan,0,56,0,0,0,0,Gabriel Summers,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,9.33,602.0
+701,Vulture,75,22,42,25,26,30,Adrian Toomes,Marvel Comics,bad,Male,Human,"5'11, 180 cm","175 lb, 79 kg",2026-04-15 20:11:17,36.67,475.0
+702,Walrus,50,28,8,50,11,20,Hubert Carpent,Marvel Comics,bad,Male,Human,"6'0, 183 cm","360 lb, 162 kg",2026-04-15 20:11:17,27.83,535.0
+703,War Machine,63,80,63,100,100,85,James Rupert Rhodes,Marvel Comics,good,Male,Human,"6'1, 185 cm","210 lb, 95 kg",2026-04-15 20:11:17,81.83,51.0
+704,Warbird,0,0,0,0,0,0,Carol Danvers,Binary,good,Female,Desconocido,"5'11', 180 cm","120 lb, 54 kg",2026-04-15 20:11:17,0.0,630.0
+705,Warlock,88,36,79,95,71,95,Adam Warlock,Marvel Comics,good,Male,Desconocido,"6'2', 188 cm","240 lb, 108 kg",2026-04-15 20:11:17,77.33,72.0
+706,Warp,38,10,23,28,85,50,Emil LaSalle,DC Comics,bad,Male,Desconocido,"5'8, 173 cm","148 lb, 67 kg",2026-04-15 20:11:17,39.0,449.0
+707,Warpath,38,72,47,70,26,84,James Proudstar,Thunderbird II,good,Male,Mutant,"7'2, 218 cm","350 lb, 158 kg",2026-04-15 20:11:17,56.17,256.0
+708,Wasp,63,17,58,52,29,42,Janet Van Dyne,Marvel Comics,good,Female,Human,"5'4, 163 cm","110 lb, 50 kg",2026-04-15 20:11:17,43.5,404.0
+709,Watcher,100,80,67,89,100,56,Uatu,Marvel Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,82.0,49.0
+710,Weapon XI,0,0,0,0,0,0,Weapon XI,Marvel Comics,bad,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+711,White Canary,63,7,33,15,49,90,Desconocido,DC Comics,bad,Female,Human,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,42.83,409.0
+712,White Queen,0,0,0,0,0,0,Emma Grace Frost,Marvel Comics,good,Female,Desconocido,"5'10', 178 cm","144 lb, 65 kg",2026-04-15 20:11:17,0.0,630.0
+713,Wildfire,50,32,23,100,77,42,Drake Burroughs,DC Comics,good,Male,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,54.0,286.0
+714,Winter Soldier,56,32,35,65,60,84,Bucky Barnes,Marvel Comics,good,Male,Human,"5'9, 175 cm","260 lb, 117 kg",2026-04-15 20:11:17,55.33,270.0
+715,Wiz Kid,0,0,0,0,0,0,Takashi Matsuya,Marvel Comics,good,Desconocido,Desconocido,"4'7', 140 cm","87 lb, 39 kg",2026-04-15 20:11:17,0.0,630.0
+716,Wolfsbane,38,16,35,42,26,42,Rahne Sinclair,Marvel Comics,good,Female,Desconocido,"12', 366 cm","1050 lb, 473 kg",2026-04-15 20:11:17,33.17,508.0
+717,Wolverine,63,32,50,100,89,100,Logan,Marvel Comics,good,Male,Mutant,"5'3, 160 cm","300 lb, 135 kg",2026-04-15 20:11:17,72.33,106.0
+718,Wonder Girl,75,90,25,80,39,60,Cassandra Elizabeth Sandsmark,DC Comics,good,Female,Demi-God,"5'5, 165 cm","114 lb, 51 kg",2026-04-15 20:11:17,61.5,204.0
+719,Wonder Man,75,100,53,90,64,64,Simon Williams,Marvel Comics,good,Male,Desconocido,"6'2, 188 cm","380 lb, 171 kg",2026-04-15 20:11:17,74.33,91.0
+720,Wonder Woman,88,100,79,100,100,100,Diana Prince,DC Comics,good,Female,Amazon,"6'0, 183 cm","165 lb, 74 kg",2026-04-15 20:11:17,94.5,13.0
+721,Wondra,0,0,0,0,0,0,Desconocido,Marvel Comics,good,Female,Desconocido,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,0.0,630.0
+722,Wyatt Wingfoot,10,10,12,1,1,56,Wyatt Wingfoot,Marvel Comics,good,Male,Desconocido,"6'5', 196 cm","260 lb, 117 kg",2026-04-15 20:11:17,15.0,572.0
+723,X-23,75,24,42,100,55,95,Laura Kinney,Marvel Comics,good,Female,Mutant / Clone,"5'1, 155 cm","110 lb, 50 kg",2026-04-15 20:11:17,65.17,164.0
+724,X-Man,88,53,53,95,100,84,Nate Grey,Marvel Comics,good,Male,Desconocido,"5'9, 175 cm","135 lb, 61 kg",2026-04-15 20:11:17,78.83,65.0
+725,Yellow Claw,0,0,0,0,0,0,Desconocido,Marvel Comics,bad,Male,Desconocido,"6'2, 188 cm","210 lb, 95 kg",2026-04-15 20:11:17,0.0,630.0
+726,Yellowjacket,88,10,12,28,12,14,Hank Pym,Ant-Man,good,Male,Human,"6', 183 cm","185 lb, 83 kg",2026-04-15 20:11:17,27.33,538.0
+727,Yellowjacket II,50,10,35,28,31,28,Rita DeMara,Marvel Comics,good,Female,Human,"5'5, 165 cm","115 lb, 52 kg",2026-04-15 20:11:17,30.33,525.0
+728,Ymir,50,100,27,100,98,28,Ymir,Marvel Comics,good,Male,Frost Giant,"1000, 304.8 meters","- lb, 0 kg",2026-04-15 20:11:17,67.17,143.0
+729,Yoda,88,52,33,25,100,90,Yoda,George Lucas,good,Male,Yoda's species,"2'2, 66 cm","38 lb, 17 kg",2026-04-15 20:11:17,64.67,171.0
+730,Zatanna,81,10,23,28,100,56,Zatanna Zatara,DC Comics,good,Female,Human,"5'7, 170 cm","127 lb, 57 kg",2026-04-15 20:11:17,49.67,332.0
+731,Zoom,50,10,100,28,100,28,Hunter Zolomon,DC Comics,bad,Male,Desconocido,"6'1, 185 cm","181 lb, 81 kg",2026-04-15 20:11:17,52.67,301.0

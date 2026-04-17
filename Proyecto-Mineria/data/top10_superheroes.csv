@@ -1,11 +1,11 @@
 id,nombre,inteligencia,fuerza,velocidad,durabilidad,poder,combate,nombre_completo,editor,alineacion,genero,raza,altura,peso,fecha_extraccion,promedio_poder,ranking
-468,Monarch,0,100,0,0,0,0,Nathaniel Christopher Adam,DC Comics,good,Male,null,"6'4, 193 cm","200 lb, 90 kg",2026-03-27 17:56:27,100.0,1.0
-503,One-Above-All,100,100,100,100,100,100,,Marvel Comics,neutral,-,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,100.0,1.0
-426,Man of Miracles,100,100,100,100,100,100,,Image Comics,-,-,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,100.0,1.0
-675,Trigon,0,99,0,0,0,0,,DC Comics,bad,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,99.0,4.0
-59,Aztar,0,98,0,0,0,0,Aztar,Spectre,good,Male,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,98.0,5.0
-278,General Zod,94,100,96,100,100,95,Dru-Zod,DC Comics,bad,Male,Kryptonian,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,97.5,6.0
-80,Beyonder,100,100,100,100,100,84,,Marvel Comics,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,97.33,7.0
-27,Angela,0,97,0,0,0,0,,Image Comics,bad,Female,null,"-, 0 cm","- lb, 0 kg",2026-03-27 17:56:27,97.0,8.0
-644,Superman,94,100,100,100,100,85,Clark Kent,Superman Prime One-Million,good,Male,Kryptonian,"6'3, 191 cm","225 lb, 101 kg",2026-03-27 17:56:27,96.5,9.0
-642,Superboy-Prime,94,100,100,100,100,85,Kal-El,DC Comics,bad,Male,Kryptonian,"5'11, 180 cm","170 lb, 77 kg",2026-03-27 17:56:27,96.5,9.0
+426,Man of Miracles,100,100,100,100,100,100,Desconocido,Image Comics,Desconocido,Desconocido,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,100.0,1.0
+503,One-Above-All,100,100,100,100,100,100,Desconocido,Marvel Comics,neutral,Desconocido,Cosmic Entity,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,100.0,1.0
+278,General Zod,94,100,96,100,100,95,Dru-Zod,DC Comics,bad,Male,Kryptonian,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,97.5,3.0
+80,Beyonder,100,100,100,100,100,84,Desconocido,Marvel Comics,good,Male,God / Eternal,"-, 0 cm","- lb, 0 kg",2026-04-15 20:11:17,97.33,4.0
+644,Superman,94,100,100,100,100,85,Clark Kent,Superman Prime One-Million,good,Male,Kryptonian,"6'3, 191 cm","225 lb, 101 kg",2026-04-15 20:11:17,96.5,5.0
+642,Superboy-Prime,94,100,100,100,100,85,Kal-El,DC Comics,bad,Male,Kryptonian,"5'11, 180 cm","170 lb, 77 kg",2026-04-15 20:11:17,96.5,5.0
+637,Steppenwolf,94,100,83,100,100,100,Desconocido,DC Comics,bad,Male,New God,"6'0, 183 cm","203 lb, 91 kg",2026-04-15 20:11:17,96.17,7.0
+432,Martian Manhunter,100,95,92,100,100,85,J'onn J'onzz,DC Comics,good,Male,Martian,"6'7, 201 cm","300 lb, 135 kg",2026-04-15 20:11:17,95.33,8.0
+524,Power Girl,94,100,100,100,100,75,Kara Zor-L,DC Comics,good,Female,Kryptonian,"5'11, 180 cm","180 lb, 81 kg",2026-04-15 20:11:17,94.83,9.0
+643,Supergirl,94,100,100,100,100,75,Kara Zor-El,DC Comics,good,Female,Kryptonian,"5'5, 165 cm","120 lb, 54 kg",2026-04-15 20:11:17,94.83,9.0

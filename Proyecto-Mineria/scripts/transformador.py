@@ -13,12 +13,14 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler(BASE_DIR / 'logs' / 'etl.log'),
+        logging.FileHandler(LOG_DIR / "etl.log"),
         logging.StreamHandler()
     ]
 )
@@ -26,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 
 class SuperheroTransformador:
-    def __init__(self, input_json=DATA_DIR / 'superheroes_raw.json'):
+    def __init__(self, input_json=DATA_DIR / "superheroes_raw.json"):
         self.input_json = input_json
         self.df = None
 
@@ -43,9 +45,12 @@ class SuperheroTransformador:
         heroes = []
 
         for hero in data:
-            powerstats = hero.get("powerstats", {})
-            biography = hero.get("biography", {})
-            appearance = hero.get("appearance", {})
+            powerstats = hero.get("powerstats", {}) or {}
+            biography = hero.get("biography", {}) or {}
+            appearance = hero.get("appearance", {}) or {}
+
+            altura = appearance.get("height", [])
+            peso = appearance.get("weight", [])
 
             heroes.append({
                 "id": hero.get("id"),
@@ -61,8 +66,8 @@ class SuperheroTransformador:
                 "alineacion": biography.get("alignment"),
                 "genero": appearance.get("gender"),
                 "raza": appearance.get("race"),
-                "altura": ", ".join(appearance.get("height", [])) if appearance.get("height") else "",
-                "peso": ", ".join(appearance.get("weight", [])) if appearance.get("weight") else "",
+                "altura": ", ".join(altura) if isinstance(altura, list) and altura else altura,
+                "peso": ", ".join(peso) if isinstance(peso, list) and peso else peso,
                 "fecha_extraccion": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
 
@@ -71,27 +76,37 @@ class SuperheroTransformador:
         return self
 
     def limpiar_datos(self):
+        if self.df is None:
+            raise ValueError("Primero debes cargar los datos con cargar_datos().")
+
         filas_antes = len(self.df)
+
         self.df.drop_duplicates(subset=["id"], inplace=True)
-        self.df.fillna({
-            "nombre": "N/A",
-            "nombre_completo": "N/A",
-            "editor": "N/A",
-            "alineacion": "N/A",
-            "genero": "N/A",
-            "raza": "N/A",
-            "altura": "N/A",
-            "peso": "N/A"
-        }, inplace=True)
+
+        cols_texto = [
+            "nombre", "nombre_completo", "editor",
+            "alineacion", "genero", "raza", "altura", "peso"
+        ]
+
+        valores_invalidos = ["", " ", "-", "null", "None", "nan", "N/A", None]
+
+        for col in cols_texto:
+            if col in self.df.columns:
+                self.df[col] = self.df[col].replace(valores_invalidos, pd.NA)
+                self.df[col] = self.df[col].fillna("Desconocido")
+
         filas_despues = len(self.df)
 
         logger.info(
-            f"🧹 Limpieza: {filas_antes - filas_despues} duplicados eliminados, "
+            f"🧹 Limpieza completada: {filas_antes - filas_despues} duplicados eliminados, "
             f"{filas_despues} registros restantes"
         )
         return self
 
     def normalizar_tipos(self):
+        if self.df is None:
+            raise ValueError("Primero debes cargar los datos con cargar_datos().")
+
         cols_numericas = [
             "id", "inteligencia", "fuerza",
             "velocidad", "durabilidad", "poder", "combate"
@@ -99,12 +114,17 @@ class SuperheroTransformador:
 
         for col in cols_numericas:
             if col in self.df.columns:
-                self.df[col] = pd.to_numeric(self.df[col], errors='coerce')
+                self.df[col] = pd.to_numeric(self.df[col], errors="coerce")
+
+        self.df[cols_numericas] = self.df[cols_numericas].fillna(0)
 
         logger.info("🔧 Tipos de datos normalizados")
         return self
 
     def enriquecer_datos(self):
+        if self.df is None:
+            raise ValueError("Primero debes cargar los datos con cargar_datos().")
+
         numeric_cols = [
             "inteligencia", "fuerza",
             "velocidad", "durabilidad", "poder", "combate"
@@ -116,53 +136,69 @@ class SuperheroTransformador:
         logger.info("✨ Datos enriquecidos con columnas calculadas")
         return self
 
-    def guardar_datos(self, output_csv=DATA_DIR / 'superheroes.csv'):
-        self.df = self.df.fillna(0)
+    def guardar_datos(self, output_csv=DATA_DIR / "superheroes.csv"):
+        if self.df is None:
+            raise ValueError("No hay datos para guardar.")
 
         cols_int = [
             "id", "inteligencia", "fuerza",
             "velocidad", "durabilidad", "poder", "combate"
         ]
-        for col in cols_int:
-            self.df[col] = self.df[col].astype(int)
 
-        self.df["ranking"] = self.df["ranking"].astype(float)
-        self.df["promedio_poder"] = self.df["promedio_poder"].astype(float)
+        for col in cols_int:
+            self.df[col] = self.df[col].fillna(0).astype(int)
+
+        self.df["promedio_poder"] = self.df["promedio_poder"].fillna(0).astype(float)
+        self.df["ranking"] = self.df["ranking"].fillna(0).astype(float)
 
         os.makedirs(DATA_DIR, exist_ok=True)
-        self.df.to_csv(output_csv, index=False)
+        self.df.to_csv(output_csv, index=False, encoding="utf-8")
+
         logger.info(f"💾 Datos transformados guardados en {output_csv}")
 
         top10_path = DATA_DIR / "top10_superheroes.csv"
-        self.df.sort_values(by="promedio_poder", ascending=False).head(10).to_csv(top10_path, index=False)
+        self.df.sort_values(by="promedio_poder", ascending=False).head(10).to_csv(
+            top10_path, index=False, encoding="utf-8"
+        )
         logger.info(f"💾 Top 10 guardado en {top10_path}")
 
         return self.df
 
     def mostrar_resumen(self):
+        if self.df is None:
+            raise ValueError("No hay datos cargados para resumir.")
+
         print("\n" + "=" * 60)
         print("ESTADÍSTICAS DEL DATASET TRANSFORMADO")
         print("=" * 60)
-        cols = ['inteligencia', 'fuerza', 'velocidad', 'durabilidad', 'poder', 'combate']
+
+        cols = ["inteligencia", "fuerza", "velocidad", "durabilidad", "poder", "combate"]
         print(self.df[cols].describe().round(2).to_string())
+
+        print("\nValores nulos por columna:")
+        print(self.df.isnull().sum().to_string())
+
         print("\nTop editoriales:")
-        print(self.df['editor'].value_counts().head(10).to_string())
+        print(self.df["editor"].value_counts().head(10).to_string())
+
         print("=" * 60)
 
 
 if __name__ == "__main__":
     try:
         transformador = SuperheroTransformador()
-        df = (transformador
-              .cargar_datos()
-              .limpiar_datos()
-              .normalizar_tipos()
-              .enriquecer_datos()
-              .guardar_datos())
+        df = (
+            transformador
+            .cargar_datos()
+            .limpiar_datos()
+            .normalizar_tipos()
+            .enriquecer_datos()
+            .guardar_datos()
+        )
         transformador.mostrar_resumen()
 
     except FileNotFoundError as e:
         logger.error(str(e))
     except Exception as e:
-        logger.error(f"Error fatal en transformación: {str(e)}")
+        logger.error(f"❌ Error fatal en transformación: {str(e)}")
         raise

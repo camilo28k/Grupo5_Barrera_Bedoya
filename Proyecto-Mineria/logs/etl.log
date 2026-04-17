@@ -1722,3 +1722,749 @@
 2026-03-27 17:58:46,940 - INFO - ✅ Bulk insert completado: 730 registros
 2026-03-27 17:58:47,242 - INFO - 📈 Métricas guardadas — estado: SUCCESS
 2026-03-27 17:58:47,243 - INFO - ✅ ETL completado — Guardados: 730 | Fallidos: 0
+2026-04-15 19:55:27,252 - INFO - Iniciando extracción para 731 héroes...
+2026-04-15 19:55:29,021 - INFO - ✅ Héroe 1: A-Bomb
+2026-04-15 19:55:30,144 - INFO - ✅ Héroe 2: Abe Sapien
+2026-04-15 19:55:31,444 - INFO - ✅ Héroe 3: Abin Sur
+2026-04-15 19:55:32,704 - INFO - ✅ Héroe 4: Abomination
+2026-04-15 19:55:33,859 - INFO - ✅ Héroe 5: Abraxas
+2026-04-15 19:55:35,635 - INFO - ✅ Héroe 6: Absorbing Man
+2026-04-15 19:55:36,658 - INFO - ✅ Héroe 7: Adam Monroe
+2026-04-15 19:55:37,738 - INFO - ✅ Héroe 8: Adam Strange
+2026-04-15 19:55:39,008 - INFO - ✅ Héroe 9: Agent 13
+2026-04-15 19:55:40,540 - INFO - ✅ Héroe 10: Agent Bob
+2026-04-15 19:55:41,909 - INFO - ✅ Héroe 11: Agent Zero
+2026-04-15 19:55:43,074 - INFO - ✅ Héroe 12: Air-Walker
+2026-04-15 19:55:44,207 - INFO - ✅ Héroe 13: Ajax
+2026-04-15 19:55:45,350 - INFO - ✅ Héroe 14: Alan Scott
+2026-04-15 19:55:46,511 - INFO - ✅ Héroe 15: Alex Mercer
+2026-04-15 19:55:47,685 - INFO - ✅ Héroe 16: Alex Woolsly
+2026-04-15 19:55:49,161 - INFO - ✅ Héroe 17: Alfred Pennyworth
+2026-04-15 19:55:50,214 - INFO - ✅ Héroe 18: Alien
+2026-04-15 19:55:51,350 - INFO - ✅ Héroe 19: Allan Quatermain
+2026-04-15 19:55:52,609 - INFO - ✅ Héroe 20: Amazo
+2026-04-15 19:55:53,713 - INFO - ✅ Héroe 21: Ammo
+2026-04-15 19:55:55,276 - INFO - ✅ Héroe 22: Ando Masahashi
+2026-04-15 19:55:56,615 - INFO - ✅ Héroe 23: Angel
+2026-04-15 19:55:57,762 - INFO - ✅ Héroe 24: Angel
+2026-04-15 19:55:59,074 - INFO - ✅ Héroe 25: Angel Dust
+2026-04-15 19:56:00,154 - INFO - ✅ Héroe 26: Angel Salvadore
+2026-04-15 19:56:01,217 - INFO - ✅ Héroe 27: Angela
+2026-04-15 19:56:02,780 - INFO - ✅ Héroe 28: Animal Man
+2026-04-15 19:56:05,469 - INFO - ✅ Héroe 29: Annihilus
+2026-04-15 19:56:06,699 - INFO - ✅ Héroe 30: Ant-Man
+2026-04-15 19:56:07,809 - INFO - ✅ Héroe 31: Ant-Man II
+2026-04-15 19:56:08,839 - INFO - ✅ Héroe 32: Anti-Monitor
+2026-04-15 19:56:09,947 - INFO - ✅ Héroe 33: Anti-Spawn
+2026-04-15 19:56:10,974 - INFO - ✅ Héroe 34: Anti-Venom
+2026-04-15 19:56:12,065 - INFO - ✅ Héroe 35: Apocalypse
+2026-04-15 19:56:13,257 - INFO - ✅ Héroe 36: Aquababy
+2026-04-15 19:56:14,280 - INFO - ✅ Héroe 37: Aqualad
+2026-04-15 19:56:15,461 - INFO - ✅ Héroe 38: Aquaman
+2026-04-15 19:56:16,587 - INFO - ✅ Héroe 39: Arachne
+2026-04-15 19:56:17,819 - INFO - ✅ Héroe 40: Archangel
+2026-04-15 19:56:19,883 - INFO - ✅ Héroe 41: Arclight
+2026-04-15 19:56:20,989 - INFO - ✅ Héroe 42: Ardina
+2026-04-15 19:56:22,172 - INFO - ✅ Héroe 43: Ares
+2026-04-15 19:56:23,522 - INFO - ✅ Héroe 44: Ariel
+2026-04-15 19:56:25,126 - INFO - ✅ Héroe 45: Armor
+2026-04-15 19:56:26,222 - INFO - ✅ Héroe 46: Arsenal
+2026-04-15 19:56:27,332 - INFO - ✅ Héroe 47: Astro Boy
+2026-04-15 19:56:28,421 - INFO - ✅ Héroe 48: Atlas
+2026-04-15 19:56:29,482 - INFO - ✅ Héroe 49: Atlas
+2026-04-15 19:56:30,658 - INFO - ✅ Héroe 50: Atom
+2026-04-15 19:56:33,803 - INFO - ✅ Héroe 51: Atom
+2026-04-15 19:56:34,908 - INFO - ✅ Héroe 52: Atom Girl
+2026-04-15 19:56:35,945 - INFO - ✅ Héroe 53: Atom II
+2026-04-15 19:56:37,081 - INFO - ✅ Héroe 54: Atom III
+2026-04-15 19:56:38,161 - INFO - ✅ Héroe 55: Atom IV
+2026-04-15 19:56:39,316 - INFO - ✅ Héroe 56: Aurora
+2026-04-15 19:56:40,914 - INFO - ✅ Héroe 57: Azazel
+2026-04-15 19:56:42,019 - INFO - ✅ Héroe 58: Azrael
+2026-04-15 19:56:43,131 - INFO - ✅ Héroe 59: Aztar
+2026-04-15 19:56:44,232 - INFO - ✅ Héroe 60: Bane
+2026-04-15 19:56:45,362 - INFO - ✅ Héroe 61: Banshee
+2026-04-15 19:56:46,581 - INFO - ✅ Héroe 62: Bantam
+2026-04-15 19:56:47,614 - INFO - ✅ Héroe 63: Batgirl
+2026-04-15 19:56:48,589 - INFO - ✅ Héroe 64: Batgirl
+2026-04-15 19:56:49,634 - INFO - ✅ Héroe 65: Batgirl III
+2026-04-15 19:56:50,717 - INFO - ✅ Héroe 66: Batgirl IV
+2026-04-15 19:56:51,817 - INFO - ✅ Héroe 67: Batgirl V
+2026-04-15 19:56:52,983 - INFO - ✅ Héroe 68: Batgirl VI
+2026-04-15 19:56:54,049 - INFO - ✅ Héroe 69: Batman
+2026-04-15 19:56:55,219 - INFO - ✅ Héroe 70: Batman
+2026-04-15 19:56:56,221 - INFO - ✅ Héroe 71: Batman II
+2026-04-15 19:56:57,558 - INFO - ✅ Héroe 72: Battlestar
+2026-04-15 19:56:58,659 - INFO - ✅ Héroe 73: Batwoman V
+2026-04-15 19:56:59,681 - INFO - ✅ Héroe 74: Beak
+2026-04-15 19:57:00,837 - INFO - ✅ Héroe 75: Beast
+2026-04-15 19:57:01,881 - INFO - ✅ Héroe 76: Beast Boy
+2026-04-15 19:57:03,005 - INFO - ✅ Héroe 77: Beetle
+2026-04-15 19:57:04,090 - INFO - ✅ Héroe 78: Ben 10
+2026-04-15 19:57:05,187 - INFO - ✅ Héroe 79: Beta Ray Bill
+2026-04-15 19:57:06,235 - INFO - ✅ Héroe 80: Beyonder
+2026-04-15 19:57:07,463 - INFO - ✅ Héroe 81: Big Barda
+2026-04-15 19:57:08,635 - INFO - ✅ Héroe 82: Big Daddy
+2026-04-15 19:57:09,792 - INFO - ✅ Héroe 83: Big Man
+2026-04-15 19:57:10,910 - INFO - ✅ Héroe 84: Bill Harken
+2026-04-15 19:57:12,209 - INFO - ✅ Héroe 85: Billy Kincaid
+2026-04-15 19:57:13,338 - INFO - ✅ Héroe 86: Binary
+2026-04-15 19:57:14,432 - INFO - ✅ Héroe 87: Bionic Woman
+2026-04-15 19:57:15,486 - INFO - ✅ Héroe 88: Bird-Brain
+2026-04-15 19:57:17,087 - INFO - ✅ Héroe 89: Bird-Man
+2026-04-15 19:57:18,080 - INFO - ✅ Héroe 90: Bird-Man II
+2026-04-15 19:57:19,127 - INFO - ✅ Héroe 91: Birdman
+2026-04-15 19:57:20,197 - INFO - ✅ Héroe 92: Bishop
+2026-04-15 19:57:21,281 - INFO - ✅ Héroe 93: Bizarro
+2026-04-15 19:57:22,312 - INFO - ✅ Héroe 94: Black Abbott
+2026-04-15 19:57:23,450 - INFO - ✅ Héroe 95: Black Adam
+2026-04-15 19:57:24,526 - INFO - ✅ Héroe 96: Black Bolt
+2026-04-15 19:57:25,577 - INFO - ✅ Héroe 97: Black Canary
+2026-04-15 19:57:26,727 - INFO - ✅ Héroe 98: Black Canary
+2026-04-15 19:57:27,831 - INFO - ✅ Héroe 99: Black Cat
+2026-04-15 19:57:29,054 - INFO - ✅ Héroe 100: Black Flash
+2026-04-15 19:57:31,137 - INFO - ✅ Héroe 101: Black Goliath
+2026-04-15 19:57:32,251 - INFO - ✅ Héroe 102: Black Knight III
+2026-04-15 19:57:33,304 - INFO - ✅ Héroe 103: Black Lightning
+2026-04-15 19:57:34,397 - INFO - ✅ Héroe 104: Black Mamba
+2026-04-15 19:57:35,464 - INFO - ✅ Héroe 105: Black Manta
+2026-04-15 19:57:36,542 - INFO - ✅ Héroe 106: Black Panther
+2026-04-15 19:57:39,451 - INFO - ✅ Héroe 107: Black Widow
+2026-04-15 19:57:40,820 - INFO - ✅ Héroe 108: Black Widow II
+2026-04-15 19:57:42,021 - INFO - ✅ Héroe 109: Blackout
+2026-04-15 19:57:43,120 - INFO - ✅ Héroe 110: Blackwing
+2026-04-15 19:57:44,226 - INFO - ✅ Héroe 111: Blackwulf
+2026-04-15 19:57:45,252 - INFO - ✅ Héroe 112: Blade
+2026-04-15 19:57:46,392 - INFO - ✅ Héroe 113: Blaquesmith
+2026-04-15 19:57:47,524 - INFO - ✅ Héroe 114: Bling!
+2026-04-15 19:57:48,630 - INFO - ✅ Héroe 115: Blink
+2026-04-15 19:57:49,778 - INFO - ✅ Héroe 116: Blizzard
+2026-04-15 19:57:50,815 - INFO - ✅ Héroe 117: Blizzard
+2026-04-15 19:57:52,225 - INFO - ✅ Héroe 118: Blizzard II
+2026-04-15 19:57:53,420 - INFO - ✅ Héroe 119: Blob
+2026-04-15 19:57:54,477 - INFO - ✅ Héroe 120: Bloodaxe
+2026-04-15 19:57:55,918 - INFO - ✅ Héroe 121: Bloodhawk
+2026-04-15 19:57:57,644 - INFO - ✅ Héroe 122: Bloodwraith
+2026-04-15 19:57:59,096 - INFO - ✅ Héroe 123: Blue Beetle
+2026-04-15 19:58:00,373 - INFO - ✅ Héroe 124: Blue Beetle
+2026-04-15 19:58:02,700 - INFO - ✅ Héroe 125: Blue Beetle II
+2026-04-15 19:58:03,845 - INFO - ✅ Héroe 126: Blue Beetle III
+2026-04-15 19:58:04,957 - INFO - ✅ Héroe 127: Boba Fett
+2026-04-15 19:58:06,113 - INFO - ✅ Héroe 128: Bolt
+2026-04-15 19:58:07,457 - INFO - ✅ Héroe 129: Bomb Queen
+2026-04-15 19:58:09,677 - INFO - ✅ Héroe 130: Boom-Boom
+2026-04-15 19:58:10,837 - INFO - ✅ Héroe 131: Boomer
+2026-04-15 19:58:12,080 - INFO - ✅ Héroe 132: Booster Gold
+2026-04-15 19:58:13,107 - INFO - ✅ Héroe 133: Box
+2026-04-15 19:58:14,200 - INFO - ✅ Héroe 134: Box III
+2026-04-15 19:58:15,249 - INFO - ✅ Héroe 135: Box IV
+2026-04-15 19:58:16,730 - INFO - ✅ Héroe 136: Brainiac
+2026-04-15 19:58:18,183 - INFO - ✅ Héroe 137: Brainiac 5
+2026-04-15 19:58:19,253 - INFO - ✅ Héroe 138: Brother Voodoo
+2026-04-15 19:58:20,754 - INFO - ✅ Héroe 139: Brundlefly
+2026-04-15 19:58:21,850 - INFO - ✅ Héroe 140: Buffy
+2026-04-15 19:58:23,516 - INFO - ✅ Héroe 141: Bullseye
+2026-04-15 19:58:24,699 - INFO - ✅ Héroe 142: Bumblebee
+2026-04-15 19:58:25,798 - INFO - ✅ Héroe 143: Bumbleboy
+2026-04-15 19:58:26,937 - INFO - ✅ Héroe 144: Bushido
+2026-04-15 19:58:27,993 - INFO - ✅ Héroe 145: Cable
+2026-04-15 19:58:30,266 - INFO - ✅ Héroe 146: Callisto
+2026-04-15 19:58:31,385 - INFO - ✅ Héroe 147: Cameron Hicks
+2026-04-15 19:58:32,434 - INFO - ✅ Héroe 148: Cannonball
+2026-04-15 19:58:33,629 - INFO - ✅ Héroe 149: Captain America
+2026-04-15 19:58:34,689 - INFO - ✅ Héroe 150: Captain Atom
+2026-04-15 19:58:35,753 - INFO - ✅ Héroe 151: Captain Britain
+2026-04-15 19:58:36,839 - INFO - ✅ Héroe 152: Captain Cold
+2026-04-15 19:58:37,868 - INFO - ✅ Héroe 153: Captain Epic
+2026-04-15 19:58:38,941 - INFO - ✅ Héroe 154: Captain Hindsight
+2026-04-15 19:58:40,022 - INFO - ✅ Héroe 155: Captain Mar-vell
+2026-04-15 19:58:41,110 - INFO - ✅ Héroe 156: Captain Marvel
+2026-04-15 19:58:42,252 - INFO - ✅ Héroe 157: Captain Marvel
+2026-04-15 19:58:43,420 - INFO - ✅ Héroe 158: Captain Marvel II
+2026-04-15 19:58:44,514 - INFO - ✅ Héroe 159: Captain Midnight
+2026-04-15 19:58:45,598 - INFO - ✅ Héroe 160: Captain Planet
+2026-04-15 19:58:46,769 - INFO - ✅ Héroe 161: Captain Universe
+2026-04-15 19:58:47,890 - INFO - ✅ Héroe 162: Carnage
+2026-04-15 19:58:49,059 - INFO - ✅ Héroe 163: Cat
+2026-04-15 19:58:50,094 - INFO - ✅ Héroe 164: Cat II
+2026-04-15 19:58:51,133 - INFO - ✅ Héroe 165: Catwoman
+2026-04-15 19:58:52,409 - INFO - ✅ Héroe 166: Cecilia Reyes
+2026-04-15 19:58:53,476 - INFO - ✅ Héroe 167: Century
+2026-04-15 19:58:54,578 - INFO - ✅ Héroe 168: Cerebra
+2026-04-15 19:58:55,701 - INFO - ✅ Héroe 169: Chamber
+2026-04-15 19:58:57,139 - INFO - ✅ Héroe 170: Chameleon
+2026-04-15 19:58:58,208 - INFO - ✅ Héroe 171: Changeling
+2026-04-15 19:58:59,291 - INFO - ✅ Héroe 172: Cheetah
+2026-04-15 19:59:00,413 - INFO - ✅ Héroe 173: Cheetah II
+2026-04-15 19:59:01,460 - INFO - ✅ Héroe 174: Cheetah III
+2026-04-15 19:59:02,614 - INFO - ✅ Héroe 175: Chromos
+2026-04-15 19:59:03,720 - INFO - ✅ Héroe 176: Chuck Norris
+2026-04-15 19:59:04,817 - INFO - ✅ Héroe 177: Citizen Steel
+2026-04-15 19:59:05,883 - INFO - ✅ Héroe 178: Claire Bennet
+2026-04-15 19:59:06,874 - INFO - ✅ Héroe 179: Clea
+2026-04-15 19:59:07,959 - INFO - ✅ Héroe 180: Cloak
+2026-04-15 19:59:08,953 - INFO - ✅ Héroe 181: Clock King
+2026-04-15 19:59:10,033 - INFO - ✅ Héroe 182: Cogliostro
+2026-04-15 19:59:11,123 - INFO - ✅ Héroe 183: Colin Wagner
+2026-04-15 19:59:12,203 - INFO - ✅ Héroe 184: Colossal Boy
+2026-04-15 19:59:13,239 - INFO - ✅ Héroe 185: Colossus
+2026-04-15 19:59:14,273 - INFO - ✅ Héroe 186: Copycat
+2026-04-15 19:59:15,372 - INFO - ✅ Héroe 187: Corsair
+2026-04-15 19:59:16,525 - INFO - ✅ Héroe 188: Cottonmouth
+2026-04-15 19:59:18,100 - INFO - ✅ Héroe 189: Crimson Crusader
+2026-04-15 19:59:19,270 - INFO - ✅ Héroe 190: Crimson Dynamo
+2026-04-15 19:59:20,362 - INFO - ✅ Héroe 191: Crystal
+2026-04-15 19:59:21,556 - INFO - ✅ Héroe 192: Curse
+2026-04-15 19:59:22,635 - INFO - ✅ Héroe 193: Cy-Gor
+2026-04-15 19:59:23,770 - INFO - ✅ Héroe 194: Cyborg
+2026-04-15 19:59:24,830 - INFO - ✅ Héroe 195: Cyborg Superman
+2026-04-15 19:59:25,915 - INFO - ✅ Héroe 196: Cyclops
+2026-04-15 19:59:27,091 - INFO - ✅ Héroe 197: Cypher
+2026-04-15 19:59:28,174 - INFO - ✅ Héroe 198: Dagger
+2026-04-15 19:59:29,262 - INFO - ✅ Héroe 199: Danny Cooper
+2026-04-15 19:59:30,319 - INFO - ✅ Héroe 200: Daphne Powell
+2026-04-15 19:59:31,351 - INFO - ✅ Héroe 201: Daredevil
+2026-04-15 19:59:32,411 - INFO - ✅ Héroe 202: Darkhawk
+2026-04-15 19:59:33,512 - INFO - ✅ Héroe 203: Darkman
+2026-04-15 19:59:34,575 - INFO - ✅ Héroe 204: Darkseid
+2026-04-15 19:59:35,784 - INFO - ✅ Héroe 205: Darkside
+2026-04-15 19:59:36,811 - INFO - ✅ Héroe 206: Darkstar
+2026-04-15 19:59:38,953 - INFO - ✅ Héroe 207: Darth Maul
+2026-04-15 19:59:40,149 - INFO - ✅ Héroe 208: Darth Vader
+2026-04-15 19:59:41,211 - INFO - ✅ Héroe 209: Dash
+2026-04-15 19:59:42,230 - INFO - ✅ Héroe 210: Data
+2026-04-15 19:59:43,293 - INFO - ✅ Héroe 211: Dazzler
+2026-04-15 19:59:44,319 - INFO - ✅ Héroe 212: Deadman
+2026-04-15 19:59:45,381 - INFO - ✅ Héroe 213: Deadpool
+2026-04-15 19:59:46,428 - INFO - ✅ Héroe 214: Deadshot
+2026-04-15 19:59:47,472 - INFO - ✅ Héroe 215: Deathlok
+2026-04-15 19:59:48,542 - INFO - ✅ Héroe 216: Deathstroke
+2026-04-15 19:59:49,561 - INFO - ✅ Héroe 217: Demogoblin
+2026-04-15 19:59:50,573 - INFO - ✅ Héroe 218: Destroyer
+2026-04-15 19:59:51,677 - INFO - ✅ Héroe 219: Diamondback
+2026-04-15 19:59:52,805 - INFO - ✅ Héroe 220: DL Hawkins
+2026-04-15 19:59:53,910 - INFO - ✅ Héroe 221: Doc Samson
+2026-04-15 19:59:54,962 - INFO - ✅ Héroe 222: Doctor Doom
+2026-04-15 19:59:56,044 - INFO - ✅ Héroe 223: Doctor Doom II
+2026-04-15 19:59:57,084 - INFO - ✅ Héroe 224: Doctor Fate
+2026-04-15 19:59:59,192 - INFO - ✅ Héroe 225: Doctor Octopus
+2026-04-15 20:00:00,238 - INFO - ✅ Héroe 226: Doctor Strange
+2026-04-15 20:00:01,608 - INFO - ✅ Héroe 227: Domino
+2026-04-15 20:00:02,632 - INFO - ✅ Héroe 228: Donatello
+2026-04-15 20:00:03,723 - INFO - ✅ Héroe 229: Donna Troy
+2026-04-15 20:00:04,797 - INFO - ✅ Héroe 230: Doomsday
+2026-04-15 20:00:05,868 - INFO - ✅ Héroe 231: Doppelganger
+2026-04-15 20:00:07,373 - INFO - ✅ Héroe 232: Dormammu
+2026-04-15 20:00:08,422 - INFO - ✅ Héroe 233: Dr Manhattan
+2026-04-15 20:00:09,487 - INFO - ✅ Héroe 234: Drax the Destroyer
+2026-04-15 20:00:11,062 - INFO - ✅ Héroe 235: Ego
+2026-04-15 20:00:12,276 - INFO - ✅ Héroe 236: Elastigirl
+2026-04-15 20:00:13,413 - INFO - ✅ Héroe 237: Electro
+2026-04-15 20:00:14,587 - INFO - ✅ Héroe 238: Elektra
+2026-04-15 20:00:15,698 - INFO - ✅ Héroe 239: Elle Bishop
+2026-04-15 20:00:18,421 - INFO - ✅ Héroe 240: Elongated Man
+2026-04-15 20:00:19,614 - INFO - ✅ Héroe 241: Emma Frost
+2026-04-15 20:00:21,827 - INFO - ✅ Héroe 242: Enchantress
+2026-04-15 20:00:22,920 - INFO - ✅ Héroe 243: Energy
+2026-04-15 20:00:23,999 - INFO - ✅ Héroe 244: ERG-1
+2026-04-15 20:00:25,090 - INFO - ✅ Héroe 245: Ethan Hunt
+2026-04-15 20:00:27,273 - INFO - ✅ Héroe 246: Etrigan
+2026-04-15 20:00:28,384 - INFO - ✅ Héroe 247: Evil Deadpool
+2026-04-15 20:00:29,408 - INFO - ✅ Héroe 248: Evilhawk
+2026-04-15 20:00:30,500 - INFO - ✅ Héroe 249: Exodus
+2026-04-15 20:00:31,657 - INFO - ✅ Héroe 250: Fabian Cortez
+2026-04-15 20:00:32,817 - INFO - ✅ Héroe 251: Falcon
+2026-04-15 20:00:33,921 - INFO - ✅ Héroe 252: Fallen One II
+2026-04-15 20:00:34,941 - INFO - ✅ Héroe 253: Faora
+2026-04-15 20:00:36,425 - INFO - ✅ Héroe 254: Feral
+2026-04-15 20:00:38,481 - INFO - ✅ Héroe 255: Fighting Spirit
+2026-04-15 20:00:39,721 - INFO - ✅ Héroe 256: Fin Fang Foom
+2026-04-15 20:00:41,433 - INFO - ✅ Héroe 257: Firebird
+2026-04-15 20:00:42,919 - INFO - ✅ Héroe 258: Firelord
+2026-04-15 20:00:44,035 - INFO - ✅ Héroe 259: Firestar
+2026-04-15 20:00:45,174 - INFO - ✅ Héroe 260: Firestorm
+2026-04-15 20:00:46,331 - INFO - ✅ Héroe 261: Firestorm
+2026-04-15 20:00:47,848 - INFO - ✅ Héroe 262: Fixer
+2026-04-15 20:00:49,004 - INFO - ✅ Héroe 263: Flash
+2026-04-15 20:00:51,236 - INFO - ✅ Héroe 264: Flash Gordon
+2026-04-15 20:00:52,474 - INFO - ✅ Héroe 265: Flash II
+2026-04-15 20:00:54,693 - INFO - ✅ Héroe 266: Flash III
+2026-04-15 20:00:55,907 - INFO - ✅ Héroe 267: Flash IV
+2026-04-15 20:00:56,961 - INFO - ✅ Héroe 268: Forge
+2026-04-15 20:00:59,226 - INFO - ✅ Héroe 269: Franklin Richards
+2026-04-15 20:01:00,378 - INFO - ✅ Héroe 270: Franklin Storm
+2026-04-15 20:01:01,430 - INFO - ✅ Héroe 271: Frenzy
+2026-04-15 20:01:02,946 - INFO - ✅ Héroe 272: Frigga
+2026-04-15 20:01:04,080 - INFO - ✅ Héroe 273: Galactus
+2026-04-15 20:01:05,636 - INFO - ✅ Héroe 274: Gambit
+2026-04-15 20:01:06,753 - INFO - ✅ Héroe 275: Gamora
+2026-04-15 20:01:07,737 - INFO - ✅ Héroe 276: Garbage Man
+2026-04-15 20:01:09,180 - INFO - ✅ Héroe 277: Gary Bell
+2026-04-15 20:01:10,464 - INFO - ✅ Héroe 278: General Zod
+2026-04-15 20:01:11,780 - INFO - ✅ Héroe 279: Genesis
+2026-04-15 20:01:12,882 - INFO - ✅ Héroe 280: Ghost Rider
+2026-04-15 20:01:14,596 - INFO - ✅ Héroe 281: Ghost Rider II
+2026-04-15 20:01:15,745 - INFO - ✅ Héroe 282: Giant-Man
+2026-04-15 20:01:16,779 - INFO - ✅ Héroe 283: Giant-Man II
+2026-04-15 20:01:19,208 - INFO - ✅ Héroe 284: Giganta
+2026-04-15 20:01:20,245 - INFO - ✅ Héroe 285: Gladiator
+2026-04-15 20:01:21,239 - INFO - ✅ Héroe 286: Goblin Queen
+2026-04-15 20:01:22,288 - INFO - ✅ Héroe 287: Godzilla
+2026-04-15 20:01:23,402 - INFO - ✅ Héroe 288: Gog
+2026-04-15 20:01:24,423 - INFO - ✅ Héroe 289: Goku
+2026-04-15 20:01:25,575 - INFO - ✅ Héroe 290: Goliath
+2026-04-15 20:01:26,647 - INFO - ✅ Héroe 291: Goliath
+2026-04-15 20:01:27,746 - INFO - ✅ Héroe 292: Goliath
+2026-04-15 20:01:28,836 - INFO - ✅ Héroe 293: Goliath IV
+2026-04-15 20:01:29,899 - INFO - ✅ Héroe 294: Gorilla Grodd
+2026-04-15 20:01:31,750 - INFO - ✅ Héroe 295: Granny Goodness
+2026-04-15 20:01:33,111 - INFO - ✅ Héroe 296: Gravity
+2026-04-15 20:01:34,162 - INFO - ✅ Héroe 297: Greedo
+2026-04-15 20:01:35,816 - INFO - ✅ Héroe 298: Green Arrow
+2026-04-15 20:01:37,766 - INFO - ✅ Héroe 299: Green Goblin
+2026-04-15 20:01:39,327 - INFO - ✅ Héroe 300: Green Goblin II
+2026-04-15 20:01:40,539 - INFO - ✅ Héroe 301: Green Goblin III
+2026-04-15 20:01:41,587 - INFO - ✅ Héroe 302: Green Goblin IV
+2026-04-15 20:01:42,821 - INFO - ✅ Héroe 303: Groot
+2026-04-15 20:01:44,310 - INFO - ✅ Héroe 304: Guardian
+2026-04-15 20:01:45,587 - INFO - ✅ Héroe 305: Guy Gardner
+2026-04-15 20:01:46,939 - INFO - ✅ Héroe 306: Hal Jordan
+2026-04-15 20:01:47,992 - INFO - ✅ Héroe 307: Han Solo
+2026-04-15 20:01:50,217 - INFO - ✅ Héroe 308: Hancock
+2026-04-15 20:01:51,248 - INFO - ✅ Héroe 309: Harley Quinn
+2026-04-15 20:01:52,723 - INFO - ✅ Héroe 310: Harry Potter
+2026-04-15 20:01:53,787 - INFO - ✅ Héroe 311: Havok
+2026-04-15 20:01:54,866 - INFO - ✅ Héroe 312: Hawk
+2026-04-15 20:01:55,989 - INFO - ✅ Héroe 313: Hawkeye
+2026-04-15 20:01:57,648 - INFO - ✅ Héroe 314: Hawkeye II
+2026-04-15 20:01:58,784 - INFO - ✅ Héroe 315: Hawkgirl
+2026-04-15 20:01:59,905 - INFO - ✅ Héroe 316: Hawkman
+2026-04-15 20:02:00,999 - INFO - ✅ Héroe 317: Hawkwoman
+2026-04-15 20:02:02,090 - INFO - ✅ Héroe 318: Hawkwoman II
+2026-04-15 20:02:03,284 - INFO - ✅ Héroe 319: Hawkwoman III
+2026-04-15 20:02:04,309 - INFO - ✅ Héroe 320: Heat Wave
+2026-04-15 20:02:05,362 - INFO - ✅ Héroe 321: Hela
+2026-04-15 20:02:06,479 - INFO - ✅ Héroe 322: Hellboy
+2026-04-15 20:02:07,608 - INFO - ✅ Héroe 323: Hellcat
+2026-04-15 20:02:08,750 - INFO - ✅ Héroe 324: Hellstorm
+2026-04-15 20:02:10,533 - INFO - ✅ Héroe 325: Hercules
+2026-04-15 20:02:11,811 - INFO - ✅ Héroe 326: Hiro Nakamura
+2026-04-15 20:02:13,062 - INFO - ✅ Héroe 327: Hit-Girl
+2026-04-15 20:02:14,291 - INFO - ✅ Héroe 328: Hobgoblin
+2026-04-15 20:02:15,386 - INFO - ✅ Héroe 329: Hollow
+2026-04-15 20:02:16,494 - INFO - ✅ Héroe 330: Hope Summers
+2026-04-15 20:02:18,044 - INFO - ✅ Héroe 331: Howard the Duck
+2026-04-15 20:02:19,218 - INFO - ✅ Héroe 332: Hulk
+2026-04-15 20:02:20,555 - INFO - ✅ Héroe 333: Human Torch
+2026-04-15 20:02:21,660 - INFO - ✅ Héroe 334: Huntress
+2026-04-15 20:02:22,796 - INFO - ✅ Héroe 335: Husk
+2026-04-15 20:02:23,928 - INFO - ✅ Héroe 336: Hybrid
+2026-04-15 20:02:25,117 - INFO - ✅ Héroe 337: Hydro-Man
+2026-04-15 20:02:26,840 - INFO - ✅ Héroe 338: Hyperion
+2026-04-15 20:02:28,004 - INFO - ✅ Héroe 339: Iceman
+2026-04-15 20:02:29,188 - INFO - ✅ Héroe 340: Impulse
+2026-04-15 20:02:30,318 - INFO - ✅ Héroe 341: Indiana Jones
+2026-04-15 20:02:31,424 - INFO - ✅ Héroe 342: Indigo
+2026-04-15 20:02:32,959 - INFO - ✅ Héroe 343: Ink
+2026-04-15 20:02:34,000 - INFO - ✅ Héroe 344: Invisible Woman
+2026-04-15 20:02:35,963 - INFO - ✅ Héroe 345: Iron Fist
+2026-04-15 20:02:37,132 - INFO - ✅ Héroe 346: Iron Man
+2026-04-15 20:02:38,273 - INFO - ✅ Héroe 347: Iron Monger
+2026-04-15 20:02:39,346 - INFO - ✅ Héroe 348: Isis
+2026-04-15 20:02:40,616 - INFO - ✅ Héroe 349: Jack Bauer
+2026-04-15 20:02:42,300 - INFO - ✅ Héroe 350: Jack of Hearts
+2026-04-15 20:02:43,506 - INFO - ✅ Héroe 351: Jack-Jack
+2026-04-15 20:02:44,601 - INFO - ✅ Héroe 352: James Bond
+2026-04-15 20:02:45,716 - INFO - ✅ Héroe 353: James T. Kirk
+2026-04-15 20:02:46,812 - INFO - ✅ Héroe 354: Jar Jar Binks
+2026-04-15 20:02:47,918 - INFO - ✅ Héroe 355: Jason Bourne
+2026-04-15 20:02:49,013 - INFO - ✅ Héroe 356: Jean Grey
+2026-04-15 20:02:50,138 - INFO - ✅ Héroe 357: Jean-Luc Picard
+2026-04-15 20:02:51,223 - INFO - ✅ Héroe 358: Jennifer Kale
+2026-04-15 20:02:52,434 - INFO - ✅ Héroe 359: Jesse Quick
+2026-04-15 20:02:53,502 - INFO - ✅ Héroe 360: Jessica Cruz
+2026-04-15 20:02:54,562 - INFO - ✅ Héroe 361: Jessica Jones
+2026-04-15 20:02:55,613 - INFO - ✅ Héroe 362: Jessica Sanders
+2026-04-15 20:02:56,816 - INFO - ✅ Héroe 363: Jigsaw
+2026-04-15 20:02:57,886 - INFO - ✅ Héroe 364: Jim Powell
+2026-04-15 20:02:58,994 - INFO - ✅ Héroe 365: JJ Powell
+2026-04-15 20:03:00,220 - INFO - ✅ Héroe 366: Johann Krauss
+2026-04-15 20:03:01,448 - INFO - ✅ Héroe 367: John Constantine
+2026-04-15 20:03:02,529 - INFO - ✅ Héroe 368: John Stewart
+2026-04-15 20:03:03,683 - INFO - ✅ Héroe 369: John Wraith
+2026-04-15 20:03:04,709 - INFO - ✅ Héroe 370: Joker
+2026-04-15 20:03:05,819 - INFO - ✅ Héroe 371: Jolt
+2026-04-15 20:03:06,841 - INFO - ✅ Héroe 372: Jubilee
+2026-04-15 20:03:07,852 - INFO - ✅ Héroe 373: Judge Dredd
+2026-04-15 20:03:08,995 - INFO - ✅ Héroe 374: Juggernaut
+2026-04-15 20:03:10,200 - INFO - ✅ Héroe 375: Junkpile
+2026-04-15 20:03:11,293 - INFO - ✅ Héroe 376: Justice
+2026-04-15 20:03:12,494 - INFO - ✅ Héroe 377: Jyn Erso
+2026-04-15 20:03:13,570 - INFO - ✅ Héroe 378: K-2SO
+2026-04-15 20:03:15,183 - INFO - ✅ Héroe 379: Kang
+2026-04-15 20:03:16,307 - INFO - ✅ Héroe 380: Kathryn Janeway
+2026-04-15 20:03:17,377 - INFO - ✅ Héroe 381: Katniss Everdeen
+2026-04-15 20:03:18,481 - INFO - ✅ Héroe 382: Kevin 11
+2026-04-15 20:03:20,654 - INFO - ✅ Héroe 383: Kick-Ass
+2026-04-15 20:03:21,710 - INFO - ✅ Héroe 384: Kid Flash
+2026-04-15 20:03:22,702 - INFO - ✅ Héroe 385: Kid Flash II
+2026-04-15 20:03:23,751 - INFO - ✅ Héroe 386: Killer Croc
+2026-04-15 20:03:24,768 - INFO - ✅ Héroe 387: Killer Frost
+2026-04-15 20:03:25,824 - INFO - ✅ Héroe 388: Kilowog
+2026-04-15 20:03:26,941 - INFO - ✅ Héroe 389: King Kong
+2026-04-15 20:03:28,002 - INFO - ✅ Héroe 390: King Shark
+2026-04-15 20:03:29,104 - INFO - ✅ Héroe 391: Kingpin
+2026-04-15 20:03:30,132 - INFO - ✅ Héroe 392: Klaw
+2026-04-15 20:03:31,255 - INFO - ✅ Héroe 393: Kool-Aid Man
+2026-04-15 20:03:32,302 - INFO - ✅ Héroe 394: Kraven II
+2026-04-15 20:03:33,375 - INFO - ✅ Héroe 395: Kraven the Hunter
+2026-04-15 20:03:34,713 - INFO - ✅ Héroe 396: Krypto
+2026-04-15 20:03:36,642 - INFO - ✅ Héroe 397: Kyle Rayner
+2026-04-15 20:03:37,639 - INFO - ✅ Héroe 398: Kylo Ren
+2026-04-15 20:03:39,734 - INFO - ✅ Héroe 399: Lady Bullseye
+2026-04-15 20:03:40,736 - INFO - ✅ Héroe 400: Lady Deathstrike
+2026-04-15 20:03:41,939 - INFO - ✅ Héroe 401: Leader
+2026-04-15 20:03:43,118 - INFO - ✅ Héroe 402: Leech
+2026-04-15 20:03:44,206 - INFO - ✅ Héroe 403: Legion
+2026-04-15 20:03:45,216 - INFO - ✅ Héroe 404: Leonardo
+2026-04-15 20:03:46,311 - INFO - ✅ Héroe 405: Lex Luthor
+2026-04-15 20:03:47,388 - INFO - ✅ Héroe 406: Light Lass
+2026-04-15 20:03:48,508 - INFO - ✅ Héroe 407: Lightning Lad
+2026-04-15 20:03:49,542 - INFO - ✅ Héroe 408: Lightning Lord
+2026-04-15 20:03:50,611 - INFO - ✅ Héroe 409: Living Brain
+2026-04-15 20:03:51,594 - INFO - ✅ Héroe 410: Living Tribunal
+2026-04-15 20:03:52,691 - INFO - ✅ Héroe 411: Liz Sherman
+2026-04-15 20:03:53,721 - INFO - ✅ Héroe 412: Lizard
+2026-04-15 20:03:54,987 - INFO - ✅ Héroe 413: Lobo
+2026-04-15 20:03:55,992 - INFO - ✅ Héroe 414: Loki
+2026-04-15 20:03:57,038 - INFO - ✅ Héroe 415: Longshot
+2026-04-15 20:03:58,122 - INFO - ✅ Héroe 416: Luke Cage
+2026-04-15 20:03:59,186 - INFO - ✅ Héroe 417: Luke Campbell
+2026-04-15 20:04:00,216 - INFO - ✅ Héroe 418: Luke Skywalker
+2026-04-15 20:04:01,335 - INFO - ✅ Héroe 419: Luna
+2026-04-15 20:04:02,412 - INFO - ✅ Héroe 420: Lyja
+2026-04-15 20:04:03,596 - INFO - ✅ Héroe 421: Mach-IV
+2026-04-15 20:04:04,595 - INFO - ✅ Héroe 422: Machine Man
+2026-04-15 20:04:05,803 - INFO - ✅ Héroe 423: Magneto
+2026-04-15 20:04:06,906 - INFO - ✅ Héroe 424: Magog
+2026-04-15 20:04:07,990 - INFO - ✅ Héroe 425: Magus
+2026-04-15 20:04:09,049 - INFO - ✅ Héroe 426: Man of Miracles
+2026-04-15 20:04:10,116 - INFO - ✅ Héroe 427: Man-Bat
+2026-04-15 20:04:11,284 - INFO - ✅ Héroe 428: Man-Thing
+2026-04-15 20:04:12,320 - INFO - ✅ Héroe 429: Man-Wolf
+2026-04-15 20:04:13,397 - INFO - ✅ Héroe 430: Mandarin
+2026-04-15 20:04:14,437 - INFO - ✅ Héroe 431: Mantis
+2026-04-15 20:04:15,502 - INFO - ✅ Héroe 432: Martian Manhunter
+2026-04-15 20:04:16,521 - INFO - ✅ Héroe 433: Marvel Girl
+2026-04-15 20:04:17,570 - INFO - ✅ Héroe 434: Master Brood
+2026-04-15 20:04:18,629 - INFO - ✅ Héroe 435: Master Chief
+2026-04-15 20:04:19,672 - INFO - ✅ Héroe 436: Match
+2026-04-15 20:04:20,738 - INFO - ✅ Héroe 437: Matt Parkman
+2026-04-15 20:04:21,932 - INFO - ✅ Héroe 438: Maverick
+2026-04-15 20:04:22,938 - INFO - ✅ Héroe 439: Maxima
+2026-04-15 20:04:24,028 - INFO - ✅ Héroe 440: Maya Herrera
+2026-04-15 20:04:25,053 - INFO - ✅ Héroe 441: Medusa
+2026-04-15 20:04:27,226 - INFO - ✅ Héroe 442: Meltdown
+2026-04-15 20:04:29,308 - INFO - ✅ Héroe 443: Mephisto
+2026-04-15 20:04:30,842 - INFO - ✅ Héroe 444: Mera
+2026-04-15 20:04:31,931 - INFO - ✅ Héroe 445: Metallo
+2026-04-15 20:04:33,490 - INFO - ✅ Héroe 446: Metamorpho
+2026-04-15 20:04:34,558 - INFO - ✅ Héroe 447: Meteorite
+2026-04-15 20:04:35,598 - INFO - ✅ Héroe 448: Metron
+2026-04-15 20:04:36,656 - INFO - ✅ Héroe 449: Micah Sanders
+2026-04-15 20:04:37,896 - INFO - ✅ Héroe 450: Michelangelo
+2026-04-15 20:04:39,128 - INFO - ✅ Héroe 451: Micro Lad
+2026-04-15 20:04:40,235 - INFO - ✅ Héroe 452: Mimic
+2026-04-15 20:04:41,255 - INFO - ✅ Héroe 453: Minna Murray
+2026-04-15 20:04:42,360 - INFO - ✅ Héroe 454: Misfit
+2026-04-15 20:04:43,381 - INFO - ✅ Héroe 455: Miss Martian
+2026-04-15 20:04:44,425 - INFO - ✅ Héroe 456: Mister Fantastic
+2026-04-15 20:04:45,448 - INFO - ✅ Héroe 457: Mister Freeze
+2026-04-15 20:04:46,489 - INFO - ✅ Héroe 458: Mister Knife
+2026-04-15 20:04:47,595 - INFO - ✅ Héroe 459: Mister Mxyzptlk
+2026-04-15 20:04:48,698 - INFO - ✅ Héroe 460: Mister Sinister
+2026-04-15 20:04:49,887 - INFO - ✅ Héroe 461: Mister Zsasz
+2026-04-15 20:04:50,997 - INFO - ✅ Héroe 462: Mockingbird
+2026-04-15 20:04:52,095 - INFO - ✅ Héroe 463: MODOK
+2026-04-15 20:04:53,161 - INFO - ✅ Héroe 464: Mogo
+2026-04-15 20:04:54,242 - INFO - ✅ Héroe 465: Mohinder Suresh
+2026-04-15 20:04:55,236 - INFO - ✅ Héroe 466: Moloch
+2026-04-15 20:04:56,319 - INFO - ✅ Héroe 467: Molten Man
+2026-04-15 20:04:57,445 - INFO - ✅ Héroe 468: Monarch
+2026-04-15 20:04:59,602 - INFO - ✅ Héroe 469: Monica Dawson
+2026-04-15 20:05:00,655 - INFO - ✅ Héroe 470: Moon Knight
+2026-04-15 20:05:01,746 - INFO - ✅ Héroe 471: Moonstone
+2026-04-15 20:05:02,816 - INFO - ✅ Héroe 472: Morlun
+2026-04-15 20:05:03,898 - INFO - ✅ Héroe 473: Morph
+2026-04-15 20:05:05,315 - INFO - ✅ Héroe 474: Moses Magnum
+2026-04-15 20:05:06,333 - INFO - ✅ Héroe 475: Mr Immortal
+2026-04-15 20:05:07,448 - INFO - ✅ Héroe 476: Mr Incredible
+2026-04-15 20:05:08,521 - INFO - ✅ Héroe 477: Ms Marvel II
+2026-04-15 20:05:09,602 - INFO - ✅ Héroe 478: Multiple Man
+2026-04-15 20:05:10,609 - INFO - ✅ Héroe 479: Mysterio
+2026-04-15 20:05:11,755 - INFO - ✅ Héroe 480: Mystique
+2026-04-15 20:05:12,853 - INFO - ✅ Héroe 481: Namor
+2026-04-15 20:05:13,984 - INFO - ✅ Héroe 482: Namor
+2026-04-15 20:05:15,225 - INFO - ✅ Héroe 483: Namora
+2026-04-15 20:05:16,424 - INFO - ✅ Héroe 484: Namorita
+2026-04-15 20:05:17,479 - INFO - ✅ Héroe 485: Naruto Uzumaki
+2026-04-15 20:05:18,488 - INFO - ✅ Héroe 486: Nathan Petrelli
+2026-04-15 20:05:19,554 - INFO - ✅ Héroe 487: Nebula
+2026-04-15 20:05:20,868 - INFO - ✅ Héroe 488: Negasonic Teenage Warhead
+2026-04-15 20:05:21,896 - INFO - ✅ Héroe 489: Nick Fury
+2026-04-15 20:05:23,006 - INFO - ✅ Héroe 490: Nightcrawler
+2026-04-15 20:05:24,193 - INFO - ✅ Héroe 491: Nightwing
+2026-04-15 20:05:25,282 - INFO - ✅ Héroe 492: Niki Sanders
+2026-04-15 20:05:26,323 - INFO - ✅ Héroe 493: Nina Theroux
+2026-04-15 20:05:27,341 - INFO - ✅ Héroe 494: Nite Owl II
+2026-04-15 20:05:28,584 - INFO - ✅ Héroe 495: Northstar
+2026-04-15 20:05:29,614 - INFO - ✅ Héroe 496: Nova
+2026-04-15 20:05:30,658 - INFO - ✅ Héroe 497: Nova
+2026-04-15 20:05:31,717 - INFO - ✅ Héroe 498: Odin
+2026-04-15 20:05:32,851 - INFO - ✅ Héroe 499: Offspring
+2026-04-15 20:05:33,873 - INFO - ✅ Héroe 500: Omega Red
+2026-04-15 20:05:35,036 - INFO - ✅ Héroe 501: Omniscient
+2026-04-15 20:05:36,120 - INFO - ✅ Héroe 502: One Punch Man
+2026-04-15 20:05:37,156 - INFO - ✅ Héroe 503: One-Above-All
+2026-04-15 20:05:38,325 - INFO - ✅ Héroe 504: Onslaught
+2026-04-15 20:05:39,336 - INFO - ✅ Héroe 505: Oracle
+2026-04-15 20:05:40,404 - INFO - ✅ Héroe 506: Osiris
+2026-04-15 20:05:41,507 - INFO - ✅ Héroe 507: Overtkill
+2026-04-15 20:05:42,546 - INFO - ✅ Héroe 508: Ozymandias
+2026-04-15 20:05:43,580 - INFO - ✅ Héroe 509: Parademon
+2026-04-15 20:05:44,617 - INFO - ✅ Héroe 510: Paul Blart
+2026-04-15 20:05:46,687 - INFO - ✅ Héroe 511: Penance
+2026-04-15 20:05:47,887 - INFO - ✅ Héroe 512: Penance I
+2026-04-15 20:05:49,004 - INFO - ✅ Héroe 513: Penance II
+2026-04-15 20:05:50,120 - INFO - ✅ Héroe 514: Penguin
+2026-04-15 20:05:51,162 - INFO - ✅ Héroe 515: Phantom
+2026-04-15 20:05:52,210 - INFO - ✅ Héroe 516: Phantom Girl
+2026-04-15 20:05:53,326 - INFO - ✅ Héroe 517: Phoenix
+2026-04-15 20:05:54,538 - INFO - ✅ Héroe 518: Plantman
+2026-04-15 20:05:55,524 - INFO - ✅ Héroe 519: Plastic Lad
+2026-04-15 20:05:56,582 - INFO - ✅ Héroe 520: Plastic Man
+2026-04-15 20:05:57,664 - INFO - ✅ Héroe 521: Plastique
+2026-04-15 20:05:58,671 - INFO - ✅ Héroe 522: Poison Ivy
+2026-04-15 20:05:59,801 - INFO - ✅ Héroe 523: Polaris
+2026-04-15 20:06:01,007 - INFO - ✅ Héroe 524: Power Girl
+2026-04-15 20:06:02,103 - INFO - ✅ Héroe 525: Power Man
+2026-04-15 20:06:03,288 - INFO - ✅ Héroe 526: Predator
+2026-04-15 20:06:04,404 - INFO - ✅ Héroe 527: Professor X
+2026-04-15 20:06:06,481 - INFO - ✅ Héroe 528: Professor Zoom
+2026-04-15 20:06:07,565 - INFO - ✅ Héroe 529: Psylocke
+2026-04-15 20:06:08,643 - INFO - ✅ Héroe 530: Punisher
+2026-04-15 20:06:09,748 - INFO - ✅ Héroe 531: Purple Man
+2026-04-15 20:06:10,853 - INFO - ✅ Héroe 532: Pyro
+2026-04-15 20:06:11,932 - INFO - ✅ Héroe 533: Q
+2026-04-15 20:06:12,972 - INFO - ✅ Héroe 534: Quantum
+2026-04-15 20:06:14,087 - INFO - ✅ Héroe 535: Question
+2026-04-15 20:06:15,178 - INFO - ✅ Héroe 536: Quicksilver
+2026-04-15 20:06:16,195 - INFO - ✅ Héroe 537: Quill
+2026-04-15 20:06:17,238 - INFO - ✅ Héroe 538: Ra's Al Ghul
+2026-04-15 20:06:18,344 - INFO - ✅ Héroe 539: Rachel Pirzad
+2026-04-15 20:06:19,386 - INFO - ✅ Héroe 540: Rambo
+2026-04-15 20:06:20,502 - INFO - ✅ Héroe 541: Raphael
+2026-04-15 20:06:21,523 - INFO - ✅ Héroe 542: Raven
+2026-04-15 20:06:22,602 - INFO - ✅ Héroe 543: Ray
+2026-04-15 20:06:23,691 - INFO - ✅ Héroe 544: Razor-Fist II
+2026-04-15 20:06:24,809 - INFO - ✅ Héroe 545: Red Arrow
+2026-04-15 20:06:25,910 - INFO - ✅ Héroe 546: Red Hood
+2026-04-15 20:06:27,551 - INFO - ✅ Héroe 547: Red Hulk
+2026-04-15 20:06:28,629 - INFO - ✅ Héroe 548: Red Mist
+2026-04-15 20:06:29,926 - INFO - ✅ Héroe 549: Red Robin
+2026-04-15 20:06:30,987 - INFO - ✅ Héroe 550: Red Skull
+2026-04-15 20:06:32,213 - INFO - ✅ Héroe 551: Red Tornado
+2026-04-15 20:06:33,226 - INFO - ✅ Héroe 552: Redeemer II
+2026-04-15 20:06:34,301 - INFO - ✅ Héroe 553: Redeemer III
+2026-04-15 20:06:35,331 - INFO - ✅ Héroe 554: Renata Soliz
+2026-04-15 20:06:36,415 - INFO - ✅ Héroe 555: Rey
+2026-04-15 20:06:37,472 - INFO - ✅ Héroe 556: Rhino
+2026-04-15 20:06:38,541 - INFO - ✅ Héroe 557: Rick Flag
+2026-04-15 20:06:39,669 - INFO - ✅ Héroe 558: Riddler
+2026-04-15 20:06:40,759 - INFO - ✅ Héroe 559: Rip Hunter
+2026-04-15 20:06:41,982 - INFO - ✅ Héroe 560: Ripcord
+2026-04-15 20:06:43,673 - INFO - ✅ Héroe 561: Robin
+2026-04-15 20:06:44,730 - INFO - ✅ Héroe 562: Robin II
+2026-04-15 20:06:46,317 - INFO - ✅ Héroe 563: Robin III
+2026-04-15 20:06:47,346 - INFO - ✅ Héroe 564: Robin V
+2026-04-15 20:06:48,892 - INFO - ✅ Héroe 565: Robin VI
+2026-04-15 20:06:51,115 - INFO - ✅ Héroe 566: Rocket Raccoon
+2026-04-15 20:06:52,160 - INFO - ✅ Héroe 567: Rogue
+2026-04-15 20:06:53,298 - INFO - ✅ Héroe 568: Ronin
+2026-04-15 20:06:54,387 - INFO - ✅ Héroe 569: Rorschach
+2026-04-15 20:06:55,518 - INFO - ✅ Héroe 570: Sabretooth
+2026-04-15 20:06:56,602 - INFO - ✅ Héroe 571: Sage
+2026-04-15 20:06:57,678 - INFO - ✅ Héroe 572: Sandman
+2026-04-15 20:06:58,797 - INFO - ✅ Héroe 573: Sasquatch
+2026-04-15 20:06:59,899 - INFO - ✅ Héroe 574: Sauron
+2026-04-15 20:07:00,988 - INFO - ✅ Héroe 575: Savage Dragon
+2026-04-15 20:07:02,021 - INFO - ✅ Héroe 576: Scarecrow
+2026-04-15 20:07:03,746 - INFO - ✅ Héroe 577: Scarlet Spider
+2026-04-15 20:07:04,816 - INFO - ✅ Héroe 578: Scarlet Spider II
+2026-04-15 20:07:05,857 - INFO - ✅ Héroe 579: Scarlet Witch
+2026-04-15 20:07:06,957 - INFO - ✅ Héroe 580: Scorpia
+2026-04-15 20:07:08,095 - INFO - ✅ Héroe 581: Scorpion
+2026-04-15 20:07:09,194 - INFO - ✅ Héroe 582: Sebastian Shaw
+2026-04-15 20:07:10,936 - INFO - ✅ Héroe 583: Sentry
+2026-04-15 20:07:12,016 - INFO - ✅ Héroe 584: Shadow King
+2026-04-15 20:07:13,126 - INFO - ✅ Héroe 585: Shadow Lass
+2026-04-15 20:07:14,370 - INFO - ✅ Héroe 586: Shadowcat
+2026-04-15 20:07:15,437 - INFO - ✅ Héroe 587: Shang-Chi
+2026-04-15 20:07:16,524 - INFO - ✅ Héroe 588: Shatterstar
+2026-04-15 20:07:18,192 - INFO - ✅ Héroe 589: She-Hulk
+2026-04-15 20:07:19,359 - INFO - ✅ Héroe 590: She-Thing
+2026-04-15 20:07:20,428 - INFO - ✅ Héroe 591: Shocker
+2026-04-15 20:07:21,483 - INFO - ✅ Héroe 592: Shriek
+2026-04-15 20:07:22,545 - INFO - ✅ Héroe 593: Shrinking Violet
+2026-04-15 20:07:23,656 - INFO - ✅ Héroe 594: Sif
+2026-04-15 20:07:24,785 - INFO - ✅ Héroe 595: Silk
+2026-04-15 20:07:25,830 - INFO - ✅ Héroe 596: Silk Spectre
+2026-04-15 20:07:26,928 - INFO - ✅ Héroe 597: Silk Spectre II
+2026-04-15 20:07:28,515 - INFO - ✅ Héroe 598: Silver Surfer
+2026-04-15 20:07:29,591 - INFO - ✅ Héroe 599: Silverclaw
+2026-04-15 20:07:30,683 - INFO - ✅ Héroe 600: Simon Baz
+2026-04-15 20:07:31,724 - INFO - ✅ Héroe 601: Sinestro
+2026-04-15 20:07:32,815 - INFO - ✅ Héroe 602: Siren
+2026-04-15 20:07:33,925 - INFO - ✅ Héroe 603: Siren II
+2026-04-15 20:07:35,129 - INFO - ✅ Héroe 604: Siryn
+2026-04-15 20:07:36,196 - INFO - ✅ Héroe 605: Skaar
+2026-04-15 20:07:37,176 - INFO - ✅ Héroe 606: Snake-Eyes
+2026-04-15 20:07:38,286 - INFO - ✅ Héroe 607: Snowbird
+2026-04-15 20:07:39,798 - INFO - ✅ Héroe 608: Sobek
+2026-04-15 20:07:40,861 - INFO - ✅ Héroe 609: Solomon Grundy
+2026-04-15 20:07:42,002 - INFO - ✅ Héroe 610: Songbird
+2026-04-15 20:07:43,121 - INFO - ✅ Héroe 611: Space Ghost
+2026-04-15 20:07:44,210 - INFO - ✅ Héroe 612: Spawn
+2026-04-15 20:07:45,289 - INFO - ✅ Héroe 613: Spectre
+2026-04-15 20:07:46,408 - INFO - ✅ Héroe 614: Speedball
+2026-04-15 20:07:47,523 - INFO - ✅ Héroe 615: Speedy
+2026-04-15 20:07:48,730 - INFO - ✅ Héroe 616: Speedy
+2026-04-15 20:07:49,808 - INFO - ✅ Héroe 617: Spider-Carnage
+2026-04-15 20:07:50,938 - INFO - ✅ Héroe 618: Spider-Girl
+2026-04-15 20:07:52,004 - INFO - ✅ Héroe 619: Spider-Gwen
+2026-04-15 20:07:53,103 - INFO - ✅ Héroe 620: Spider-Man
+2026-04-15 20:07:54,125 - INFO - ✅ Héroe 621: Spider-Man
+2026-04-15 20:07:55,224 - INFO - ✅ Héroe 622: Spider-Man
+2026-04-15 20:07:56,334 - INFO - ✅ Héroe 623: Spider-Woman
+2026-04-15 20:07:57,426 - INFO - ✅ Héroe 624: Spider-Woman II
+2026-04-15 20:07:59,701 - INFO - ✅ Héroe 625: Spider-Woman III
+2026-04-15 20:08:00,773 - INFO - ✅ Héroe 626: Spider-Woman IV
+2026-04-15 20:08:02,545 - INFO - ✅ Héroe 627: Spock
+2026-04-15 20:08:04,570 - INFO - ✅ Héroe 628: Spyke
+2026-04-15 20:08:05,652 - INFO - ✅ Héroe 629: Stacy X
+2026-04-15 20:08:06,745 - INFO - ✅ Héroe 630: Star-Lord
+2026-04-15 20:08:07,820 - INFO - ✅ Héroe 631: Stardust
+2026-04-15 20:08:08,958 - INFO - ✅ Héroe 632: Starfire
+2026-04-15 20:08:10,236 - INFO - ✅ Héroe 633: Stargirl
+2026-04-15 20:08:11,350 - INFO - ✅ Héroe 634: Static
+2026-04-15 20:08:12,543 - INFO - ✅ Héroe 635: Steel
+2026-04-15 20:08:13,660 - INFO - ✅ Héroe 636: Stephanie Powell
+2026-04-15 20:08:15,205 - INFO - ✅ Héroe 637: Steppenwolf
+2026-04-15 20:08:16,325 - INFO - ✅ Héroe 638: Storm
+2026-04-15 20:08:17,370 - INFO - ✅ Héroe 639: Stormtrooper
+2026-04-15 20:08:18,507 - INFO - ✅ Héroe 640: Sunspot
+2026-04-15 20:08:19,600 - INFO - ✅ Héroe 641: Superboy
+2026-04-15 20:08:21,038 - INFO - ✅ Héroe 642: Superboy-Prime
+2026-04-15 20:08:22,235 - INFO - ✅ Héroe 643: Supergirl
+2026-04-15 20:08:23,306 - INFO - ✅ Héroe 644: Superman
+2026-04-15 20:08:25,508 - INFO - ✅ Héroe 645: Swamp Thing
+2026-04-15 20:08:27,229 - INFO - ✅ Héroe 646: Swarm
+2026-04-15 20:08:28,406 - INFO - ✅ Héroe 647: Sylar
+2026-04-15 20:08:29,597 - INFO - ✅ Héroe 648: Synch
+2026-04-15 20:08:30,715 - INFO - ✅ Héroe 649: T-1000
+2026-04-15 20:08:31,724 - INFO - ✅ Héroe 650: T-800
+2026-04-15 20:08:32,858 - INFO - ✅ Héroe 651: T-850
+2026-04-15 20:08:33,979 - INFO - ✅ Héroe 652: T-X
+2026-04-15 20:08:35,063 - INFO - ✅ Héroe 653: Taskmaster
+2026-04-15 20:08:36,549 - INFO - ✅ Héroe 654: Tempest
+2026-04-15 20:08:37,627 - INFO - ✅ Héroe 655: Thanos
+2026-04-15 20:08:38,800 - INFO - ✅ Héroe 656: The Cape
+2026-04-15 20:08:39,940 - INFO - ✅ Héroe 657: The Comedian
+2026-04-15 20:08:42,144 - INFO - ✅ Héroe 658: Thing
+2026-04-15 20:08:43,271 - INFO - ✅ Héroe 659: Thor
+2026-04-15 20:08:44,400 - INFO - ✅ Héroe 660: Thor Girl
+2026-04-15 20:08:45,564 - INFO - ✅ Héroe 661: Thunderbird
+2026-04-15 20:08:46,619 - INFO - ✅ Héroe 662: Thunderbird II
+2026-04-15 20:08:47,643 - INFO - ✅ Héroe 663: Thunderbird III
+2026-04-15 20:08:48,937 - INFO - ✅ Héroe 664: Thunderstrike
+2026-04-15 20:08:50,062 - INFO - ✅ Héroe 665: Thundra
+2026-04-15 20:08:51,096 - INFO - ✅ Héroe 666: Tiger Shark
+2026-04-15 20:08:52,188 - INFO - ✅ Héroe 667: Tigra
+2026-04-15 20:08:53,326 - INFO - ✅ Héroe 668: Tinkerer
+2026-04-15 20:08:54,468 - INFO - ✅ Héroe 669: Titan
+2026-04-15 20:08:55,586 - INFO - ✅ Héroe 670: Toad
+2026-04-15 20:08:56,573 - INFO - ✅ Héroe 671: Toxin
+2026-04-15 20:08:57,608 - INFO - ✅ Héroe 672: Toxin
+2026-04-15 20:08:58,838 - INFO - ✅ Héroe 673: Tracy Strauss
+2026-04-15 20:08:59,953 - INFO - ✅ Héroe 674: Trickster
+2026-04-15 20:09:01,069 - INFO - ✅ Héroe 675: Trigon
+2026-04-15 20:09:02,278 - INFO - ✅ Héroe 676: Triplicate Girl
+2026-04-15 20:09:03,526 - INFO - ✅ Héroe 677: Triton
+2026-04-15 20:09:04,587 - INFO - ✅ Héroe 678: Two-Face
+2026-04-15 20:09:05,746 - INFO - ✅ Héroe 679: Ultragirl
+2026-04-15 20:09:06,784 - INFO - ✅ Héroe 680: Ultron
+2026-04-15 20:09:07,861 - INFO - ✅ Héroe 681: Utgard-Loki
+2026-04-15 20:09:09,032 - INFO - ✅ Héroe 682: Vagabond
+2026-04-15 20:09:10,161 - INFO - ✅ Héroe 683: Valerie Hart
+2026-04-15 20:09:11,269 - INFO - ✅ Héroe 684: Valkyrie
+2026-04-15 20:09:12,352 - INFO - ✅ Héroe 685: Vanisher
+2026-04-15 20:09:13,469 - INFO - ✅ Héroe 686: Vegeta
+2026-04-15 20:09:14,552 - INFO - ✅ Héroe 687: Venom
+2026-04-15 20:09:15,637 - INFO - ✅ Héroe 688: Venom II
+2026-04-15 20:09:17,364 - INFO - ✅ Héroe 689: Venom III
+2026-04-15 20:09:18,552 - INFO - ✅ Héroe 690: Venompool
+2026-04-15 20:09:19,664 - INFO - ✅ Héroe 691: Vertigo II
+2026-04-15 20:09:21,210 - INFO - ✅ Héroe 692: Vibe
+2026-04-15 20:09:22,299 - INFO - ✅ Héroe 693: Vindicator
+2026-04-15 20:09:23,358 - INFO - ✅ Héroe 694: Vindicator
+2026-04-15 20:09:24,545 - INFO - ✅ Héroe 695: Violator
+2026-04-15 20:09:25,683 - INFO - ✅ Héroe 696: Violet Parr
+2026-04-15 20:09:26,774 - INFO - ✅ Héroe 697: Vision
+2026-04-15 20:09:28,104 - INFO - ✅ Héroe 698: Vision II
+2026-04-15 20:09:29,251 - INFO - ✅ Héroe 699: Vixen
+2026-04-15 20:09:30,373 - INFO - ✅ Héroe 700: Vulcan
+2026-04-15 20:09:31,502 - INFO - ✅ Héroe 701: Vulture
+2026-04-15 20:09:32,601 - INFO - ✅ Héroe 702: Walrus
+2026-04-15 20:09:33,714 - INFO - ✅ Héroe 703: War Machine
+2026-04-15 20:09:34,838 - INFO - ✅ Héroe 704: Warbird
+2026-04-15 20:09:35,966 - INFO - ✅ Héroe 705: Warlock
+2026-04-15 20:09:36,939 - INFO - ✅ Héroe 706: Warp
+2026-04-15 20:09:37,997 - INFO - ✅ Héroe 707: Warpath
+2026-04-15 20:09:39,058 - INFO - ✅ Héroe 708: Wasp
+2026-04-15 20:09:40,222 - INFO - ✅ Héroe 709: Watcher
+2026-04-15 20:09:41,301 - INFO - ✅ Héroe 710: Weapon XI
+2026-04-15 20:09:42,397 - INFO - ✅ Héroe 711: White Canary
+2026-04-15 20:09:43,410 - INFO - ✅ Héroe 712: White Queen
+2026-04-15 20:09:44,441 - INFO - ✅ Héroe 713: Wildfire
+2026-04-15 20:09:45,562 - INFO - ✅ Héroe 714: Winter Soldier
+2026-04-15 20:09:46,742 - INFO - ✅ Héroe 715: Wiz Kid
+2026-04-15 20:09:47,906 - INFO - ✅ Héroe 716: Wolfsbane
+2026-04-15 20:09:49,167 - INFO - ✅ Héroe 717: Wolverine
+2026-04-15 20:09:50,225 - INFO - ✅ Héroe 718: Wonder Girl
+2026-04-15 20:09:51,430 - INFO - ✅ Héroe 719: Wonder Man
+2026-04-15 20:09:52,625 - INFO - ✅ Héroe 720: Wonder Woman
+2026-04-15 20:09:53,756 - INFO - ✅ Héroe 721: Wondra
+2026-04-15 20:09:54,792 - INFO - ✅ Héroe 722: Wyatt Wingfoot
+2026-04-15 20:09:55,902 - INFO - ✅ Héroe 723: X-23
+2026-04-15 20:09:57,230 - INFO - ✅ Héroe 724: X-Man
+2026-04-15 20:09:58,395 - INFO - ✅ Héroe 725: Yellow Claw
+2026-04-15 20:09:59,519 - INFO - ✅ Héroe 726: Yellowjacket
+2026-04-15 20:10:00,715 - INFO - ✅ Héroe 727: Yellowjacket II
+2026-04-15 20:10:02,110 - INFO - ✅ Héroe 728: Ymir
+2026-04-15 20:10:03,208 - INFO - ✅ Héroe 729: Yoda
+2026-04-15 20:10:04,292 - INFO - ✅ Héroe 730: Zatanna
+2026-04-15 20:10:05,381 - INFO - ✅ Héroe 731: Zoom
+2026-04-15 20:10:05,583 - INFO - Extracción completada: 731/731 héroes exitosos
+2026-04-15 20:10:05,622 - INFO - 📁 Datos guardados en data/superheroes_raw.json
+2026-04-15 20:11:17,280 - INFO - 📂 Datos cargados: 731 registros desde /home/camilo/Carpeta1-Trabajo1/Proyecto-Mineria/data/superheroes_raw.json
+2026-04-15 20:11:17,291 - INFO - 🧹 Limpieza completada: 0 duplicados eliminados, 731 registros restantes
+2026-04-15 20:11:17,296 - INFO - 🔧 Tipos de datos normalizados
+2026-04-15 20:11:17,304 - INFO - ✨ Datos enriquecidos con columnas calculadas
+2026-04-15 20:11:17,312 - INFO - 💾 Datos transformados guardados en /home/camilo/Carpeta1-Trabajo1/Proyecto-Mineria/data/superheroes.csv
+2026-04-15 20:11:17,314 - INFO - 💾 Top 10 guardado en /home/camilo/Carpeta1-Trabajo1/Proyecto-Mineria/data/top10_superheroes.csv
+2026-04-15 20:11:36,475 - INFO - ✅ Tablas creadas exitosamente
+2026-04-15 20:11:36,475 - INFO - 📂 Cargando datos desde data/superheroes.csv
+2026-04-15 20:11:36,480 - INFO - 📊 731 registros a procesar
+2026-04-15 20:11:36,754 - INFO - ✅ Bulk insert completado: 731 registros
+2026-04-15 20:11:36,759 - INFO - 📈 Métricas guardadas — estado: SUCCESS
+2026-04-15 20:11:36,759 - INFO - ✅ ETL completado — Guardados: 731 | Fallidos: 0
